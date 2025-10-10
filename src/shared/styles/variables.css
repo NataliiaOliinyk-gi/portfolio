@@ -1,0 +1,21 @@
+:root {
+    --main-text-color: #222222;
+    --second-text-color: #435e5b;
+    --third-text-color: #735135;
+    --white-text-color: #ffffff;
+
+    --link-text-color: #435e5b;
+    --error-text-color: #ff0014;
+
+    --main-background-color: #435e5b;
+    --second-background-color: #735135;
+    --white-background-color: #ffffff;
+
+    --main-border-color: #435e5b;
+    --second-border-color: #735135;
+    --white-border-color: #ffffff;
+
+    --main-hover-color: #435e5b;
+    --second-hover-color: #735135;
+    --third-hover-color: #777875;
+}
