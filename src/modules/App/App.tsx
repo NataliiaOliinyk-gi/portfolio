@@ -1,14 +1,19 @@
 
-import "../../shared/styles/style.css"
+import Header from "../Header/Header";
+import Navigations from "../../pages/Navigations";
+import Footer from "../Footer/Footer";
+
+
+import "../../shared/styles/style.css";
 
 function App() {
-  
-
   return (
     <>
-        <h1>Hallo</h1>
+      <Header />
+      <Navigations />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
