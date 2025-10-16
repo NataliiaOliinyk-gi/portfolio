@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 import type { SeoKey } from "../../i18n/keys";
 import type { TOptions } from "i18next";
 
-// type InterpValues = Record<string, string | number | boolean>;
 type InterpValues = TOptions;
 
 export const useSeo = (
