@@ -3,15 +3,15 @@
     top: 0;
     z-index: 1000;
 
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 40px;
+    padding: 60px 40px;
 
-    border-bottom: 1px solid var(--light-border-color);
-    background-color: var(--white-background-color);
+    /* translucent background */
+    background-color: color-mix(in srgb, var(--white-background-color) 85%, transparent);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    box-shadow: 0 1px 6px color-mix(in srgb, var(--main-hover-color) 20%, transparent);
+    transition: background-color .3s ease
 }
