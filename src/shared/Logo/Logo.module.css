@@ -6,3 +6,23 @@
 .logo:hover {
     transform: scale(1.1);
 }
+
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    font-stretch: 90%; 
+    color: var(--second-text-color);
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    transition: ease-in-out 500ms;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
