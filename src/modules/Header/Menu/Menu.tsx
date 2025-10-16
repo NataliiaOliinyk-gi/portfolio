@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 import menuItems from "./menuItems";
 
-import type { IMenuItems } from "./menuItems";
+import type { IMenuItem } from "./menuItems";
 
 import styles from "./Menu.module.css";
 
-const element = menuItems.map(({ id, href, text }: IMenuItems) => (
+const element = menuItems.map(({ id, href, text }: IMenuItem) => (
   <li key={id}>
     <NavLink to={href} className={styles.link}>
       {text}

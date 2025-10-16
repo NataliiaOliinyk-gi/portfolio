@@ -6,7 +6,7 @@ import styles from "./SectionLayout.module.css";
 
 interface ISectionLayoutProps {
   children: ReactNode;
-  title: string;
+  title?: string;
 }
 
 const SectionLayout: FC<ISectionLayoutProps> = ({ children, title }) => {

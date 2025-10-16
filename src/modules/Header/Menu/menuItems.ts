@@ -1,12 +1,12 @@
 import { nanoid } from "nanoid";
 
-export interface IMenuItems {
+export interface IMenuItem {
   id: string;
   href: string;
   text: string;
 }
 
-const menuItems = [
+const menuItems: IMenuItem[] = [
   {
     id: nanoid(),
     href: "/",

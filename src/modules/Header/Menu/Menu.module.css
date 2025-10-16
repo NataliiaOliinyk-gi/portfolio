@@ -29,7 +29,7 @@
     bottom: calc(var(--bar-offset) * -1);
     height: var(--bar-h);
     width: 100%;
-    background: color-mix(in srgb, var(--second-text-color) 20%, transparent);
+    background: color-mix(in srgb, var(--main-background-color) 20%, transparent);
     border-radius: 3px;
     
     transform: scaleX(0);
