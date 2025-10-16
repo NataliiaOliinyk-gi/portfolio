@@ -1,0 +1,51 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--second-text-color);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.link::before {
+    /* висота плашки */
+    --bar-h: 0.5em;
+    /* відступ від нижнього краю літер */
+    --bar-offset: 0.1em;
+
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: calc(var(--bar-offset) * -1);
+    height: var(--bar-h);
+    width: 100%;
+    background: color-mix(in srgb, var(--second-text-color) 20%, transparent);
+    border-radius: 3px;
+    
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.8s ease;
+}
+
+.link:hover::before {
+    transform: scaleX(1);
+}
+
+.link:global(.active) {
+    color: var(--second-text-color);
+    font-weight: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link::before { transition: none; transform: scaleX(1); }
+}
