@@ -1,4 +1,9 @@
 :root {
+    /* Fonts */
+    --font-sans: "Montserrat", "Roboto", Arial, sans-serif;
+    --font-serif: "Montaga", Georgia, "Times New Roman", serif;
+
+    /* Color */
     --main-text-color: #222222;
     --second-text-color: #435e5b;
     --third-text-color: #735135;
@@ -9,10 +14,13 @@
 
     --main-background-color: #435e5b;
     --second-background-color: #735135;
+    --third-background-color: #f9f9f9;
     --white-background-color: #ffffff;
 
     --main-border-color: #435e5b;
     --second-border-color: #735135;
+    --dark-border-color: #8b8b8b;
+    --light-border-color: #ddd;
     --white-border-color: #ffffff;
 
     --main-hover-color: #435e5b;
