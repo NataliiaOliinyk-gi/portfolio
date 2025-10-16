@@ -1,0 +1,9 @@
+.logo {
+    width: 80px;
+    transition: ease-in-out 500ms;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+

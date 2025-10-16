@@ -1,0 +1,18 @@
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+
+    border-bottom: 1px solid var(--light-border-color);
+    background-color: var(--white-background-color);
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0 1px 8px var(--main-hover-color); */
+    box-shadow: 0 1px 6px color-mix(in srgb, var(--main-hover-color) 20%, transparent);
+}

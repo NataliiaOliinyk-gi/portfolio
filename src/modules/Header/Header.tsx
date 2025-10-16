@@ -1,11 +1,18 @@
 import type { FC } from "react";
 
-// import styles from "./Header.module.css";
+import Logo from "../../shared/Logo/Logo";
 
-const Header: FC = ()=>{
-    return (
-        <header>Header Menu</header>
-    )
+
+import styles from "./Header.module.css";
+
+const Header: FC = () => {
+  return (
+    <header className={styles.nav}>
+      <Logo />
+      <div>Menu</div>
+      <div>Preferences</div>
+    </header>
+  );
 };
 
 export default Header;
