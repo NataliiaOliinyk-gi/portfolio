@@ -1,26 +1,26 @@
-import { nanoid } from "nanoid";
+import type { FooterKey } from "../../i18n/keys"; 
 
 export interface IFooterMenuItem {
   id: string;
   href: string;
-  text: string;
+  labelKey: FooterKey;
 }
 
 const footerMenuItems: IFooterMenuItem[] = [
   {
-    id: nanoid(),
+    id: "home",
     href: "/",
-    text: "Startseite",
+    labelKey: "home"
   },
   {
-    id: nanoid(),
+    id: "contact",
     href: "/contact",
-    text: "Kontakt",
+    labelKey: "contact"
   },
   {
-    id: nanoid(),
-    href: "/datenschutz",
-    text: "Datenschutzerklärung",
+    id: "policy",
+    href: "/policy",
+    labelKey: "policy"
   },
 ];
 

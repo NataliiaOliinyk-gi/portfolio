@@ -1,11 +1,13 @@
 import type { FC } from "react";
 
-import styles from "./Preferences.module.css";
+import LangSwitcher from "./LangSwitcher/LangSwitcher";
+
+// import styles from "./Preferences.module.css";
 
 const Preferences: FC = () => {
   return (
     <div>
-      <p>Preferences</p>
+      <LangSwitcher />
     </div>
   );
 };

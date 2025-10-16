@@ -1,36 +1,36 @@
-import { nanoid } from "nanoid";
+import type { NavKey } from "../../../i18n/keys";
 
 export interface IMenuItem {
   id: string;
   href: string;
-  text: string;
+  labelKey: NavKey;
 }
 
 const menuItems: IMenuItem[] = [
   {
-    id: nanoid(),
+    id: "home",
     href: "/",
-    text: "Startseite",
+    labelKey: "home",
   },
   {
-    id: nanoid(),
+    id: "skills",
     href: "/skills",
-    text: "Fähigkeiten",
+    labelKey: "skills",
   },
   {
-    id: nanoid(),
+    id: "projects",
     href: "/projects",
-    text: "Projekte",
+    labelKey: "projects",
   },
   {
-    id: nanoid(),
+    id: "about",
     href: "/about",
-    text: "Über Mich",
+    labelKey: "about",
   },
   {
-    id: nanoid(),
+    id: "contact",
     href: "/contact",
-    text: "Kontakt",
+    labelKey: "contact",
   },
 ];
 

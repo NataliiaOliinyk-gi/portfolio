@@ -1,18 +1,29 @@
 import type { FC } from "react";
+import { useTranslation } from "react-i18next";
 
-// import photo from "../../assets/images/photo_1.jpg"
+import Wrapper from "../../shared/components/Wrapper/Wrapper";
+import SectionLayout from "../../shared/components/SectionLayout/SectionLayout";
+
+import { useSeo } from "../../shared/hooks/useSeo";
 
 // import styles from "./HomePage.module.css";
 
 const HomePage: FC = () => {
+  const { t } = useTranslation(["home"]);
+  useSeo("home.title", "home.description");
+
   return (
     <main>
-      <h3>My Portfolio</h3>
-      <h1>Natalia Oliinyk</h1>
-      {/* <div >
-        <img src={photo} alt="photo" className={styles.imageFoto}/>
-      </div> */}
-      <h3>HomePage</h3>
+      <Wrapper>
+        <SectionLayout>
+          <h1>{t("home:hero.title")}</h1>
+          <p>{t("home:hero.subtitle")}</p>
+          <button>{t("home:hero.cta")}</button>
+        </SectionLayout>
+         <SectionLayout>
+          <p>{t("home:stats.projects")}</p>
+        </SectionLayout>
+      </Wrapper>
     </main>
   );
 };

@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "Building clean & human-friendly web",
+    "subtitle": "Full-stack developer focused on clarity and reliability",
+    "cta": "View Projects"
+  },
+  "stats": {
+    "projects": "{{count}} project",
+    "projects_plural": "{{count}} projects"
+  }
+}

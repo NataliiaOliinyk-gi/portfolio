@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "Klar, nutzerfreundlich, zuverlässig",
+    "subtitle": "Full-Stack-Entwicklerin mit Fokus auf Struktur und Qualität",
+    "cta": "Projekte ansehen"
+  },
+  "stats": {
+    "projects": "{{count}} Projekt",
+    "projects_plural": "{{count}} Projekte"
+  }
+}
