@@ -10,7 +10,10 @@ import { useSeo } from "../../shared/hooks/useSeo";
 
 const HomePage: FC = () => {
   const { t } = useTranslation(["home"]);
+  const projectCount = 3;
+  const projectName = "Pet Online Store"
   useSeo("home.title", "home.description");
+  useSeo("project.title", "project.description", { name: projectName });
 
   return (
     <main>
@@ -21,7 +24,7 @@ const HomePage: FC = () => {
           <button>{t("home:hero.cta")}</button>
         </SectionLayout>
          <SectionLayout>
-          <p>{t("home:stats.projects")}</p>
+          <p>{t("home:stats.projects", { count: projectCount })}</p>
         </SectionLayout>
       </Wrapper>
     </main>

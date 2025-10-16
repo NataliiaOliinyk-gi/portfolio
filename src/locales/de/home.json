@@ -5,7 +5,7 @@
     "cta": "Projekte ansehen"
   },
   "stats": {
-    "projects": "{{count}} Projekt",
-    "projects_plural": "{{count}} Projekte"
+    "projects_one": "{{count}} Projekt",
+    "projects_other": "{{count}} Projekte"
   }
 }

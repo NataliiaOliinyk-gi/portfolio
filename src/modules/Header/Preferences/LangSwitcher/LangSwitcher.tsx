@@ -3,17 +3,16 @@ import { useTranslation } from "react-i18next";
 
 import styles from "./LangSwitcher.module.css";
 
-const LangSwitcher: FC = ()=>{
-
-    const { i18n } = useTranslation();
-    const setLang = (lng: "de" | "en") => {
+const LangSwitcher: FC = () => {
+  const { i18n } = useTranslation();
+  const setLang = (lng: "de" | "en") => {
     i18n.changeLanguage(lng);
   };
-const current = i18n.resolvedLanguage || i18n.language;
+  const current = i18n.resolvedLanguage || i18n.language;
 
-    return (
-        <div className={styles.wrap} role="group" aria-label="Language switch">
-            <button
+  return (
+    <div className={styles.wrap} role="group" aria-label="Language switch">
+      <button
         type="button"
         onClick={() => setLang("de")}
         aria-pressed={current === "de"}
@@ -30,8 +29,8 @@ const current = i18n.resolvedLanguage || i18n.language;
       >
         EN
       </button>
-        </div>
-    )
+    </div>
+  );
 };
 
 export default LangSwitcher;

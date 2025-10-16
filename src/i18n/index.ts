@@ -13,7 +13,7 @@ import deCommon from "../locales/de/common.json";
 import deNav from "../locales/de/nav.json";
 import deFooter from "../locales/de/footer.json";
 import deHome from "../locales/de/home.json";
-import deSeo from "../locales/en/seo.json";
+import deSeo from "../locales/de/seo.json";
 
 i18n
   .use(LanguageDetector)

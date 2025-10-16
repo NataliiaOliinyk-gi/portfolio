@@ -3,8 +3,12 @@
     "title": "Nataliia Oliinyk — Webentwicklerin",
     "description": "Full-Stack-Entwicklerin mit Fokus auf klare, nutzerfreundliche Oberflächen und robuste Architektur."
   },
+    "projects": {
+    "title": "Projekte — Nataliia Oliinyk",
+    "description": "Ausgewählte Projekte mit React, TypeScript und Node.js: sauberer Code, Performance und Barrierefreiheit."
+  },
   "project": {
     "title": "Project: {{name}} — Nataliia",
-    "description": "Details about {{name}} project."
+    "description": "Details zum Projekt {{name}}."
   }
 }
