@@ -1,0 +1,29 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sep {
+  opacity: .5;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 4px 6px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--second-text-color);
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
+}
+
+.active {
+  font-weight: 600;
+}

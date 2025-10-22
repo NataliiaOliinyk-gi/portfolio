@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title": "Nataliia Oliinyk — Web Developer",
+    "description": "Full-stack web developer focused on clean, human-friendly interfaces and robust architecture."
+  },
+  "projects": {
+    "title": "Projects — Nataliia Oliinyk",
+    "description": "Selected React, TypeScript, and Node.js projects: clean code, performance, and accessibility."
+  },
+  "project": {
+    "title": "Project: {{name}} — Nataliia",
+    "description": "Details about {{name}} project."
+  }
+}

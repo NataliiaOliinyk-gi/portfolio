@@ -1,6 +1,6 @@
 import type { FC } from "react";
 
-import Logo from "../../shared/Logo/Logo";
+import Logo from "../../shared/components/Logo/Logo";
 import Menu from "./Menu/Menu";
 import Preferences from "./Preferences/Preferences";
 
