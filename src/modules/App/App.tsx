@@ -1,17 +1,19 @@
-
 import Header from "../Header/Header";
 import Navigations from "../../pages/Navigations";
 import Footer from "../Footer/Footer";
-
 
 import "../../shared/styles/style.css";
 
 function App() {
   return (
     <>
-      <Header />
-      <Navigations />
-      <Footer />
+      <div className="appRoot">
+        <Header />
+        <main className="appMain">
+          <Navigations />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }

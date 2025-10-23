@@ -2,3 +2,24 @@ body{
     font-family: var(--font-sans);
     color: var(--main-text-color);
 }
+
+html, body, #root {
+  height: 100%;
+}
+
+/* контейнер сторінки */
+.appRoot {
+  min-height: 100dvh;  /* стабільніше за 100vh на мобільних */
+  display: flex;
+  flex-direction: column;
+}
+
+/* контент розтягується, футер йде вниз */
+.appMain {
+  flex: 1 0 auto;
+}
+
+/* страховка, якщо десь футер поза <main> */
+footer {
+  margin-top: auto;
+}
