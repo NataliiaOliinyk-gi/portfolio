@@ -7,6 +7,8 @@ import about from "../locales/de/about.json";
 import contact from "../locales/de/contact.json";
 import policy from "../locales/de/policy.json";
 import seo from "../locales/de/seo.json";
+import contactWhatsapp from "../locales/de/contactWhatsapp.json";
+import contactMail from "../locales/de/contactMail.json";
 
 export type NavKey = keyof typeof nav;
 export type FooterKey = keyof typeof footer;
@@ -16,6 +18,8 @@ export type ProjectsKey = keyof typeof projects;
 export type AboutKey = keyof typeof about;
 export type ContactKey = keyof typeof contact;
 export type PolicyKey = keyof typeof policy;
+export type ContactWhatsappKey = keyof typeof contactWhatsapp;
+export type ContactMailKey = keyof typeof contactMail;
 
 /** Листові ключі: лише кінцеві, без батьківських */
 type LeafKeys<T> = T extends object
