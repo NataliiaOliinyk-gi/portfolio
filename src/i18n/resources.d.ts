@@ -11,6 +11,7 @@ import policy from "../locales/de/policy.json";
 import seo from "../locales/de/seo.json";
 import contactWhatsapp from "../locales/de/contactWhatsapp.json";
 import contactMail from "../locales/de/contactMail.json";
+import notFound from "../locales/de/notFound.json";
 
 
 declare module "i18next" {
@@ -29,6 +30,7 @@ declare module "i18next" {
       seo: typeof seo;
       contactWhatsapp: typeof contactWhatsapp;
       contactMail: typeof contactMail;
+      notFound: typeof notFound;
     };
   }
 }

@@ -16,7 +16,7 @@ const Navigations = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/skills" element={<SkillsPage />} />
         <Route path="/projects" element={<MyProjectsPage />} />
-        <Route path="/projects:id" element={<ProjectPage />} />
+        <Route path="/projects/:id" element={<ProjectPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/policy" element={<PolicyPage />} />

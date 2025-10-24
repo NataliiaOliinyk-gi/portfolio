@@ -1,0 +1,63 @@
+{
+  "title": "Datenschutzerklärung",
+  "updated": "Stand: 23. Oktober 2025",
+  "intro": [
+    "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.",
+    "Ausführliche Informationen entnehmen Sie den folgenden Abschnitten."
+  ],
+  "sections": [
+    {
+      "heading": "1. Datenschutz auf einen Blick",
+      "body": [
+        "Wer ist verantwortlich? Die Datenverarbeitung auf dieser Website erfolgt durch: Nataliia Oliinyk, E-Mail: nataliia.oliinyk.de@gmail.com (im Folgenden „wir“).",
+        "Wie erfassen wir Daten? Zum einen, indem Sie uns diese mitteilen (z. B. im Kontaktformular). Zum anderen automatisch beim Besuch der Website (z. B. technische Daten wie Browser, Betriebssystem, Zeitpunkt des Seitenaufrufs).",
+        "Wofür nutzen wir die Daten? Zur fehlerfreien Bereitstellung der Website und ggf. zur Analyse des Nutzerverhaltens.",
+        "Ihre Rechte: Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch, Widerruf erteilter Einwilligungen sowie Beschwerde bei einer Aufsichtsbehörde."
+      ]
+    },
+    {
+      "heading": "2. Hosting",
+      "body": [
+        "Wir hosten diese Website bei {{hostName}}. Anbieter: {{hostProvider}}. Details entnehmen Sie der Datenschutzerklärung des Anbieters: {{hostPrivacyUrl}}.",
+        "Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer verlässlichen Bereitstellung). Sofern eine Einwilligung abgefragt wurde, zusätzlich Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG.",
+        "Auftragsverarbeitung: Wir haben mit dem Anbieter einen Vertrag über Auftragsverarbeitung (AVV) geschlossen."
+      ]
+    },
+    {
+      "heading": "3. Allgemeine Hinweise und Pflichtinformationen",
+      "body": [
+        "Verantwortliche Stelle: Nataliia Oliinyk, E-Mail: nataliia.oliinyk.de@gmail.com.",
+        "Speicherdauer: Sofern keine speziellere Dauer angegeben ist, speichern wir personenbezogene Daten nur so lange, wie der Zweck der Verarbeitung besteht. Gesetzliche Aufbewahrungsfristen bleiben unberührt.",
+        "Rechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 lit. a, ggf. Art. 9 Abs. 2 lit. a DSGVO), Vertrag (Art. 6 Abs. 1 lit. b), rechtliche Pflicht (Art. 6 Abs. 1 lit. c), berechtigtes Interesse (Art. 6 Abs. 1 lit. f).",
+        "Widerruf: Sie können eine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.",
+        "Widerspruch (Art. 21 DSGVO): Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, der Verarbeitung zu widersprechen; bei Direktwerbung jederzeit.",
+        "Datenübertragbarkeit (Art. 20 DSGVO): Sie haben das Recht, die Sie betreffenden Daten in einem gängigen, maschinenlesbaren Format zu erhalten.",
+        "SSL/TLS: Diese Seite nutzt TLS-Verschlüsselung (https://)."
+      ]
+    },
+    {
+      "heading": "4. Datenerfassung auf dieser Website",
+      "body": [
+        "Cookies: Wir verwenden Session-Cookies (werden nach Besuch gelöscht) und persistente Cookies (bleiben gespeichert). Drittanbieter-Cookies können gesetzt werden (z. B. für Zahlungsdienste oder Analyse). Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO; bei Einwilligung Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG.",
+        "Browser-Einstellungen: Sie können Cookies in Ihrem Browser einschränken oder deaktivieren. Bei Deaktivierung können Funktionen der Website eingeschränkt sein.",
+        "Server-Log-Dateien: Der Provider erhebt automatisch Informationen (Browsertyp/-version, Betriebssystem, Referrer URL, Hostname, Zeitpunkt der Serveranfrage, IP-Adresse). Keine Zusammenführung mit anderen Datenquellen. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.",
+        "Kontaktformular: Bei Kontakt speichern und verarbeiten wir die von Ihnen eingegebenen Daten zur Bearbeitung der Anfrage und etwaiger Folgefragen. Rechtsgrundlage: Vertrag/Vertragsanbahnung (Art. 6 Abs. 1 lit. b), berechtigtes Interesse (Art. 6 Abs. 1 lit. f) oder Einwilligung (Art. 6 Abs. 1 lit. a).",
+        "Aufbewahrung: Die Daten aus Kontaktanfragen bleiben bei uns, bis der Zweck entfällt, Sie die Löschung verlangen oder gesetzliche Fristen ablaufen."
+      ]
+    },
+    {
+      "heading": "5. Analysen & Drittinhalte (optional)",
+      "body": [
+        "Sofern wir Analyse-Tools (z. B. Plausible, Matomo) oder eingebettete Inhalte (z. B. YouTube, Karten) einsetzen, informieren wir hier gesondert und holen – soweit erforderlich – Ihre Einwilligung ein.",
+        "Details (Tool, Anbieter, Zweck, Rechtsgrundlage, Speicherdauer, Opt-Out) werden in diesem Abschnitt ergänzt, sobald solche Dienste aktiv sind."
+      ]
+    },
+    {
+      "heading": "6. Kontakt",
+      "body": [
+        "Für Fragen zum Datenschutz können Sie sich jederzeit an uns wenden:",
+        "Nataliia Oliinyk, E-Mail: nataliia.oliinyk.de@gmail.com"
+      ]
+    }
+  ]
+}

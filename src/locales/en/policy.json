@@ -1,0 +1,63 @@
+{
+  "title": "Privacy Policy",
+  "updated": "Last updated: 23 October 2025",
+  "intro": [
+    "This policy explains what happens to your personal data when you visit this website. Personal data means any information that can identify you personally.",
+    "Please read the sections below for full details."
+  ],
+  "sections": [
+    {
+      "heading": "1. Privacy at a glance",
+      "body": [
+        "Who is responsible? Data processing on this website is carried out by: Nataliia Oliinyk, Email: nataliia.oliinyk.de@gmail.com (hereinafter “we”, “us”).",
+        "How do we collect data? (1) You provide it (e.g., via the contact form). (2) It is collected automatically when you visit the website (e.g., technical data such as browser, OS, time of access).",
+        "What do we use data for? To provide the website without errors and, where applicable, to analyze user behaviour.",
+        "Your rights: Access, rectification, deletion, restriction, objection, withdrawal of consent, and the right to lodge a complaint with a supervisory authority."
+      ]
+    },
+    {
+      "heading": "2. Hosting",
+      "body": [
+        "We host this website with {{hostName}}. Provider: {{hostProvider}}. Please see the provider’s privacy policy: {{hostPrivacyUrl}}.",
+        "Legal basis: Art. 6(1)(f) GDPR (legitimate interest in reliable provision). If consent is requested, additionally Art. 6(1)(a) GDPR and § 25(1) TTDSG.",
+        "Processing on behalf: We have concluded a data processing agreement (DPA) with the provider."
+      ]
+    },
+    {
+      "heading": "3. General notes and mandatory information",
+      "body": [
+        "Controller: Nataliia Oliinyk, Email: nataliia.oliinyk.de@gmail.com.",
+        "Storage duration: Unless otherwise specified, we store personal data only as long as the processing purpose applies. Statutory retention periods remain unaffected.",
+        "Legal bases: Consent (Art. 6(1)(a), and where applicable Art. 9(2)(a) GDPR), Contract (Art. 6(1)(b)), Legal obligation (Art. 6(1)(c)), Legitimate interests (Art. 6(1)(f)).",
+        "Withdrawal: You can withdraw your consent at any time with effect for the future.",
+        "Right to object (Art. 21 GDPR): You may object to processing based on Art. 6(1)(e) or (f) GDPR on grounds relating to your situation; for direct marketing you may object at any time.",
+        "Data portability (Art. 20 GDPR): You have the right to receive data concerning you in a structured, commonly used and machine-readable format.",
+        "SSL/TLS: This site uses TLS encryption (https://)."
+      ]
+    },
+    {
+      "heading": "4. Data collection on this website",
+      "body": [
+        "Cookies: We use session cookies (deleted after your visit) and persistent cookies (stored until you delete them). Third-party cookies may also be set (e.g., for payments or analytics). Legal basis: Art. 6(1)(f) GDPR; where consent is obtained, Art. 6(1)(a) GDPR and § 25(1) TTDSG.",
+        "Browser settings: You can configure your browser to notify you about cookies, allow them only in individual cases, or delete them automatically on exit. Disabling cookies may limit functionality.",
+        "Server log files: Our provider automatically collects information (browser type/version, OS, referrer URL, host name, time of request, IP address). No merging with other data sources. Legal basis: Art. 6(1)(f) GDPR.",
+        "Contact form: If you contact us, we process the data you provide to handle your request and any follow-up questions. Legal basis: Contract/contract initiation (Art. 6(1)(b)), legitimate interest (Art. 6(1)(f)), or consent (Art. 6(1)(a)).",
+        "Retention: We keep inquiry data until the purpose no longer applies, you request deletion, or statutory periods expire."
+      ]
+    },
+    {
+      "heading": "5. Analytics & third-party content (optional)",
+      "body": [
+        "If we use analytics tools (e.g., Plausible, Matomo) or embedded content (e.g., YouTube, maps), we will inform you here and obtain consent where required.",
+        "Details (tool, provider, purpose, legal basis, storage period, opt-out) will be added once such services are activated."
+      ]
+    },
+    {
+      "heading": "6. Contact",
+      "body": [
+        "For privacy-related inquiries, please contact:",
+        "Nataliia Oliinyk, Email: nataliia.oliinyk.de@gmail.com"
+      ]
+    }
+  ]
+}
