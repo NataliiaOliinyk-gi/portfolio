@@ -2,7 +2,7 @@ import type { FC } from "react";
 import { useTranslation } from "react-i18next";
 
 import {
-  linkify,
+  linkify, linkifyText,
   replacePlaceholders,
 } from "./helper";
 
@@ -13,14 +13,14 @@ type PolicySection = {
   body: string[];
 };
 
-export type PolicyProps = {
+export interface IPolicyProps {
   hostName: string;
   hostProvider?: string;
   hostPrivacyUrl?: string;
-  className?: string; // опціонально: стилі контейнера
+  className?: string;
 };
 
-const Policy: FC<PolicyProps> = (props) => {
+const Policy: FC<IPolicyProps> = (props) => {
   const { t } = useTranslation("policy");
 
   const title = t("title");
@@ -30,7 +30,7 @@ const Policy: FC<PolicyProps> = (props) => {
 
   return (
     <main className={props.className}>
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       {updated && <p><em>{updated}</em></p>}
 
       {intro?.map((p, i) => (
@@ -39,9 +39,14 @@ const Policy: FC<PolicyProps> = (props) => {
 
       {sections?.map((sec, si) => (
         <section key={`sec-${si}`}>
-          {sec.heading && <h2>{replacePlaceholders(sec.heading, props)}</h2>}
+          {sec.heading && <h3>{replacePlaceholders(sec.heading, props)}</h3>}
           {sec.body?.map((p, pi) => (
-            <p key={`p-${si}-${pi}`}>{linkify(replacePlaceholders(p, props))}</p>
+            <p
+              key={`p-$${si}-$${pi}`}
+              dangerouslySetInnerHTML={{
+                __html: linkifyText(replacePlaceholders(p, props)),
+              }}
+            />
           ))}
         </section>
       ))}

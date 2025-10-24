@@ -1,34 +1,53 @@
 .policy {
   max-width: 1024px;
   margin-inline: auto;
-  padding: 2rem 1rem;
+  padding: 32px 16px;
   color: var(--main-text-color);
   line-height: 1.6;
 }
 
-.policy h1 {
-  font-size: 2rem;
-  margin: 0 0 1rem;
+.policy h2 {
+  font-size: 40px;
+  margin: 0 0 16px;
 }
 
 .policy em {
-  color: var(--third-text-color, #6b7280);
+  color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
 }
 
 .policy section {
-  margin-top: 1.5rem;
+  margin-top: 24px;
 }
 
-.policy h2 {
-  font-size: 1.25rem;
-  margin: 1rem 0 0.5rem;
+.policy h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 32px 0 16px;
 }
 
-.policy p + p {
-  margin-top: 0.5rem;
+.policy p {
+  margin-top: 8px;
+}
+
+.policy strong {
+  font-weight: 600;
+}
+
+.policy br {
+  margin-bottom: 4px;
+  content: "";
+  display: block;
+}
+
+.policy p+p {
+  margin-top: 16px;
 }
 
 .policy a {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
+  color: var(--third-text-color);
+}
+
+.policy a:hover {
+  color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
 }

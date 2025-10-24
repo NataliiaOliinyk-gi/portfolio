@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-import type { PolicyProps } from "./Policy";
+import type { IPolicyProps } from "./Policy";
 
 export const linkify = (text: string): ReactNode => {
   // робимо всі http/https посилання клікабельними
@@ -18,7 +18,15 @@ export const linkify = (text: string): ReactNode => {
   );
 };
 
-export const replacePlaceholders = (text: string, v: PolicyProps) =>
+export const linkifyText = (text: string) => {
+  // перетворює http/https у посилання
+  return text.replace(
+    /(https?:\/\/[^\s)]+)/gi,
+    '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
+};
+
+export const replacePlaceholders = (text: string, v: IPolicyProps) =>
   text
     .replaceAll("{{hostName}}", v.hostName)
     .replaceAll("{{hostProvider}}", v.hostProvider ?? "")
