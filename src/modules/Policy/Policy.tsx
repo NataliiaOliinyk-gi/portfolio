@@ -6,7 +6,7 @@ import {
   replacePlaceholders,
 } from "./helper";
 
-// import styles from "./Policy.module.css";
+import styles from "./Policy.module.css";
 
 type PolicySection = {
   heading: string;
@@ -29,7 +29,7 @@ const Policy: FC<IPolicyProps> = (props) => {
   const sections = t("sections", { returnObjects: true }) as PolicySection[];
 
   return (
-    <main className={props.className}>
+    <main className={styles.policy}>
       <h2>{title}</h2>
       {updated && <p><em>{updated}</em></p>}
 
