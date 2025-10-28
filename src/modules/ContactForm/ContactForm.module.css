@@ -26,7 +26,6 @@
     font-weight: 400;
     font-size: 18px;
     color: var(--white-text-color);
-    text-transform: uppercase;
 
     display: inline-flex;
     align-items: center;
@@ -50,6 +49,10 @@
 .textLink {
     color: var(--second-text-color);
     font-weight: 600;
+}
+
+.textLink:hover {
+    color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
 }
 
 @media (max-width: 768px) {

@@ -33,7 +33,6 @@
     font-weight: 400;
     font-size: 18px;
     color: var(--white-text-color);
-    text-transform: uppercase;
 
     transition: ease-in-out 500ms;
 }
@@ -63,7 +62,6 @@
     font-weight: 400;
     font-size: 18px;
     color: var(--white-text-color);
-    text-transform: uppercase;
 
     box-shadow: 0 0 20px rgb(var(--main-border-rgb) / 0.4);
 
