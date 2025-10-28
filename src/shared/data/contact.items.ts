@@ -1,9 +1,9 @@
 import type { TFunction } from "i18next";
 
-import LinkedInIcon from "../../assets/icons/linkedin-112.svg";
-import GitHubIcon from "../../assets/icons/github-logo-6532.svg";
-import WhatsappIcon from "../../assets/icons/whatsapp-logo-4453.svg";
-import MailIcon from "../../assets/icons/mail-142.svg";
+import LinkedInIcon from "../../assets/icons/linkedin.svg";
+import GitHubIcon from "../../assets/icons/github.svg";
+import WhatsappIcon from "../../assets/icons/whatsapp.svg";
+import MailIcon from "../../assets/icons/mail.svg";
 
 import { buildMailHref, buildWhatsappHref } from "../utils/contactLinks";
 
