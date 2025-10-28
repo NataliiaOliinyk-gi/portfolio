@@ -53,45 +53,48 @@ const ContactForm: FC<IContactFormProps> = ({
     (typeof fields)[FieldKeys]
   ][];
 
-  const elements = entries.map(([name, field]) => (
-    <TextField
-      key={name}
-      as={field.type === "textarea" ? "textarea" : "input"}
-      name={name}
-      label={field.label}
-      placeholder={field.placeholder}
-      register={register}
-      rules={field.rules}
-      error={errors[name] as FieldError}
-      type={field.type === "textarea" ? undefined : field.type}
-    />
-  ));
+  const elements = entries.map(([name, field]) => {
+    const wrapperClassName =
+      name === "firstName" || name === "lastName"
+        ? styles.colHalf
+        : styles.colFull;
+
+    return (
+      <TextField
+        key={name}
+        as={field.type === "textarea" ? "textarea" : "input"}
+        name={name}
+        label={field.label}
+        placeholder={field.placeholder}
+        register={register}
+        rules={field.rules}
+        error={errors[name] as FieldError}
+        type={field.type === "textarea" ? undefined : field.type}
+        wrapperClassName={wrapperClassName}
+      />
+    );
+  });
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className={styles.textFieldsBox}>{elements}</div>
 
-      <div>
-        <h3 className={styles.privacyTitle}>{t("privacy.title")}</h3>
+      <div className={styles.privacyLink}>
+        <a
+          href={t("privacy.linkHref")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.textLink}
+        >
+          {t("privacy.linkText")}
+        </a>
 
         <CheckboxField
           name="privacyAccepted"
           register={register}
           error={errors.privacyAccepted}
           requiredMsg={t("privacy.required")}
-          label={
-            <>
-              {t("privacy.label").replace(t("privacy.linkText"), "").trim()}{" "}
-              <a
-                href={t("privacy.linkHref")}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.textLink}
-              >
-                {t("privacy.linkText")}
-              </a>
-            </>
-          }
+          label={t("privacy.label")}
         />
       </div>
 

@@ -13,9 +13,9 @@
 }
 
 .textField {
+    width: 100%;
     border: 1px solid var(--light-border-color);
     border-radius: 8px;
-    width: 600px;
     background: var(--third-background-color);
     padding: 20px;
 

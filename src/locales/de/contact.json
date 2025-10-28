@@ -7,7 +7,8 @@
     "email": "Nachricht senden",
     "resume": "Lebenslauf herunterladen",
     "github": "Zu GitHub",
-    "linkedin": "Zu LinkedIn"
+    "linkedin": "Zu LinkedIn",
+    "whatsapp": "Auf WhatsApp schreiben"
   },
   "closing": "Ich freue mich auf Ihre Nachricht und mögliche gemeinsame Projekte.",
   "submit": "Absenden",
@@ -20,19 +21,20 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "label": "Ich akzeptiere die Datenschutzerklärung",
+    "label": "Ich habe die Datenschutzerklärung zur Kenntnis genommen",
     "linkText": "Datenschutzerklärung",
     "linkHref": "/policy",
-    "required": "Bitte akzeptieren Sie die Datenschutzerklärung, um fortzufahren."
+    "required": "Bitte akzeptieren Sie die Datenschutzerklärung, um fortzufahren"
   },
   "errors": {
     "firstName": {
-      "min": "Der Vorname muss mindestens zwei Zeichen haben.",
-      "max": "Der Vorname darf höchstens fünfzig Zeichen haben."
+      "min": "Der Vorname muss mindestens zwei Zeichen haben",
+      "max": "Der Vorname darf höchstens fünfzig Zeichen haben"
     },
     "lastName": {
+      "required": "Der Nachname ist erforderlich",
       "min": "Der Nachname muss mindestens zwei Zeichen haben",
-      "max": "Der Nachname darf höchstens fünfzig Zeichen haben."
+      "max": "Der Nachname darf höchstens fünfzig Zeichen haben"
     },
     "email": {
       "required": "E-Mail ist erforderlich",
@@ -40,12 +42,12 @@
     },
     "regard": {
       "min": "Der Betreff muss mindestens zwei Zeichen",
-      "max": "Der Betreff darf höchstens fünfzig Zeichen haben."
+      "max": "Der Betreff darf höchstens fünfzig Zeichen haben"
     },
     "message": {
       "required": "Nachricht ist erforderlich",
       "min": "Nachricht muss mindestens zwanzig Zeichen haben",
-      "max": "Nachricht darf höchstens eintausend Zeichen haben."
+      "max": "Nachricht darf höchstens eintausend Zeichen haben"
     }
   }
 }

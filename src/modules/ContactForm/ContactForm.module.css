@@ -1,7 +1,15 @@
 .textFieldsBox {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px;
+}
+
+.colHalf {
+    grid-column: span 1;
+}
+
+.colFull {
+    grid-column: 1 / -1;
 }
 
 .btnBox {
@@ -35,13 +43,22 @@
     transform: scale(1.05);
 }
 
-.privacyTitle {
-    margin: 16px 0 8px;
-    font-weight: 400;
-    color: var(--second-text-color);
+.privacyLink {
+    margin: 28px 0 8px;
 }
 
 .textLink {
     color: var(--second-text-color);
     font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .textFieldsBox {
+        grid-template-columns: 1fr;
+    }
+
+    .colHalf,
+    .colFull {
+        grid-column: 1 / -1;
+    }
 }

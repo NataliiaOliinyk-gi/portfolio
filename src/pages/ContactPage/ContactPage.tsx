@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import Wrapper from "../../shared/components/Wrapper/Wrapper";
 import SectionLayout from "../../shared/components/SectionLayout/SectionLayout";
+import ContactLinks from "../../modules/ContactLinks/ContactLinks";
 import ContactForm from "../../modules/ContactForm/ContactForm";
 
 import type { IContactFormValues } from "../../modules/ContactForm/ContactForm";
@@ -21,14 +22,14 @@ const ContactPage: FC = () => {
     <main>
       <Wrapper>
         <SectionLayout title={t("title")}>
-          <p>
-            Have a project or just want to connect? Feel free to drop a message
-          </p>
-          <p>
-            Ich freue mich, dich kennenzulernen! Ich bin immer offen für neue
-            Kontakte & Austausch.
-          </p>
-          <button className={styles.btn}>{t("ctaButtons.email")}</button>
+          <div className={styles.titleBox}>
+            <p className={styles.lead1}>{t("lead1")}</p>
+            <p className={styles.lead2}>{t("lead2")}</p>
+          </div>
+        </SectionLayout>
+
+        <SectionLayout>
+          <ContactLinks />
         </SectionLayout>
 
         <SectionLayout>

@@ -4,7 +4,10 @@ import type {
   UseFormRegister,
 } from "react-hook-form";
 
-import type { IContactFormValues, FieldKeys } from "../../../modules/ContactForm/ContactForm";
+import type {
+  IContactFormValues,
+  FieldKeys,
+} from "../../../modules/ContactForm/ContactForm";
 
 import styles from "./TextField.module.css";
 
@@ -15,6 +18,7 @@ type BaseProps<K extends FieldKeys> = {
   rules: RegisterOptions<IContactFormValues, K>;
   error?: FieldError;
   placeholder?: string;
+  wrapperClassName?: string;
 };
 
 type InputProps<K extends FieldKeys> = BaseProps<K> &
@@ -33,23 +37,33 @@ type TextareaProps<K extends FieldKeys> = BaseProps<K> &
 const TextField = <K extends FieldKeys>(
   props: InputProps<K> | TextareaProps<K>
 ) => {
-const { name, label, register, rules, error, placeholder } = props;
+  const {
+    name,
+    label,
+    register,
+    rules,
+    error,
+    placeholder,
+    wrapperClassName,
+    as: tag = "input",
+    ...rest
+  } = props;
 
-const id = String(name);
+  const id = String(name);
 
   return (
-    <div className={styles.inputBox}>
-      <label htmlFor={name} className={styles.label}>
+    <div className={`${styles.inputBox} ${wrapperClassName}`}>
+      <label htmlFor={id} className={styles.label}>
         {label}
       </label>
-            {"as" in props && props.as === "textarea" ? (
+      {tag === "textarea" ? (
         <textarea
           id={id}
           {...register(name, rules)}
           placeholder={placeholder}
           rows={5}
           className={styles.textField}
-          {...props}
+          {...(rest as React.TextareaHTMLAttributes<HTMLTextAreaElement>)}
         />
       ) : (
         <input
@@ -57,7 +71,7 @@ const id = String(name);
           {...register(name, rules)}
           placeholder={placeholder}
           className={styles.textField}
-          {...props}
+          {...(rest as React.InputHTMLAttributes<HTMLInputElement>)}
         />
       )}
       {error && <p className={styles.textFieldError}>{error.message}</p>}

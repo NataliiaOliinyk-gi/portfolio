@@ -1,0 +1,40 @@
+.linksIntro {
+    margin-bottom: 20px;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--third-text-color);
+}
+
+.linksRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.linkBtn {
+    text-decoration: none;
+    cursor: pointer;
+    background: var(--main-background-color);
+    border: none;
+    border-radius: 8px;
+    padding: 16px 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+
+    font: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white-text-color);
+    text-transform: uppercase;
+
+    transition: ease-in-out 500ms;
+}
+
+.linkBtn:hover {
+    background: color-mix(in srgb, var(--second-background-color) 50%, transparent);
+    transform: scale(1.05);
+}

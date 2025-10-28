@@ -31,6 +31,7 @@ export const getFields = (t: TFunction<"contact">): IFields => ({
     name: "lastName",
     label: t("fields.lastName.label"),
     rules: {
+      required: t("errors.lastName.required"),
       minLength: { value: 2, message: t("errors.lastName.min") },
       maxLength: { value: 50, message: t("errors.lastName.max") },
     },

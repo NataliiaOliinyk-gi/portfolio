@@ -2,9 +2,9 @@ import type { FC } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import footerMenuItems from "../footerMenuItems";
+import footerMenuItems from "../../../shared/data/footerMenuItems";
 
-import type { IFooterMenuItem } from "../footerMenuItems";
+import type { IFooterMenuItem } from "../../../shared/data/footerMenuItems";
 
 import styles from "./FooterMenu.module.css";
 

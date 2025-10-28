@@ -1,25 +1,20 @@
-.btn {
-    background: var(--main-background-color);
-    border: none;
-    padding: 16px 24px;
-    cursor: pointer;
-    font: inherit;
-    font-weight: 400;
-    font-size: 18px;
-    color: var(--white-text-color);
-    text-transform: uppercase;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    align-self: flex-start;
-    border-radius: 8px;
-
-    transition: ease-in-out 500ms;
+.titleBox{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
-.btn:hover {
-    background: color-mix(in srgb, var(--second-background-color) 50%, transparent);
-    transform: scale(1.05);
+.lead1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--second-text-color);
+    line-height: 1.5;
+}
+
+.lead2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--third-text-color);
+    line-height: 1.5;
 }
