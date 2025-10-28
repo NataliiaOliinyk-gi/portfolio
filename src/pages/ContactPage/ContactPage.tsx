@@ -33,6 +33,7 @@ const ContactPage: FC = () => {
         </SectionLayout>
 
         <SectionLayout>
+          <p className={styles.closing}>{t("closing")}</p>
           <ContactForm textBtn={t("submit")} submitForm={submitForm} />
         </SectionLayout>
       </Wrapper>
