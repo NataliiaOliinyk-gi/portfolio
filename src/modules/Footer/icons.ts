@@ -75,7 +75,7 @@ const getIconsMenu = (
       icon: WhatsappIcon,
     },
     {
-      title: "Mail",
+      title: "EMail",
       href: buildMailHref(tMail, mailMode),
       icon: MailIcon,
     },

@@ -8,7 +8,7 @@
   opacity: .5;
 }
 
-button {
+.wrap button {
   background: none;
   border: none;
   padding: 4px 6px;
@@ -20,10 +20,10 @@ button {
   text-transform: uppercase;
 }
 
-button:hover {
+.wrap button:hover {
   color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
 }
 
-.active {
+.wrap .active {
   font-weight: 600;
 }

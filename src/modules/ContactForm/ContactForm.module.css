@@ -1,3 +1,14 @@
+.textFieldsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btnBox {
+    margin-top: 28px;
+    margin-bottom: 11px;
+}
+
 .btn {
     background: var(--main-background-color);
     border: none;
@@ -22,4 +33,15 @@
 .btn:hover {
     background: color-mix(in srgb, var(--second-background-color) 50%, transparent);
     transform: scale(1.05);
+}
+
+.privacyTitle {
+    margin: 16px 0 8px;
+    font-weight: 400;
+    color: var(--second-text-color);
+}
+
+.textLink {
+    color: var(--second-text-color);
+    font-weight: 600;
 }

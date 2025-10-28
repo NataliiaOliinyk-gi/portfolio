@@ -39,10 +39,16 @@
       "heading": "4. Data collection on this website",
       "body": [
         "<strong>Cookies:</strong><br/>We use session cookies (deleted after your visit) and persistent cookies (stored until you delete them). Third-party cookies may also be set (e.g., for payments or analytics). Legal basis: Art. 6(1)(f) GDPR; where consent is obtained, Art. 6(1)(a) GDPR and § 25(1) TTDSG.",
-        "<strong>Browser settings:</strong><br/>You can configure your browser to notify you about cookies, allow them only in individual cases, or delete them automatically on exit. Disabling cookies may limit functionality.",
-        "<strong>Server log files:</strong><br/>Our provider automatically collects information (browser type/version, OS, referrer URL, host name, time of request, IP address). No merging with other data sources. Legal basis: Art. 6(1)(f) GDPR.",
-        "<strong>Contact form:</strong><br/>If you contact us, we process the data you provide to handle your request and any follow-up questions. Legal basis: Contract/contract initiation (Art. 6(1)(b)), legitimate interest (Art. 6(1)(f)), or consent (Art. 6(1)(a)).",
-        "<strong>Retention:</strong><br/>We keep inquiry data until the purpose no longer applies, you request deletion, or statutory periods expire."
+        "<strong>Browser settings:</strong><br/>You can configure your browser to restrict or disable cookies. Disabling cookies may limit website functionality.",
+        "<strong>Server log files:</strong><br/>Our provider automatically collects information (browser type/version, OS, referrer URL, hostname, time of request, IP address). These data are not merged with other data sources. Legal basis: Art. 6(1)(f) GDPR.",
+        "<strong>Contact via email and contact form:</strong><br/>If you send us inquiries by email or via the contact form, we process the data you provide (e.g. first and last name, email address, subject, message, time, and technical metadata) solely for the purpose of processing your inquiry and any follow-up questions.",
+        "<strong>Legal bases:</strong><br/>Art. 6(1)(b) GDPR (contract initiation or performance) if your request relates to a potential contract; Art. 6(1)(f) GDPR (legitimate interest in efficient communication) in all other cases. Separate consent is not required. The checkbox in the form serves only to acknowledge this privacy policy.",
+        "<strong>Required information:</strong><br/>Fields marked as required are necessary to process your inquiry. Without them, we cannot respond to your message.",
+        "<strong>Email delivery:</strong><br/>Emails generated from the contact form are sent via our own server or via the email service provider <em>[name of email/SMTP provider]</em> located in <em>[location/country]</em>. Where the provider acts as a processor on our behalf, a Data Processing Agreement (Art. 28 GDPR) is in place. If data is transferred to a third country, appropriate safeguards are ensured (in particular, the EU Standard Contractual Clauses under Art. 46 GDPR).",
+        "<strong>Recipients:</strong><br/>Internal recipient: Nataliia Oliinyk (handling inquiries)<br/>External recipient (processor): <em>[name, address of email provider]</em><br/>Hosting provider: ALL-INKL.COM (see section “Hosting”).",
+        "<strong>Security measures:</strong><br/>All data transmissions are TLS encrypted. Only authorized persons have access to the content. Server and mail logs are stored separately from message content and processed temporarily for security and troubleshooting purposes (Art. 6(1)(f) GDPR).",
+        "<strong>Retention:</strong><br/>We retain inquiries and related communication until the request has been fully processed and for up to 12&nbsp;months thereafter, unless statutory retention obligations require longer storage or further retention is necessary to assert or defend legal claims (Art. 6(1)(f) GDPR).",
+        "<strong>Spam protection:</strong><br/>To protect against misuse, we use technical measures such as rate limiting, server log checks, and a so-called “honeypot” field. No automated profiling is carried out."
       ]
     },
     {

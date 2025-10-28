@@ -1,1 +1,51 @@
-{}
+{
+  "title": "Let's connect!",
+  "lead1": "Are you looking for a dedicated web developer or just want to get in touch? Feel free to send me a message - I'd love to hear from you!",
+  "lead2": "On this website you can find examples of my projects, the source code on GitHub, and more information about my professional background on LinkedIn.",
+  "linksIntro": "Find all links and contact options below:",
+  "ctaButtons": {
+    "email": "Send message",
+    "resume": "Download CV",
+    "github": "View GitHub",
+    "linkedin": "Visit LinkedIn"
+  },
+  "closing": "I look forward to your message and potential collaboration.",
+  "submit": "Send",
+  "fields": {
+    "firstName": { "label": "First name", "placeholder": "First name" },
+    "lastName": { "label": "Last name", "placeholder": "Last name" },
+    "email": { "label": "Email", "placeholder": "Email address" },
+    "regard": { "label": "Subject", "placeholder": "Subject" },
+    "message": { "label": "Message", "placeholder": "Your message…" }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "label": "I accept the Privacy Policy",
+    "linkText": "Privacy Policy",
+    "linkHref": "/policy", 
+    "required": "Please accept the Privacy Policy to proceed."
+  },
+  "errors": {
+    "firstName": {
+      "min": "The first name must be at least two characters long.",
+      "max": "The first name may contain a maximum of fifty characters."
+    },
+    "lastName": {
+      "min": "The last name must be at least two characters long.",
+      "max": "The last name may contain a maximum of fifty characters."
+    },
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Please enter a valid email address."
+    },
+    "regard": {
+      "min": "The subject must be at least two characters long.",
+      "max": "The subject may contain a maximum of fifty characters."
+    },
+    "message": {
+      "required": "Message is required.",
+      "min": "The message must be at least twenty characters long.",
+      "max": "The message may contain up to one thousand characters."
+    }
+  }
+}

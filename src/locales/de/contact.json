@@ -1,1 +1,51 @@
-{}
+{
+  "title": "Lassen Sie uns vernetzen!",
+  "lead1": "Suchen Sie eine engagierte Webentwicklerin oder möchten Sie einfach Kontakt aufnehmen? Schreiben Sie mir gerne eine Nachricht - ich freue mich über Ihr Interesse!",
+  "lead2": "Auf dieser Website finden Sie Beispiele meiner Projekte, den Quellcode dazu auf GitHub und weitere Informationen zu meinem beruflichen Werdegang auf LinkedIn.",
+  "linksIntro": "Hier finden Sie alle Links und Kontaktmöglichkeiten:",
+  "ctaButtons": {
+    "email": "Nachricht senden",
+    "resume": "Lebenslauf herunterladen",
+    "github": "Zu GitHub",
+    "linkedin": "Zu LinkedIn"
+  },
+  "closing": "Ich freue mich auf Ihre Nachricht und mögliche gemeinsame Projekte.",
+  "submit": "Absenden",
+  "fields": {
+    "firstName": { "label": "Vorname", "placeholder": "Vorname" },
+    "lastName": { "label": "Nachname", "placeholder": "Nachname" },
+    "email": { "label": "E-Mail", "placeholder": "E-Mail-Adresse" },
+    "regard": { "label": "Betreff", "placeholder": "Betreff" },
+    "message": { "label": "Nachricht", "placeholder": "Ihre Nachricht…" }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "label": "Ich akzeptiere die Datenschutzerklärung",
+    "linkText": "Datenschutzerklärung",
+    "linkHref": "/policy",
+    "required": "Bitte akzeptieren Sie die Datenschutzerklärung, um fortzufahren."
+  },
+  "errors": {
+    "firstName": {
+      "min": "Der Vorname muss mindestens zwei Zeichen haben.",
+      "max": "Der Vorname darf höchstens fünfzig Zeichen haben."
+    },
+    "lastName": {
+      "min": "Der Nachname muss mindestens zwei Zeichen haben",
+      "max": "Der Nachname darf höchstens fünfzig Zeichen haben."
+    },
+    "email": {
+      "required": "E-Mail ist erforderlich",
+      "pattern": "Bitte eine gültige E-Mail angeben"
+    },
+    "regard": {
+      "min": "Der Betreff muss mindestens zwei Zeichen",
+      "max": "Der Betreff darf höchstens fünfzig Zeichen haben."
+    },
+    "message": {
+      "required": "Nachricht ist erforderlich",
+      "min": "Nachricht muss mindestens zwanzig Zeichen haben",
+      "max": "Nachricht darf höchstens eintausend Zeichen haben."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.inputBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 8px;
+    color: var(--second-text-color);
+}
+
+.textField {
+    border: 1px solid var(--light-border-color);
+    border-radius: 8px;
+    width: 600px;
+    background: var(--third-background-color);
+    padding: 20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main-text-color);
+
+    transition: ease-in-out 500ms;
+}
+
+.textField::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: color-mix(in srgb, var(--second-background-color) 50%, transparent);
+}
+
+.textField:focus {
+    border-color: var(--main-border-color);
+    outline: none;
+}
+
+.textField:hover {
+    background: color-mix(in srgb, var(--main-background-color) 10%, transparent);
+}
+
+.textFieldError {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--error-text-color);
+    margin-top: 6px;
+}

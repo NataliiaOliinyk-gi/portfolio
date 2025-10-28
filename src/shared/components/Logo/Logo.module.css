@@ -15,7 +15,7 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 130%;
-    font-stretch: 90%; 
+    font-stretch: 90%;
     color: var(--second-text-color);
     text-transform: uppercase;
     white-space: nowrap;
@@ -25,5 +25,5 @@
 
 .link:hover {
     transform: scale(1.1);
-     color: color-mix(in srgb, var(--second-text-color) 50%, transparent);
+    color: color-mix(in srgb, var(--second-text-color) 50%, transparent);
 }
