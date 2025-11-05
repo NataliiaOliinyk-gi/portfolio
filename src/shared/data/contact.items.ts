@@ -29,12 +29,12 @@ export const getContactItems = ({
 }): ContactItem[] => {
   const resumeHref =
     locale === "de"
-      ? "/cv/Nataliia_Oliinyk_CV_DE.pdf"
-      : "/cv/Nataliia_Oliinyk_CV_EN.pdf";
+      ? "/cv/Nataliia_Oliinyk_Lebenslauf.pdf"
+      : "/cv/Nataliia_Oliinyk_CV.pdf";
   const resumeFileName =
     locale === "de"
-      ? "Nataliia_Oliinyk_CV_DE.pdf"
-      : "Nataliia_Oliinyk_CV_EN.pdf";
+      ? "Nataliia_Oliinyk_Lebenslauf.pdf"
+      : "Nataliia_Oliinyk_CV.pdf";
 
   return [
     {
