@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import styles from "./Logo.module.css";
 
-const logoText = "<N />"
+const logoText = "<ON />"
 
 const Logo: FC = () => {
   return (
