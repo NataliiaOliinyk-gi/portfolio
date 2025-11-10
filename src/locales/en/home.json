@@ -10,8 +10,7 @@
     "location": "Dessau-Rosslau, Germany",
     "text_av": "Available for new projects",
     "cta1": "View Projects",
-    "cta2": "Contact",
-    "cta3": "Download CV"
+    "cta2": "Contact"
   },
   "stats": {
     "projects_one": "{{count}} project",

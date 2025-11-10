@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 import { useTranslation } from "react-i18next";
 
-import DownloadIcon from "../../shared/components/icons/DownloadIcon";
+import ButtonResume from "../../shared/components/ButtonResume/ButtonResume";
 
 import { getContactItems } from "../../shared/data/contact.items";
 
@@ -24,23 +24,14 @@ const ContactLinks: FC = () => {
   const whatsapp = items.find((i) => i.key === "whatsapp")!;
   const github = items.find((i) => i.key === "github")!;
   const linkedin = items.find((i) => i.key === "linkedin")!;
-  const resume = items.find((i) => i.key === "resume")!;
 
   return (
     <div>
       <div className={styles.ctaWrap} aria-label={tCtas("linksIntro")}>
         <p className={styles.linksIntro}>{tCtas("linksIntro")}</p>
-        
-        <a
-          className={styles.resumeBtn}
-          href={resume.href}
-          {...(resume.download ? { download: resume.download } : {})}
-        >
-          {resume.title}
-          <DownloadIcon />
-        </a>
 
-        
+        <ButtonResume />
+
         <div className={styles.twoCols}>
           <div className={styles.col}>
             <a

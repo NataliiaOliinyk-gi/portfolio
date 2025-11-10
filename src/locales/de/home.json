@@ -10,8 +10,7 @@
     "location": "Dessau-Roßlau, Deutschland",
     "text_av": "Für neue Projekte verfügbar",
     "cta1": "Projekte ansehen",
-    "cta2": "Kontakt",
-    "cta3": "Lebenslauf herunterladen"
+    "cta2": "Kontakt"
   },
   "stats": {
     "projects_one": "{{count}} Projekt",

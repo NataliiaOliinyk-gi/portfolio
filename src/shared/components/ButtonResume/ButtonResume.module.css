@@ -1,0 +1,31 @@
+.resumeBtn {
+    text-decoration: none;
+    cursor: pointer;
+    background: var(--main-background-color);
+    border: none;
+    border-radius: 8px;
+    padding: 16px 24px;
+
+    display: inline-flex;
+    width: min(100%, 420px);
+    gap:10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    white-space: normal;
+
+    font: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white-text-color);
+
+    box-shadow: 0 0 20px rgb(var(--main-border-rgb) / 0.4);
+
+    transition: ease-in-out 500ms;
+}
+
+.resumeBtn:hover {
+    background: color-mix(in srgb, var(--second-background-color) 50%, transparent);
+    box-shadow: 0 0 20px color-mix(in srgb, var(--second-border-color) 25%, transparent);
+    transform: scale(1.02);
+}
