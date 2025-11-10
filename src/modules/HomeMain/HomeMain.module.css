@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 48px;
     align-items: stretch;
 }
 
@@ -24,6 +24,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 0 20px rgb(var(--main-border-rgb) / 0.4);
 }
 
 .titleWelcome {
@@ -59,6 +60,7 @@
 .locationBox {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     gap: 60px;
     margin-top: auto; 
 }
