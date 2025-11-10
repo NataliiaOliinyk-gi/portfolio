@@ -1,7 +1,7 @@
 .title {
     font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 60px;
     text-align: center;
     color: var(--second-text-color);
 }

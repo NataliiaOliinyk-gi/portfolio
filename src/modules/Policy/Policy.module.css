@@ -8,6 +8,7 @@
 
 .policy h2 {
   font-size: 40px;
+  color: var(--second-text-color);
   margin: 0 0 16px;
 }
 
@@ -20,6 +21,7 @@
 }
 
 .policy h3 {
+  color: var(--second-text-color);
   font-size: 24px;
   font-weight: 500;
   margin: 32px 0 16px;
@@ -31,6 +33,7 @@
 
 .policy strong {
   font-weight: 600;
+  color: var(--third-text-color);
 }
 
 .policy br {

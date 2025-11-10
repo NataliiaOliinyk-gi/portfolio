@@ -1,3 +1,39 @@
+.titleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.subtitle {
+    font-family: var(--font-serif);
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--third-text-color);
+}
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: stretch;
+}
+
+.mainBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.imageBox {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
 .imageFoto {
     width: 400px;
     border-radius: 12px;
@@ -6,6 +42,72 @@
     background-repeat: no-repeat;
 }
 
-    /* border-bottom: 1px solid var(--light-border-color); */
-    /* box-shadow: 0 1px 6px color-mix(in srgb, var(--main-hover-color) 20%, transparent); */
-    /* transition: background-color .3s ease, box-shadow .3s ease; */
+.titleWelcome {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--second-text-color);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.textBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textHome {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--second-text-color);
+    line-height: 1.5;
+}
+
+.textSkills {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--third-text-color);
+    line-height: 1.5;
+}
+
+.locationBox {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-top: auto; 
+}
+
+.textLocation {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--third-text-color);
+    line-height: 1.5;
+}
+
+.textHome strong {
+    font-weight: 600;
+    color: var(--third-text-color);
+}
+
+.textSkills strong {
+    font-weight: 600;
+}
+
+.textSkills br {
+    margin-bottom: 4px;
+    content: "";
+    display: block;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+/* border-bottom: 1px solid var(--light-border-color); */
+/* box-shadow: 0 1px 6px color-mix(in srgb, var(--main-hover-color) 20%, transparent); */
+/* transition: background-color .3s ease, box-shadow .3s ease; */

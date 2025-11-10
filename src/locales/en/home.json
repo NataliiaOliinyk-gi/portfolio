@@ -1,8 +1,17 @@
 {
   "hero": {
-    "title": "Building clean & human-friendly web",
-    "subtitle": "Full-stack developer focused on clarity and reliability",
-    "cta": "View Projects"
+    "title": "Full-stack developer",
+    "subtitle": "focused on clarity and reliability",
+    "title_welcome": "Welcome to my Portfolio!",
+    "subtitle_welcome": "",
+    "text_home": "Hi, I'm <strong>Nataliia</strong> - a motivated junior full-stack developer with a structured and quality-driven mindset. I build modern, responsive web applications focused on usability, performance, and clean architecture.",
+    "text_skills": "Experienced in <strong>HTML, CSS, JavaScript, TypeScript, React, Node.js</strong>, and <strong>SQL/MongoDB databases</strong>.",
+    "text_familiar": "Familiar with <strong>Docker, Git</strong>, and modern development workflows. <br/> Passionate about <strong>clean code, continuous learning, and solution-oriented work</strong>.",
+    "location": "Dessau-Rosslau, Germany",
+    "text_av": "Available for new projects",
+    "cta1": "View Projects",
+    "cta2": "Contact",
+    "cta3": "Download CV"
   },
   "stats": {
     "projects_one": "{{count}} project",

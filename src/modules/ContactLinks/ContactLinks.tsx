@@ -28,8 +28,6 @@ const ContactLinks: FC = () => {
 
   return (
     <div>
-      
-
       <div className={styles.ctaWrap} aria-label={tCtas("linksIntro")}>
         <p className={styles.linksIntro}>{tCtas("linksIntro")}</p>
         

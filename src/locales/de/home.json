@@ -1,8 +1,17 @@
 {
   "hero": {
-    "title": "Klar, nutzerfreundlich, zuverlässig",
-    "subtitle": "Full-Stack-Entwicklerin mit Fokus auf Struktur und Qualität",
-    "cta": "Projekte ansehen"
+    "title": "Full-Stack Entwicklerin",
+    "subtitle": "mit Fokus auf Struktur und Qualität",
+    "title_welcome": "Willkommen in meinem Portfolio!",
+    "subtitle_welcome": "",
+    "text_home": "Hallo, ich bin <strong>Nataliia</strong> - engagierte Junior Full-Stack-Entwicklerin mit einem strukturierten, qualitätsorientierten Ansatz. Ich entwickle moderne, responsive Webanwendungen mit Fokus auf Benutzerfreundlichkeit, Performance und sauberen Code.",
+    "text_skills": "Erfahren in <strong>HTML, CSS, JavaScript, TypeScript, React, Node.js</strong> sowie <strong>SQL- & MongoDB-Datenbanken</strong>.",
+    "text_familiar": "Vertraut mit <strong>Docker, Git</strong> und modernen Entwicklungs-Workflows.<br/>Leidenschaftlich interessiert an <strong>klarer Architektur, kontinuierlichem Lernen und lösungsorientierter Arbeit</strong>.",
+    "location": "Dessau-Roßlau, Deutschland",
+    "text_av": "Für neue Projekte verfügbar",
+    "cta1": "Projekte ansehen",
+    "cta2": "Kontakt",
+    "cta3": "Lebenslauf herunterladen"
   },
   "stats": {
     "projects_one": "{{count}} Projekt",
