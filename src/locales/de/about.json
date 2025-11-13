@@ -1,3 +1,7 @@
 {
-  "about_text": "Ich entwickle moderne Webanwendungen mit Fokus auf Benutzerfreundlichkeit, Performance und saubere Architektur. Mein Fundament bilden acht Jahre Erfahrung in der Systemadministration sowie eine erfolgreich abgeschlossene Weiterbildung zur Web- und Full-Stack-Entwicklerin. Ich arbeite strukturiert, zuverlässig und mit einem klaren Qualitätsanspruch - von der Infrastruktur bis zum UI. Regelmäßige Berg- und Waldwanderungen geben mir Fokus und Ausdauer, während mein kreatives Hobby - das Gestalten von Kunstblumen-Arrangements - meine Liebe zum Detail stärkt. Im Team setze ich auf offene Kommunikation, Eigenverantwortung und lösungsorientiertes Handeln. Mein Ziel ist es, durch modernen, wartbaren Code und ganzheitliches Denken nachhaltigen Mehrwert zu schaffen."
+  "about_text": [
+    "Ich entwickle moderne Webanwendungen mit Fokus auf Benutzerfreundlichkeit, Performance und saubere Architektur. Mein Fundament bilden acht Jahre Erfahrung in der Systemadministration sowie eine erfolgreich abgeschlossene Weiterbildung zur Web- und Full-Stack-Entwicklerin.",
+    "Ich arbeite strukturiert, zuverlässig und mit einem klaren Qualitätsanspruch - von der Infrastruktur bis zum UI. Regelmäßige Berg- und Waldwanderungen geben mir Fokus und Ausdauer, während mein kreatives Hobby -  das Gestalten von Handgemachte Dekorationen - meine Liebe zum Detail stärkt.",
+    "Im Team setze ich auf offene Kommunikation, Eigenverantwortung und lösungsorientiertes Handeln. Mein Ziel ist es, durch modernen, wartbaren Code und ganzheitliches Denken nachhaltigen Mehrwert zu schaffen."
+  ]
 }

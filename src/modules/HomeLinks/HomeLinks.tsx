@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import { useTranslation } from "react-i18next";
 
-import ButtonResume from "../../../shared/components/ButtonResume/ButtonResume";
+import ButtonResume from "../../shared/components/ButtonResume/ButtonResume";
 
 import styles from "./HomeLinks.module.css";
 

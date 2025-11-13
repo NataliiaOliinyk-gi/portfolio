@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Wrapper from "../../shared/components/Wrapper/Wrapper";
 import SectionLayout from "../../shared/components/SectionLayout/SectionLayout";
 import HomeMain from "../../modules/HomeMain/HomeMain";
-import HomeLinks from "../../modules/HomeMain/HomeLinks/HomeLinks";
+import HomeLinks from "../../modules/HomeLinks/HomeLinks";
 
 import { useSeo } from "../../shared/hooks/useSeo";
 
