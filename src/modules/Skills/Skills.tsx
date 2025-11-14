@@ -1,6 +1,8 @@
 import type { FC } from "react";
 import { useTranslation } from "react-i18next";
 
+import SkillCard from "../../shared/components/SkillCard/SkillCard";
+
 import skillsItems from "../../shared/data/skillsItems";
 import type { ISkillsItem } from "../../shared/data/skillsItems";
 
@@ -9,15 +11,16 @@ import styles from "./Skills.module.css";
 const Skills: FC = () => {
   const { t } = useTranslation(["skills"]);
 
-  const elements = skillsItems.map(({ id, icon, labelKey }: ISkillsItem) => (
-    <li key={id} className={styles.skillCard}>
-      <div className={styles.iconBox}>
-        <img src={icon} alt={id} className={styles.iconImg} />
-      </div>
-      <p className={styles.title}>{id}</p>
-      <p>{t(`items.${labelKey}`)}</p>
-    </li>
-  ));
+  const elements = skillsItems.map(
+    ({ id, icon, labelKey }: ISkillsItem) => (
+      <SkillCard
+        key={id}
+        id={id}
+        icon={icon}
+        text={t(`items.${labelKey}`)}
+      />
+    )
+  );
 
   return (
     <div className={styles.container}>

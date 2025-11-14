@@ -1,0 +1,66 @@
+.skillCard {
+    opacity: 0;
+    transform: translateY(100px);
+
+    cursor: default;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(var(--main-border-rgb) / 0.4);
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--third-text-color);
+    line-height: 1.5;
+
+    transition:
+        opacity 800ms ease-out var(--delay, 0ms),
+        transform 800ms ease-in-out var(--delay, 0ms),
+        background-color 500ms ease-in-out,
+        color 500ms ease-in-out;
+}
+
+.skillCardVisible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.skillCardVisible:hover {
+    background-color: color-mix(in srgb, var(--main-background-color) 50%, transparent);
+    color: var(--white-text-color);
+    transform: translateY(0) scale(1.05);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.iconBox {
+    width: 64px;
+    height: 64px;
+
+    box-shadow: 0 0 8px rgb(var(--main-border-rgb) / 0.4);
+    border-radius: 8px;
+
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 500ms ease-in-out, box-shadow 500ms ease-in-out;
+}
+
+.skillCardVisible:hover .iconBox {
+    background-color: color-mix(in srgb, var(--white-background-color) 40%, transparent);
+}
+
+.iconImg {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    opacity: 0.65;
+}
