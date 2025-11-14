@@ -10,12 +10,14 @@ const Skills: FC = () => {
   const { t } = useTranslation(["skills"]);
 
   const elements = skillsItems.map(({ id, icon, labelKey }: ISkillsItem) => (
-      <li key={id} className={styles.skillCard}>
-        <p className={styles.title}>{id}</p>
-        <p>{icon}</p>
-        <p>{t(`items.${labelKey}`)}</p>
-      </li>
-    ))
+    <li key={id} className={styles.skillCard}>
+      <div className={styles.iconBox}>
+        <img src={icon} alt={id} className={styles.iconImg} />
+      </div>
+      <p className={styles.title}>{id}</p>
+      <p>{t(`items.${labelKey}`)}</p>
+    </li>
+  ));
 
   return (
     <div className={styles.container}>

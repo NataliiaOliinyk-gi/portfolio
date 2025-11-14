@@ -1,3 +1,19 @@
+import GitHubIcon from "../../assets/icons/github.svg";
+import JavaScript from "../../assets/icons/javascript.svg";
+import TypeScript from "../../assets/icons/typescript.svg";
+import React from "../../assets/icons/react-logo.svg";
+import HTML from "../../assets/icons/html5.svg";
+import CSS from "../../assets/icons/css3.svg";
+import Sass from "../../assets/icons/sass.svg";
+import NodeJs from "../../assets/icons/node-js.svg";
+import Express from "../../assets/icons/express.svg";
+import Docker from "../../assets/icons/docker.svg";
+import MySQL from "../../assets/icons/mysql.svg";
+import PostgreSql from "../../assets/icons/postgresql.svg";
+import MongoDB from "../../assets/icons/mongodb.svg";
+import Git from "../../assets/icons/git.svg";
+import Linux from "../../assets/icons/linux.svg";
+
 export type SkillItemKey =
   | "javascript"
   | "typescript"
@@ -24,77 +40,77 @@ export interface ISkillsItem {
 const skillsItems: ISkillsItem[] = [
   {
     id: "JavaScript",
-    icon: "icon",
+    icon: JavaScript,
     labelKey: "javascript",
   },
   {
     id: "TypeScript",
-    icon: "icon",
+    icon: TypeScript,
     labelKey: "typescript",
   },
   {
     id: "React",
-    icon: "icon",
+    icon: React,
     labelKey: "react",
   },
   {
     id: "HTML",
-    icon: "icon",
+    icon: HTML,
     labelKey: "html",
   },
   {
     id: "CSS",
-    icon: "icon",
+    icon: CSS,
     labelKey: "css",
   },
   {
     id: "Sass",
-    icon: "icon",
+    icon: Sass,
     labelKey: "sass",
   },
   {
     id: "Node.js",
-    icon: "icon",
+    icon: NodeJs,
     labelKey: "nodejs",
   },
   {
     id: "Express",
-    icon: "icon",
+    icon: Express,
     labelKey: "express",
   },
   {
     id: "Docker",
-    icon: "icon",
+    icon: Docker,
     labelKey: "docker",
   },
   {
     id: "MySQL",
-    icon: "icon",
+    icon: MySQL,
     labelKey: "mysql",
   },
   {
     id: "PostgreSql",
-    icon: "icon",
+    icon: PostgreSql,
     labelKey: "postgresql",
   },
   {
     id: "MongoDB",
-    icon: "icon",
+    icon: MongoDB,
     labelKey: "mongodb",
   },
   {
     id: "Git",
-    icon: "icon",
+    icon: Git,
     labelKey: "git",
   },
   {
     id: "GitHub",
-    icon: "icon",
+    icon: GitHubIcon,
     labelKey: "github",
   },
   {
     id: "Linux",
-    icon: "icon",
+    icon: Linux,
     labelKey: "linux",
   },
 ];

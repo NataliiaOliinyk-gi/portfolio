@@ -1,11 +1,11 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     gap: 80px;
     align-items: center;
 }
 
-.subtitle{
+.subtitle {
     width: 80%;
     font-weight: 400;
     font-size: 20px;
@@ -22,7 +22,7 @@
 }
 
 .skillCard {
-    cursor: pointer;
+    cursor: default;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgb(var(--main-border-rgb) / 0.4);
@@ -45,7 +45,33 @@
     transform: scale(1.05);
 }
 
-.title{
+.title {
     font-weight: 600;
     font-size: 24px;
+}
+
+.iconBox {
+    width: 64px;
+    height: 64px;
+
+    box-shadow: 0 0 8px rgb(var(--main-border-rgb) / 0.4);
+    border-radius: 8px;
+
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: ease-in-out 500ms;
+}
+
+.skillCard:hover .iconBox {
+    background-color: color-mix(in srgb, var(--white-background-color) 40%, transparent);
+}
+
+.iconImg {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    opacity: 0.65;
 }
