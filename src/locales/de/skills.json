@@ -1,1 +1,18 @@
-{}
+{
+  "javascript": "Sehr gute Kenntnisse in modernem JavaScript (ES6+), darunter asynchrone Programmierung, Promises, async/await, DOM-Manipulation und funktionale Muster. Erfahrung in der Entwicklung interaktiver, API-basierter Benutzeroberflächen.",
+  "typescript": "Sicherer Umgang mit TypeScript für skalierbare und typsichere Anwendungen. Erfahrung mit Interfaces, Generics, Type Narrowing sowie der Integration von TypeScript in React- und Node.js-Projekte.",
+  "react": "Fundierte Erfahrung mit React, Komponentenarchitektur, Hooks, Context API, React Router und Redux Toolkit. Kenntnisse in Formularverarbeitung (react-hook-form), Validierung, Modals und responsiven Benutzeroberflächen.",
+  "html": "Ausgezeichnete Kenntnisse in semantischem HTML5, Barrierefreiheit und klar strukturiertem Markup für komplexe Layouts.",
+  "css": "Sehr gute Kenntnisse in CSS3, einschließlich Flexbox, Grid, Responsive Design, Animationen und modernen Layout-Techniken. Routiniert in der Erstellung sauberer, skalierbarer und konsistenter UI-Komponenten.",
+  "sass": "Erfahrung im Einsatz von Sass für modulare, wartbare und wiederverwendbare Styles. Sicher im Umgang mit Variablen, Mixins, Verschachtelung und der Strukturierung skalierbarer Styling-Architekturen.",
+  "nodejs": "Erfahrung mit Node.js zur Entwicklung von Backend-Logik, Umgang mit Dateisystemen, Umgebungsvariablen, asynchronen Prozessen und serverseitiger JavaScript-Ausführung.",
+  "express": "Fundierte Kenntnisse in der Entwicklung von REST-APIs mit Express. Erfahrung mit Routing, Middleware, Authentifizierung, Validierung, Fehlerbehandlung und modularen Backend-Architekturen.",
+  "mysql": "Erfahrung in relationalem Datenbankdesign, Sequelize ORM, Migrationen, Relationen und performanten SQL-Abfragen.",
+  "postgresql": "Grundkenntnisse in PostgreSQL und relationaler Datenmodellierung.",
+  "mongodb": "Praktische Erfahrung mit MongoDB und Mongoose für flexible, dokumentenbasierte Datenmodelle in Full-Stack-Anwendungen.",
+  "git": "Täglicher Umgang mit Git zur Versionskontrolle. Sicher in Branching, Merging, Konfliktlösung und einer klaren, strukturierten Commit-Historie im Teamkontext.",
+  "github": "Erfahren im Umgang mit GitHub für Repository-Hosting, Pull Requests, Code Reviews, Projektmanagement und kollaborative Entwicklungsprozesse.",
+  "docker": "Gute Kenntnisse im Containerisieren von Anwendungen mit Docker, im Erstellen von Dockerfiles und in der Nutzung von Docker Compose.",
+  "linux": "Solide Linux-Kenntnisse aus der Systemadministration. Sicher im Umgang mit Terminal, Dateistruktur, Berechtigungen und Systemkonfiguration.",
+  "soft_skills": "Ausgeprägte Problemlösungsfähigkeiten, hohe Detailgenauigkeit, zuverlässige Teamarbeit, schnelle Auffassungsgabe und eine strukturierte Arbeitsweise."
+}
