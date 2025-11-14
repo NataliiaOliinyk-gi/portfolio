@@ -11,7 +11,7 @@ import styles from "./FooterMenu.module.css";
 const FooterMenu: FC = () => {
   const { t } = useTranslation("footer");
 
-  const element = footerMenuItems.map(
+  const elements = footerMenuItems.map(
     ({ id, href, labelKey }: IFooterMenuItem) => (
       <li key={id}>
         <NavLink to={href} className={styles.link}>
@@ -23,7 +23,7 @@ const FooterMenu: FC = () => {
 
   return (
     <div className={styles.contsiner}>
-      <ul className={styles.menu}>{element}</ul>
+      <ul className={styles.menu}>{elements}</ul>
     </div>
   );
 };

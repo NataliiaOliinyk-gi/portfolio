@@ -1,18 +1,24 @@
 {
-  "javascript": "Strong understanding of modern JavaScript (ES6+), including asynchronous programming, Promises, async/await, DOM manipulation and functional programming patterns. Experienced in building interactive UI components and API-driven applications.",
-  "typescript": "Confident in using TypeScript for type-safe, scalable applications. Experienced with interfaces, generics, type narrowing and integrating TypeScript in React and Node.js projects.",
-  "react": "Skilled in building modern frontend applications using React, hooks, component architecture, context API, React Router and Redux Toolkit. Experience with form handling (react-hook-form), modals, validation and responsive UI.",
-  "html": "Excellent knowledge of semantic HTML5, accessibility fundamentals and structuring clean, maintainable markup for complex layouts.",
-  "css": "Strong skills in CSS3, including Flexbox, Grid, responsive design, animations and modern layout techniques. Able to create clean, scalable and visually consistent UI components.",
-  "sass": "Experienced with Sass for writing modular, maintainable and reusable styles. Confident with variables, mixins, nesting and structuring scalable styling architectures.",
-  "nodejs": "Experience working with Node.js to build backend logic, handle file systems, environment configuration, asynchronous operations and server-side JavaScript execution.",
-  "express": "Skilled in building RESTful APIs with Express. Experience with routing, middleware, authentication, validation, error handling and creating modular backend architectures.",
-  "mysql": "Experience with relational database design, Sequelize ORM, migrations, associations and writing optimized queries.",
-  "postgresql": "Basic understanding of PostgreSQL and relational data modeling.",
-  "mongodb": "Practical experience using MongoDB with Mongoose for flexible document-based data structures in full-stack applications.",
-  "git": "Daily use of Git for version control. Skilled in branching, merging, resolving conflicts and maintaining clean commit histories in collaborative development environments.",
-  "github": "Experienced with GitHub for repository hosting, pull requests, code reviews, project boards and team collaboration workflows.",
-  "docker": "Good understanding of containerizing applications with Docker, creating Dockerfiles and using Docker Compose for full-stack environments.",
-  "linux": "Solid Linux user with real experience from system administration. Confident in working with the terminal, file structure, permissions and environment configuration.",
-  "soft_skills": "Strong problem-solving abilities, high attention to detail, reliable teamwork, fast learning, and structured working style."
+  "hero": {
+    "title": "Skills",
+    "subtitle": "Throughout my IT path, I have combined my background in system administration and economics with my skills in both frontend and backend development. This allows me to build complete, reliable and user-focused web applications. My experience includes working with agile methodologies, clean code principles and version control, always with an emphasis on quality, scalability and clear system architecture. Thanks to my previous administrative experience, I approach development in a structured, analytical and detail-oriented way, ensuring stable solutions and efficient workflows."
+  },
+  "items": {
+    "javascript": "Strong understanding of modern JavaScript (ES6+), including asynchronous programming, Promises, async/await, DOM manipulation and functional programming patterns. Experienced in building interactive UI components and API-driven applications.",
+    "typescript": "Confident in using TypeScript for type-safe, scalable applications. Experienced with interfaces, generics, type narrowing and integrating TypeScript in React and Node.js projects.",
+    "react": "Skilled in building modern frontend applications using React, hooks, component architecture, context API, React Router and Redux Toolkit. Experience with form handling (react-hook-form), modals, validation and responsive UI.",
+    "html": "Excellent knowledge of semantic HTML5, accessibility fundamentals and structuring clean, maintainable markup for complex layouts.",
+    "css": "Strong skills in CSS3, including Flexbox, Grid, responsive design, animations and modern layout techniques. Able to create clean, scalable and visually consistent UI components.",
+    "sass": "Experienced with Sass for writing modular, maintainable and reusable styles. Confident with variables, mixins, nesting and structuring scalable styling architectures.",
+    "nodejs": "Experience working with Node.js to build backend logic, handle file systems, environment configuration, asynchronous operations and server-side JavaScript execution.",
+    "express": "Skilled in building RESTful APIs with Express. Experience with routing, middleware, authentication, validation, error handling and creating modular backend architectures.",
+    "mysql": "Experience with relational database design, Sequelize ORM, migrations, associations and writing optimized queries.",
+    "postgresql": "Basic understanding of PostgreSQL and relational data modeling.",
+    "mongodb": "Practical experience using MongoDB with Mongoose for flexible document-based data structures in full-stack applications.",
+    "git": "Daily use of Git for version control. Skilled in branching, merging, resolving conflicts and maintaining clean commit histories in collaborative development environments.",
+    "github": "Experienced with GitHub for repository hosting, pull requests, code reviews, project boards and team collaboration workflows.",
+    "docker": "Good understanding of containerizing applications with Docker, creating Dockerfiles and using Docker Compose for full-stack environments.",
+    "linux": "Solid Linux user with real experience from system administration. Confident in working with the terminal, file structure, permissions and environment configuration.",
+    "soft_skills": "Strong problem-solving abilities, high attention to detail, reliable teamwork, fast learning, and structured working style."
+  }
 }

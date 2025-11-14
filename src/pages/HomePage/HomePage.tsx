@@ -6,6 +6,7 @@ import SectionLayout from "../../shared/components/SectionLayout/SectionLayout";
 import HomeMain from "../../modules/HomeMain/HomeMain";
 import HomeLinks from "../../modules/HomeLinks/HomeLinks";
 import ContactLinks from "../../modules/ContactLinks/ContactLinks";
+import Skills from "../../modules/Skills/Skills";
 
 import { useSeo } from "../../shared/hooks/useSeo";
 
@@ -28,7 +29,7 @@ const HomePage: FC = () => {
         </SectionLayout>
 
         <SectionLayout title={t("home:skills.title")}>
-          <div></div>
+          <Skills />
         </SectionLayout>
 
         <SectionLayout title={t("home:projects.title")}>

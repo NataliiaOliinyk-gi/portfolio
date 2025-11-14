@@ -1,86 +1,101 @@
-import type { SkillsKey } from "../../i18n/keys"; 
+export type SkillItemKey =
+  | "javascript"
+  | "typescript"
+  | "react"
+  | "html"
+  | "css"
+  | "sass"
+  | "nodejs"
+  | "express"
+  | "mysql"
+  | "postgresql"
+  | "mongodb"
+  | "git"
+  | "github"
+  | "docker"
+  | "linux";
 
-export interface ISkillsItems {
+export interface ISkillsItem {
   id: string;
   icon: string;
-  labelKey: SkillsKey;
+  labelKey: SkillItemKey;
 }
 
-const skillsItems: ISkillsItems[] = [
+const skillsItems: ISkillsItem[] = [
   {
     id: "JavaScript",
-    icon: "/",
-    labelKey: "javascript"
+    icon: "icon",
+    labelKey: "javascript",
   },
   {
     id: "TypeScript",
-    icon: "/",
-    labelKey: "typescript"
+    icon: "icon",
+    labelKey: "typescript",
   },
   {
     id: "React",
-    icon: "/",
-    labelKey: "react"
+    icon: "icon",
+    labelKey: "react",
   },
   {
     id: "HTML",
-    icon: "/",
-    labelKey: "html"
+    icon: "icon",
+    labelKey: "html",
   },
   {
     id: "CSS",
-    icon: "/",
-    labelKey: "css"
+    icon: "icon",
+    labelKey: "css",
   },
   {
-    id: "sass",
-    icon: "/",
-    labelKey: "sass"
+    id: "Sass",
+    icon: "icon",
+    labelKey: "sass",
   },
   {
-    id: "nodejs",
-    icon: "/",
-    labelKey: "nodejs"
+    id: "Node.js",
+    icon: "icon",
+    labelKey: "nodejs",
   },
   {
-    id: "express",
-    icon: "/",
-    labelKey: "express"
+    id: "Express",
+    icon: "icon",
+    labelKey: "express",
   },
   {
-    id: "mysql",
-    icon: "/",
-    labelKey: "mysql"
+    id: "Docker",
+    icon: "icon",
+    labelKey: "docker",
   },
   {
-    id: "postgresql",
-    icon: "/",
-    labelKey: "postgresql"
+    id: "MySQL",
+    icon: "icon",
+    labelKey: "mysql",
   },
   {
-    id: "mongodb",
-    icon: "/",
-    labelKey: "mongodb"
+    id: "PostgreSql",
+    icon: "icon",
+    labelKey: "postgresql",
   },
   {
-    id: "git",
-    icon: "/",
-    labelKey: "git"
+    id: "MongoDB",
+    icon: "icon",
+    labelKey: "mongodb",
   },
   {
-    id: "github",
-    icon: "/",
-    labelKey: "github"
+    id: "Git",
+    icon: "icon",
+    labelKey: "git",
   },
   {
-    id: "docker",
-    icon: "/",
-    labelKey: "docker"
+    id: "GitHub",
+    icon: "icon",
+    labelKey: "github",
   },
-    {
-    id: "linux",
-    icon: "/",
-    labelKey: "linux"
+  {
+    id: "Linux",
+    icon: "icon",
+    labelKey: "linux",
   },
 ];
 
