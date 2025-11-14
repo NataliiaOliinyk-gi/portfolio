@@ -5,6 +5,7 @@ import Wrapper from "../../shared/components/Wrapper/Wrapper";
 import SectionLayout from "../../shared/components/SectionLayout/SectionLayout";
 import HomeMain from "../../modules/HomeMain/HomeMain";
 import HomeLinks from "../../modules/HomeLinks/HomeLinks";
+import ContactLinks from "../../modules/ContactLinks/ContactLinks";
 
 import { useSeo } from "../../shared/hooks/useSeo";
 
@@ -26,8 +27,20 @@ const HomePage: FC = () => {
           <HomeLinks />
         </SectionLayout>
 
-        <SectionLayout>
-          <p>{t("home:stats.projects", { count: projectCount })}</p>
+        <SectionLayout title={t("home:skills.title")}>
+          <div></div>
+        </SectionLayout>
+
+        <SectionLayout title={t("home:projects.title")}>
+          <p>{t("home:projects.projects", { count: projectCount })}</p>
+        </SectionLayout>
+
+        <SectionLayout title={t("home:about.title")}>
+          <div></div>
+        </SectionLayout>
+
+        <SectionLayout title={t("home:contact.title")}>
+          <ContactLinks />
         </SectionLayout>
       </Wrapper>
     </main>

@@ -72,6 +72,8 @@ const ContactLinks: FC = () => {
           </div>
         </div>
       </div>
+
+      <p className={styles.closing}>{tCtas("closing")}</p>
     </div>
   );
 };

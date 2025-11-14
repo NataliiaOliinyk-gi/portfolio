@@ -3,7 +3,6 @@
     "title": "Web Entwicklerin",
     "subtitle": "mit Fokus auf Struktur und Qualität",
     "title_welcome": "Willkommen in meinem Portfolio!",
-    "subtitle_welcome": "",
     "text_home": "Hallo, ich bin <strong>Nataliia</strong> - engagierte Junior Full-Stack-Entwicklerin mit einem strukturierten, qualitätsorientierten Ansatz. Ich entwickle moderne, responsive Webanwendungen mit Fokus auf Benutzerfreundlichkeit, Performance und sauberen Code.",
     "text_skills": "Erfahren in <strong>HTML, CSS, JavaScript, TypeScript, React, Node.js</strong> sowie <strong>SQL- & MongoDB-Datenbanken</strong>.",
     "text_familiar": "Vertraut mit <strong>Docker, Git</strong> und modernen Entwicklungs-Workflows.<br/>Leidenschaftlich interessiert an <strong>klarer Architektur, kontinuierlichem Lernen und lösungsorientierter Arbeit</strong>.",
@@ -12,8 +11,22 @@
     "cta1": "Projekte ansehen",
     "cta2": "Kontakt"
   },
-  "stats": {
+  "skills": {
+    "title": "Fähigkeiten",
+    "subtitle": "mit Fokus auf Struktur und Qualität"
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "mit Fokus auf Struktur und Qualität",
     "projects_one": "{{count}} Projekt",
     "projects_other": "{{count}} Projekte"
+  },
+  "about": {
+    "title": "Über mich",
+    "subtitle": "mit Fokus auf Struktur und Qualität"
+  },
+  "contact": {
+    "title": "Lassen Sie uns vernetzen!",
+    "subtitle": ""
   }
 }

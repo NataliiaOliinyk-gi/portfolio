@@ -56,6 +56,14 @@
     gap: 14px;
 }
 
+.closing{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--third-text-color);
+    line-height: 1.5;
+    margin-top: 60px;
+}
+
 
 @media (max-width: 768px) {
     .twoCols {
