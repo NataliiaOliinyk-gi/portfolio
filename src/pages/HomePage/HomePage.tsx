@@ -3,10 +3,12 @@ import { useTranslation } from "react-i18next";
 
 import Wrapper from "../../shared/components/Wrapper/Wrapper";
 import SectionLayout from "../../shared/components/SectionLayout/SectionLayout";
+
 import HomeMain from "../../modules/HomeMain/HomeMain";
 import HomeLinks from "../../modules/HomeLinks/HomeLinks";
 import ContactLinks from "../../modules/ContactLinks/ContactLinks";
 import Skills from "../../modules/Skills/Skills";
+import MyProjects from "../../modules/MyProjects/MyProjects";
 
 import { useSeo } from "../../shared/hooks/useSeo";
 
@@ -33,6 +35,7 @@ const HomePage: FC = () => {
         </SectionLayout>
 
         <SectionLayout title={t("home:projects.title")}>
+          <MyProjects />
           <p>{t("home:projects.projects", { count: projectCount })}</p>
         </SectionLayout>
 

@@ -1,1 +1,9 @@
-{}
+{
+  "hero": {
+    "title": "My Projects",
+    "subtitle": "Here are my most important projects where I've applied my full-stack web development skills. Each project demonstrates my ability to develop modern, scalable, and user-centric applications. Feel free to browse and click on the individual images for a more detailed description. If you have any questions or need support, please don't hesitate to contact me. I look forward to hearing from you!"
+  },
+  "items": {
+    "javascript": "Sehr gute"
+  }
+}

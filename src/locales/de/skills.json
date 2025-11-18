@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Fähigkeiten",
-    "subtitle": "Auf meinem beruflichen Weg in der IT habe ich mein Hintergrundwissen aus der Systemadministration und der Wirtschaft mit meinen Fähigkeiten in der Frontend- und Backend-Entwicklung verbunden. Dadurch kann ich vollständige, zuverlässige und nutzerorientierte Webanwendungen entwickeln. Ich arbeite mit agilen Methoden, Clean-Code-Prinzipien und Versionskontrolle – stets mit Fokus auf Qualität, Skalierbarkeit und eine klare Systemarchitektur. Durch meine frühere Tätigkeit in der Administration gehe ich Entwicklungsaufgaben strukturiert, analytisch und detailorientiert an und sorge für stabile Lösungen sowie effiziente Arbeitsabläufe."
+    "subtitle": "Auf meinem beruflichen Weg in der IT habe ich mein Hintergrundwissen aus der Systemadministration und der Wirtschaft mit meinen Fähigkeiten in der Frontend- und Backend-Entwicklung verbunden. Dadurch kann ich vollständige, zuverlässige und nutzerorientierte Webanwendungen entwickeln. Ich arbeite mit agilen Methoden, Clean-Code-Prinzipien und Versionskontrolle - stets mit Fokus auf Qualität, Skalierbarkeit und eine klare Systemarchitektur. Durch meine frühere Tätigkeit in der Administration gehe ich Entwicklungsaufgaben strukturiert, analytisch und detailorientiert an und sorge für stabile Lösungen sowie effiziente Arbeitsabläufe."
   },
   "items": {
     "javascript": "Sehr gute Kenntnisse in modernem JavaScript (ES6+), darunter asynchrone Programmierung, Promises, async/await, DOM-Manipulation und funktionale Muster. Erfahrung in der Entwicklung interaktiver, API-basierter Benutzeroberflächen.",

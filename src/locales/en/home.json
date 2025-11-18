@@ -16,7 +16,7 @@
     "subtitle": "Throughout my IT path, I have combined my background in system administration and economics with my skills in both frontend and backend development. This allows me to build complete, reliable and user-focused web applications. My experience includes working with agile methodologies, clean code principles and version control, always with an emphasis on quality, scalability and clear system architecture. Thanks to my previous administrative experience, I approach development in a structured, analytical and detail-oriented way, ensuring stable solutions and efficient workflows."
   },
   "projects": {
-    "title": "Projects",
+    "title": "My Projects",
     "subtitle": "mit Fokus auf Struktur und Qualität",
     "projects_one": "{{count}} Projekt",
     "projects_other": "{{count}} Projekte"

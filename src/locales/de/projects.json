@@ -1,1 +1,9 @@
-{}
+{
+  "hero": {
+    "title": "Meine Projekte",
+    "subtitle": "Hier sind meine wichtigsten Projekte, in denen ich meine Kenntnisse in der Full-Stack-Webentwicklung angewendet habe. Jedes einzelne Projekt demonstriert meine Fähigkeit, moderne, skalierbare und benutzerorientierte Anwendungen zu entwickeln. Schau dich ruhig um und klicke auf die einzelnen Bilder, dort bekommst du noch eine detailliertere Beschreibung. Wenn du Fragen hast oder ebenfalls Unterstützung gebrauchen könntest, schreibe mir gerne. Ich freue mich auf deine Nachricht!"
+  },
+  "items": {
+    "javascript": "Sehr gute"
+  }
+}
