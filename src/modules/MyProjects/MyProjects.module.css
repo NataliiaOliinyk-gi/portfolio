@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.contactLink {
+    width: 80%;
+    max-width: 280px;
+    align-self: self-end;
+    margin-right: 100px;
+}
