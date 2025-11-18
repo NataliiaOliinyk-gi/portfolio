@@ -3,6 +3,7 @@ import type { FC } from "react";
 import { useTranslation } from "react-i18next";
 
 import ButtonResume from "../../shared/components/ButtonResume/ButtonResume";
+import ButtonLinks from "../../shared/components/ButtonLinks/ButtonLinks";
 
 import { getContactItems } from "../../shared/data/contact.items";
 
@@ -34,41 +35,29 @@ const ContactLinks: FC = () => {
 
         <div className={styles.twoCols}>
           <div className={styles.col}>
-            <a
-              className={styles.linkBtn}
+            <ButtonLinks
               href={email.href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {email.title}
-            </a>
-            <a
-              className={styles.linkBtn}
+              text={email.title}
+              className={styles.contactLink}
+            />
+            <ButtonLinks
               href={whatsapp.href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {whatsapp.title}
-            </a>
+              text={whatsapp.title}
+              className={styles.contactLink}
+            />
           </div>
 
           <div className={styles.col}>
-            <a
-              className={styles.linkBtn}
+            <ButtonLinks
               href={github.href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {github.title}
-            </a>
-            <a
-              className={styles.linkBtn}
+              text={github.title}
+              className={styles.contactLink}
+            />
+            <ButtonLinks
               href={linkedin.href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {linkedin.title}
-            </a>
+              text={linkedin.title}
+              className={styles.contactLink}
+            />
           </div>
         </div>
       </div>

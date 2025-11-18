@@ -14,34 +14,6 @@
     color: var(--third-text-color);
 }
 
-.linkBtn {
-    text-decoration: none;
-    cursor: pointer;
-    background: color-mix(in srgb, var(--main-background-color) 50%, transparent);
-    border: none;
-    border-radius: 8px;
-    padding: 16px 24px;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin-inline: auto;
-    white-space: normal;
-
-    font: inherit;
-    font-weight: 400;
-    font-size: 18px;
-    color: var(--white-text-color);
-
-    transition: ease-in-out 500ms;
-}
-
-.linkBtn:hover {
-    background: color-mix(in srgb, var(--second-background-color) 30%, transparent);
-    transform: scale(1.05);
-}
-
 .twoCols {
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 1fr));
@@ -56,14 +28,18 @@
     gap: 14px;
 }
 
-.closing{
+.contactLink {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.closing {
     font-weight: 400;
     font-size: 18px;
     color: var(--third-text-color);
     line-height: 1.5;
     margin-top: 60px;
 }
-
 
 @media (max-width: 768px) {
     .twoCols {

@@ -5,8 +5,6 @@ import Wrapper from "../../shared/components/Wrapper/Wrapper";
 import SectionLayout from "../../shared/components/SectionLayout/SectionLayout";
 import Skills from "../../modules/Skills/Skills";
 
-// import styles from "./SkillsPage.module.css";
-
 const SkillsPage: FC = () => {
   const { t } = useTranslation(["skills"]);
 

@@ -2,6 +2,7 @@ import type { FC } from "react";
 import { useTranslation } from "react-i18next";
 
 import ButtonResume from "../../shared/components/ButtonResume/ButtonResume";
+import ButtonLinks from "../../shared/components/ButtonLinks/ButtonLinks";
 
 import styles from "./HomeLinks.module.css";
 
@@ -11,17 +12,8 @@ const HomeLinks: FC = () => {
   return (
     <div className={styles.btnBox}>
       <div className={styles.linksBtnBox}>
-        <a
-          className={styles.linkBtn}
-          href="/projects"
-          rel="noopener noreferrer"
-        >
-          {t("home:hero.cta1")}
-        </a>
-
-        <a className={styles.linkBtn} href="/contact" rel="noopener noreferrer">
-          {t("home:hero.cta2")}
-        </a>
+        <ButtonLinks href="/projects" text={t("home:hero.cta1")} />
+        <ButtonLinks href="/contact" text={t("home:hero.cta2")} />
       </div>
       <div className={styles.resumeBox}>
         <ButtonResume />

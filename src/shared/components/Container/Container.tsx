@@ -6,10 +6,8 @@ interface IContainerProps {
   children: ReactNode;
 }
 
-const Container: FC<IContainerProps> = ({children})=>{
-    return (
-        <div>{children}</div>
-    )
+const Container: FC<IContainerProps> = ({ children }) => {
+  return <div className={styles.container}>{children}</div>;
 };
 
 export default Container;

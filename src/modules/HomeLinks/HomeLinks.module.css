@@ -11,33 +11,5 @@
 }
 
 .resumeBox {
-    width: 600px; 
-}
-
-.linkBtn {
-    text-decoration: none;
-    cursor: pointer;
-    background: color-mix(in srgb, var(--main-background-color) 50%, transparent);
-    border: none;
-    border-radius: 8px;
-    padding: 16px 24px;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    max-width: 380px;
-    white-space: normal;
-
-    font: inherit;
-    font-weight: 400;
-    font-size: 18px;
-    color: var(--white-text-color);
-
-    transition: ease-in-out 500ms;
-}
-
-.linkBtn:hover {
-    background: color-mix(in srgb, var(--second-background-color) 30%, transparent);
-    transform: scale(1.05);
+    width: 600px;
 }
