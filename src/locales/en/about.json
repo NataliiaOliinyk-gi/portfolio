@@ -1,4 +1,9 @@
 {
+  "hero": {
+    "title": "About me",
+    "subtitle": "Here you'll find a selection of my key projects where I applied and further developed my full-stack web development skills. Each project reflects my focus on modern technologies, clean architecture, and a user-friendly experience. Feel free to explore the projects - by clicking on the images, you'll get a more detailed description. If you have any questions or are interested in working together, don't hesitate to reach out. I look forward to hearing from you!",
+    "cta": "Contact"
+  },
   "about_text": [
     "I build modern web applications with a strong focus on usability, performance, and clean architecture. My foundation combines eight years of experience in system administration with a completed training in web and full-stack development. ",
     "I work in a structured and reliable way, with attention to quality and detail - from infrastructure to UI. Regular mountain and forest hikes help me stay focused and persistent, while my creative hobby of crafting floral decorations sharpens my patience and sense of aesthetics. ",

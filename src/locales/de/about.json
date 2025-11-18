@@ -1,4 +1,9 @@
 {
+  "hero": {
+    "title": "Über mich",
+    "subtitle": "Hier finden Sie eine Auswahl meiner wichtigsten Projekte, in denen ich meine Kenntnisse in der Full-Stack-Webentwicklung angewendet und weiter vertieft habe. Jedes Projekt zeigt meinen Fokus auf moderne Technologien, eine saubere Architektur und eine benutzerfreundliche Umsetzung. Schauen Sie sich gerne um - durch einen Klick auf die Bilder erhalten Sie eine detailliertere Beschreibung. Wenn Sie Fragen haben oder an einer Zusammenarbeit interessiert sind, schreiben Sie mir gerne. Ich freue mich auf Ihre Nachricht!",
+    "cta": "Kontakt"
+  },
   "about_text": [
     "Ich entwickle moderne Webanwendungen mit Fokus auf Benutzerfreundlichkeit, Performance und saubere Architektur. Mein Fundament bilden acht Jahre Erfahrung in der Systemadministration sowie eine erfolgreich abgeschlossene Weiterbildung zur Web- und Full-Stack-Entwicklerin.",
     "Ich arbeite strukturiert, zuverlässig und mit einem klaren Qualitätsanspruch - von der Infrastruktur bis zum UI. Regelmäßige Berg- und Waldwanderungen geben mir Fokus und Ausdauer, während mein kreatives Hobby -  das Gestalten von Handgemachte Dekorationen - meine Liebe zum Detail stärkt.",
