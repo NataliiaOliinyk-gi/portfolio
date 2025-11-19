@@ -1,0 +1,10 @@
+.btnBox{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contactLink {
+    max-width: 280px;
+}

@@ -1,1 +1,6 @@
-{}
+{
+  "title": "404 - Project not found",
+  "subtitle": "The project you requested was not found. Please check the address or return to the project overview.",
+  "cta1": "Home",
+  "cta2": "Projects"
+}
