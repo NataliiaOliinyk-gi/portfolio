@@ -73,7 +73,6 @@
 }
 
 .textHome strong {
-    /* font-family: var(--font-serif); */
     font-size: 32px;
     font-weight: 600;
     color: var(--third-text-color);
