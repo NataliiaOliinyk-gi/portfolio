@@ -4,7 +4,67 @@
     "subtitle": "Hier finden Sie eine Auswahl meiner wichtigsten Projekte, in denen ich meine Kenntnisse in der Full-Stack-Webentwicklung angewendet und weiter vertieft habe. Jedes Projekt zeigt meinen Fokus auf moderne Technologien, eine saubere Architektur und eine benutzerfreundliche Umsetzung. Schauen Sie sich gerne um - durch einen Klick auf die Bilder erhalten Sie eine detailliertere Beschreibung. Wenn Sie Fragen haben oder an einer Zusammenarbeit interessiert sind, schreiben Sie mir gerne. Ich freue mich auf Ihre Nachricht!",
     "cta": "Kontakt"
   },
+  "project": {
+    "title": "Über das Projekt",
+    "goal": "Projektziel",
+    "features": "Funktionalitäten",
+    "technologies": "Technologien",
+    "problems": "Gelöste Probleme/Herausforderungen",
+    "learn": "Was habe ich gelernt",
+    "testData": "Sie können es mit Testdaten ausprobieren:"
+  },
   "items": {
-    "javascript": "Sehr gute"
+    "pet-shop": {
+      "title": "Online-Shop für Heimtierbedarf",
+      "description": "Eine moderne Webanwendung für einen Online-Tierbedarfshandel mit intuitiver und reaktionsschneller Benutzerführung. Die Plattform ermöglicht es Nutzern, Produkte nach Kategorien zu durchsuchen, Artikel in den Warenkorb zu legen, Rabatte anzuwenden und Bestellungen reibungslos abzuschließen.",
+      "goal": "Entwicklung eines responsive und benutzerfreundliche Webanwendung für einen Online-Shop entsprechend dem Figma-Design. Dieses Projekt ist das Abschlussprojekt des Frontend-Kurses und wurde mit React und modernen Webtechnologien umgesetzt.",
+      "features": [
+        "Startseite mit Promo-Sektion und Kategorienübersicht.",
+        "Seiten für einzelne Kategorien, reduzierte Artikel und alle Produkte.",
+        "Detaillierte Produktseite mit Beschreibung und Kaufoption.",
+        "Warenkorb mit Bearbeitungs- und Bestellmöglichkeiten.",
+        "Formular zur Bestellung und zur Einlösung eines Rabattcodes.",
+        "Responsives Layout für verschiedene Bildschirmgrößen.",
+        "Fehlerbehandlung mit einer eigenen 404-Seite."
+      ],
+      "technologies": "React, Redux Toolkit, React Router Dom, Axios, React Hook Form, CSS Modules",
+      "problems": "",
+      "learn": "Mit diesem Projekt wurden alle Kursanforderungen erfolgreich umgesetzt und moderne UI/UX-Prinzipien praxisnah angewendet."
+    },
+    "ichgram": {
+      "title": "ICHGram - ähnlich wie Instagramm",
+      "description": "ICHGram ist eine umfassende Social Media Anwendung, die die Kernfunktionen von Instagram nachbildet und es Nutzern ermöglicht, Beiträge zu teilen, Inhalte zu entdecken, Echtzeitnachrichten zu senden und ihre Profile zu verwalten.",
+      "goal": "",
+      "features": [
+        "Registrierung und Login mit JWT",
+        "Erstellung, Bearbeitung und Löschung von Beiträgen (Posts)",
+        "Likes und Kommentare",
+        "Benutzerprofile mit Bild-Upload",
+        "Nutzersuche",
+        "Benachrichtigungen",
+        "Echtzeit-Chat mit WebSockets",
+        "Folgen und Entfolgen von Benutzern"
+      ],
+      "technologiesFrontend": "React/TypeScript, Redux Toolkit, React Router Dom, Axios, React Hook Form, CSS Modules",
+      "technologiesBackend": "Node.js/Express, TypeScript, MongoDB, Mongoose, JWT, bcrypt, dotenv, multer, Docker",
+      "problems": "",
+      "learn": "Mit diesem Projekt wurden "
+    },
+    "meetap": {
+      "title": "Meetup-Event-Portal",
+      "description": "Eine moderne Webanwendung für ... Die Plattform ermöglicht es Entdecken Sie sofort Veranstaltungen in Ihrer Nähe und verbinden Sie sich mit Gleichgesinnten. Intuitive Filter erleichtern das Finden Ihres nächsten Meetups.",
+      "goal": "Das Hauptziel dieses Projekts ist die Entwicklung eines responsiven Designs, das eine optimale Benutzererfahrung auf verschiedenen Geräten und Bildschirmgrößen gewährleistet, entsprechend dem Figma-Design. Dieses Projekt ist das Im Rahmen meines Frontend-Kurses mit HTML, CSS, SASS und JavaScript umgesetzt.",
+      "features": [
+        "Filterung von Veranstaltungen nach Datum, Art, Entfernung und Kategorie",
+        "Responsives Design für verschiedene Bildschirmgrößen",
+        "Navigation über Klick auf das Logo zur Startseite",
+        "Weiterleitung über Button „Join Meetup“ zur Eventseite",
+        "Schriftart Roboto via Google Fonts eingebunden",
+        "Header und Footer werden dynamisch mit JavaScript gerendert"
+      ],
+      "technologies": "HTML, CSS, SASS, JavaScript (Vanilla)",
+      "problems": "",
+      "learn": "Dieses Projekt erfüllt alle technischen und funktionalen Anforderungen des Kurses und demonstriert praxisorientierte Umsetzung von UI/UX-Konzepten im Frontend."
+    }
   }
 }

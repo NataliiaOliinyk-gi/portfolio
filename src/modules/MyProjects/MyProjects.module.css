@@ -1,4 +1,4 @@
-.box {
+.titleBox {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -10,4 +10,20 @@
     max-width: 280px;
     align-self: self-end;
     margin-right: 100px;
+}
+
+.projectsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
