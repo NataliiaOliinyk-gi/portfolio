@@ -1,0 +1,132 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-block: 24px;
+}
+
+/* Картинка зверху, як hero */
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.imageBox {
+    max-width: 960px;
+    width: 100%;
+
+    border-radius: 16px;
+    overflow: hidden;
+
+    box-shadow: 0 0 24px rgb(var(--main-border-rgb) / 0.35);
+
+    /* плавний hover як на референсі */
+    transition: transform 400ms ease-out, box-shadow 400ms ease-out;
+}
+
+.imageBox:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 0 32px rgb(var(--main-border-rgb) / 0.5);
+}
+
+.image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.imageHint {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--second-text-color);
+    text-align: center;
+}
+
+
+
+/* .imageBox {
+    flex: 0 0 380px;
+    max-width: 420px;
+
+    box-shadow: 0 0 16px rgb(var(--main-border-rgb) / 0.4);
+    border-radius: 12px;
+    padding: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    border-radius: 8px;
+} */
+
+.mainText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--third-text-color);
+    text-align: justify;
+}
+
+/* Кнопки */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Блок із тестовими даними */
+.testData {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blockTitle {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--second-text-color);
+}
+
+.blockText {
+   font-size: 16px;
+    line-height: 1.7;
+    color: var(--third-text-color);
+    text-align: justify;
+}
+
+/* Список фіч */
+.featuresList {
+    list-style: disc;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.featureItem {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--third-text-color);
+}

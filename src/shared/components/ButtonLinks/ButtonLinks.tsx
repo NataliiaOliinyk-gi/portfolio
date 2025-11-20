@@ -6,14 +6,16 @@ interface IButtonLinksProps {
   href: string;
   text: string;
   className?: string;
+  target?: string;
 }
 
-const ButtonLinks: FC<IButtonLinksProps> = ({ href, text, className }) => {
+const ButtonLinks: FC<IButtonLinksProps> = ({ href, text, className, target }) => {
   return (
     <a
       className={`${styles.linkBtn} ${className ?? ""}`}
       href={href}
       rel="noopener noreferrer"
+      target={target}
     >
       {text}
     </a>

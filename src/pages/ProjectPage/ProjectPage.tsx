@@ -29,7 +29,7 @@ const ProjectPage: FC = () => {
     <main>
       <Wrapper>
         <SectionLayout title={t(titleKey)}>
-          <Project />
+          <Project id={id}/>
         </SectionLayout>
       </Wrapper>
     </main>

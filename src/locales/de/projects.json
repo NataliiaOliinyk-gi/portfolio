@@ -28,13 +28,13 @@
         "Fehlerbehandlung mit einer eigenen 404-Seite."
       ],
       "technologies": "React, Redux Toolkit, React Router Dom, Axios, React Hook Form, CSS Modules",
-      "problems": "",
+      "problems": "Probleme/Herausforderungen",
       "learn": "Mit diesem Projekt wurden alle Kursanforderungen erfolgreich umgesetzt und moderne UI/UX-Prinzipien praxisnah angewendet."
     },
     "ichgram": {
       "title": "ICHGram - ähnlich wie Instagramm",
       "description": "ICHGram ist eine umfassende Social Media Anwendung, die die Kernfunktionen von Instagram nachbildet und es Nutzern ermöglicht, Beiträge zu teilen, Inhalte zu entdecken, Echtzeitnachrichten zu senden und ihre Profile zu verwalten.",
-      "goal": "",
+      "goal": "Projektziel",
       "features": [
         "Registrierung und Login mit JWT",
         "Erstellung, Bearbeitung und Löschung von Beiträgen (Posts)",
@@ -47,7 +47,7 @@
       ],
       "technologiesFrontend": "React/TypeScript, Redux Toolkit, React Router Dom, Axios, React Hook Form, CSS Modules",
       "technologiesBackend": "Node.js/Express, TypeScript, MongoDB, Mongoose, JWT, bcrypt, dotenv, multer, Docker",
-      "problems": "",
+      "problems": "Probleme/Herausforderungen",
       "learn": "Mit diesem Projekt wurden "
     },
     "meetap": {
@@ -63,7 +63,7 @@
         "Header und Footer werden dynamisch mit JavaScript gerendert"
       ],
       "technologies": "HTML, CSS, SASS, JavaScript (Vanilla)",
-      "problems": "",
+      "problems": "Probleme/Herausforderungen",
       "learn": "Dieses Projekt erfüllt alle technischen und funktionalen Anforderungen des Kurses und demonstriert praxisorientierte Umsetzung von UI/UX-Konzepten im Frontend."
     }
   }

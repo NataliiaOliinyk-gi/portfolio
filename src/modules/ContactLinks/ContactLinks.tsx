@@ -38,11 +38,13 @@ const ContactLinks: FC = () => {
             <ButtonLinks
               href={email.href}
               text={email.title}
+              target="_blank"
               className={styles.contactLink}
             />
             <ButtonLinks
               href={whatsapp.href}
               text={whatsapp.title}
+              target="_blank"
               className={styles.contactLink}
             />
           </div>
@@ -51,11 +53,13 @@ const ContactLinks: FC = () => {
             <ButtonLinks
               href={github.href}
               text={github.title}
+              target="_blank"
               className={styles.contactLink}
             />
             <ButtonLinks
               href={linkedin.href}
               text={linkedin.title}
+              target="_blank"
               className={styles.contactLink}
             />
           </div>
