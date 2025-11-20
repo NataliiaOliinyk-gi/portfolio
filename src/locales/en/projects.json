@@ -2,7 +2,8 @@
   "hero": {
     "title": "My Projects",
     "subtitle": "Here you'll find a selection of my key projects where I applied and further developed my full-stack web development skills. Each project reflects my focus on modern technologies, clean architecture, and a user-friendly experience. Feel free to explore the projects - by clicking on the images, you'll get a more detailed description. If you have any questions or are interested in working together, don't hesitate to reach out. I look forward to hearing from you!",
-    "cta": "Contact"
+    "cta": "Contact",
+    "cta2": "View more projects"
   },
   "project": {
     "title": "Project",
@@ -11,7 +12,10 @@
     "technologies": "Technologies",
     "problems": "Gelöste Probleme/Herausforderungen",
     "learn": "Was habe ich gelernt",
-    "testData": ""
+    "testData": "Sie können es mit Testdaten ausprobieren:",
+    "btn1": "Try live preview",
+    "btn2": "View GitHub (Frontend)",
+    "btn3": "View GitHub (Backend)"
   },
   "items": {
     "pet-shop": {

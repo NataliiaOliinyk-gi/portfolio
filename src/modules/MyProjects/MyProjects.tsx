@@ -30,8 +30,8 @@ const MyProjects: FC = () => {
 
   return (
     <Container>
+      <Subtitle text={t("projects:hero.subtitle")} />
       <div className={styles.titleBox}>
-        <Subtitle text={t("projects:hero.subtitle")} />
         <ButtonLinks
           href="/contact"
           text={t("projects:hero.cta")}

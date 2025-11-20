@@ -2,16 +2,21 @@
   "hero": {
     "title": "Meine Projekte",
     "subtitle": "Hier finden Sie eine Auswahl meiner wichtigsten Projekte, in denen ich meine Kenntnisse in der Full-Stack-Webentwicklung angewendet und weiter vertieft habe. Jedes Projekt zeigt meinen Fokus auf moderne Technologien, eine saubere Architektur und eine benutzerfreundliche Umsetzung. Schauen Sie sich gerne um - durch einen Klick auf die Bilder erhalten Sie eine detailliertere Beschreibung. Wenn Sie Fragen haben oder an einer Zusammenarbeit interessiert sind, schreiben Sie mir gerne. Ich freue mich auf Ihre Nachricht!",
-    "cta": "Kontakt"
+    "cta": "Kontakt",
+    "cta2": "Weitere Projekte ansehen"
   },
   "project": {
     "title": "Über das Projekt",
+    "hint": "(wenn du mit der Maus über das Bild hoverst, bewegt sich das Bild)",
     "goal": "Projektziel",
     "features": "Funktionalitäten",
     "technologies": "Technologien",
     "problems": "Gelöste Probleme/Herausforderungen",
     "learn": "Was habe ich gelernt",
-    "testData": "Sie können es mit Testdaten ausprobieren:"
+    "testData": "Sie können es mit Testdaten ausprobieren:",
+    "btn1": "Live-Vorschau ausprobieren",
+    "btn2": "Zu GitHub (Frontend)",
+    "btn3": "Zu GitHub (Backend)"
   },
   "items": {
     "pet-shop": {

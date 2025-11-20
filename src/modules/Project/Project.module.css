@@ -1,15 +1,21 @@
-.project {
+.mainBox {
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    padding-block: 24px;
+    gap: 40px;
 }
 
-/* Картинка зверху, як hero */
+.description {
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--third-text-color);
+    text-align: justify;
+}
+
 .imageWrapper {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 24px;
     align-items: center;
 }
 
@@ -19,10 +25,8 @@
 
     border-radius: 16px;
     overflow: hidden;
-
     box-shadow: 0 0 24px rgb(var(--main-border-rgb) / 0.35);
 
-    /* плавний hover як на референсі */
     transition: transform 400ms ease-out, box-shadow 400ms ease-out;
 }
 
@@ -40,62 +44,18 @@
 .imageHint {
     font-size: 14px;
     font-style: italic;
-    color: var(--second-text-color);
-    text-align: center;
-}
-
-
-
-/* .imageBox {
-    flex: 0 0 380px;
-    max-width: 420px;
-
-    box-shadow: 0 0 16px rgb(var(--main-border-rgb) / 0.4);
-    border-radius: 12px;
-    padding: 6px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    overflow: hidden;
-}
-
-.image {
-    width: 100%;
-    display: block;
-    object-fit: contain;
-    border-radius: 8px;
-} */
-
-.mainText {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.description {
-    font-size: 18px;
-    line-height: 1.6;
     color: var(--third-text-color);
-    text-align: justify;
+    text-align: center;
+    opacity: 0.6;
 }
 
-/* Кнопки */
-.buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-/* Блок із тестовими даними */
-.testData {
+.project {
+    width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 40px;
+    padding-block: 24px;
 }
-
 
 .block {
     display: flex;
@@ -106,27 +66,57 @@
 .blockTitle {
     font-size: 22px;
     font-weight: 600;
-    color: var(--second-text-color);
+    color: var(--third-text-color);
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .blockText {
-   font-size: 16px;
-    line-height: 1.7;
-    color: var(--third-text-color);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--second-text-color);
+    line-height: 1.4;
     text-align: justify;
 }
 
-/* Список фіч */
 .featuresList {
     list-style: disc;
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 5px;
 }
 
 .featureItem {
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--third-text-color);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--second-text-color);
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.buttonsBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.projectLink {
+    width: 80%;
+    max-width: 300px;
+    background: color-mix(in srgb, var(--second-background-color) 50%, transparent);
+}
+
+.btnLink {
+    width: 80%;
+    max-width: 300px;
+    align-self: self-end;
+}
+
+.btnLinkBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 16px;
 }
