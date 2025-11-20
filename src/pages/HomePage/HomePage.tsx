@@ -16,7 +16,6 @@ import styles from "./HomePage.module.css";
 
 const HomePage: FC = () => {
   const { t } = useTranslation(["home"]);
-  const projectCount = 3;
   useSeo("home.title", "home.description");
 
   return (
@@ -36,7 +35,6 @@ const HomePage: FC = () => {
 
         <SectionLayout title={t("home:projects.title")}>
           <MyProjects />
-          <p>{t("home:projects.projects", { count: projectCount })}</p>
         </SectionLayout>
 
         <SectionLayout title={t("home:about.title")}>

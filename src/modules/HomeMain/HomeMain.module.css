@@ -37,10 +37,11 @@
 }
 
 .textBox {
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: justify;
 }
 
 .textHome {
