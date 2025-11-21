@@ -23,7 +23,10 @@ const Project: FC<IProjectProps> = ({ id }) => {
 
   const baseKey: ProjectBaseKey = `items.${id}`;
 
-  const tUnsafe = t as unknown as (key: string, options?: Record<string, unknown>) => string;
+  const tUnsafe = t as unknown as (
+    key: string,
+    options?: Record<string, unknown>
+  ) => string;
 
   const getOptional = (key: string): string => {
     const value = tUnsafe(key);
@@ -37,6 +40,11 @@ const Project: FC<IProjectProps> = ({ id }) => {
 
   const hasSplitTech = !!(techFE || techBE || techDB);
 
+  const description = t(`${baseKey}.descriptionProject`, {
+    returnObjects: true,
+    defaultValue: [],
+  }) as string[];
+
   const features = t(`${baseKey}.features`, {
     returnObjects: true,
     defaultValue: [],
@@ -45,7 +53,15 @@ const Project: FC<IProjectProps> = ({ id }) => {
   return (
     <Container>
       <div className={styles.mainBox}>
-        <p className={styles.description}>{t(`${baseKey}.description`)}</p>
+        {description && description.length > 0 && (
+          <ul className={styles.descriptionList}>
+            {description.map((item, index) => (
+              <li key={index} className={styles.description}>
+                {item}
+              </li>
+            ))}
+          </ul>
+        )}
 
         <div className={styles.imageWrapper}>
           <p className={styles.imageHint}>{t("projects:project.hint")}</p>
@@ -109,6 +125,16 @@ const Project: FC<IProjectProps> = ({ id }) => {
             </ul>
           </div>
         )}
+
+        <div className={styles.block}>
+          <p className={styles.blockTitle}>{t("projects:project.initial")}</p>
+          <p className={styles.blockText}>{t(`${baseKey}.initial`)}</p>
+        </div>
+
+        <div className={styles.block}>
+          <p className={styles.blockTitle}>{t("projects:project.sequence")}</p>
+          <p className={styles.blockText}>{t(`${baseKey}.sequence`)}</p>
+        </div>
 
         <div className={styles.block}>
           <p className={styles.blockTitle}>{t("projects:project.problems")}</p>

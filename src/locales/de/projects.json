@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Meine Projekte",
-    "subtitle": "Hier finden Sie eine Auswahl meiner wichtigsten Projekte, in denen ich meine Kenntnisse in der Full-Stack-Webentwicklung angewendet und weiter vertieft habe. Jedes Projekt zeigt meinen Fokus auf moderne Technologien, eine saubere Architektur und eine benutzerfreundliche Umsetzung. Schauen Sie sich gerne um - durch einen Klick auf die Bilder erhalten Sie eine detailliertere Beschreibung. Wenn Sie Fragen haben oder an einer Zusammenarbeit interessiert sind, schreiben Sie mir gerne. Ich freue mich auf Ihre Nachricht!",
+    "subtitle": "Hier finden Sie eine Auswahl meiner Projekte, in denen ich meine Kenntnisse in der Full-Stack-Webentwicklung angewendet und weiter vertieft habe. Jedes Projekt zeigt meinen Fokus auf moderne Technologien, eine saubere Architektur und eine benutzerfreundliche Umsetzung. Schauen Sie sich gerne um - durch einen Klick auf die Bilder erhalten Sie eine detailliertere Beschreibung. Wenn Sie Fragen haben oder an einer Zusammenarbeit interessiert sind, schreiben Sie mir gerne. Ich freue mich auf Ihre Nachricht!",
     "cta": "Kontakt",
     "cta2": "Weitere Projekte ansehen"
   },
@@ -14,6 +14,8 @@
     "frontend": "Frontend",
     "backend": "Backend",
     "database": "Datenbanken",
+    "initial": "Ausgangssituation",
+    "sequence": "Ablauf",
     "problems": "Gelöste Probleme/Herausforderungen",
     "learn": "Was habe ich gelernt",
     "testData": "Sie können es mit Testdaten ausprobieren:",
@@ -24,56 +26,82 @@
   "items": {
     "pet-shop": {
       "title": "Online-Shop für Heimtierbedarf",
-      "description": "Eine moderne Webanwendung für einen Online-Tierbedarfshandel mit intuitiver und reaktionsschneller Benutzerführung. Die Plattform ermöglicht es Nutzern, Produkte nach Kategorien zu durchsuchen, Artikel in den Warenkorb zu legen, Rabatte anzuwenden und Bestellungen reibungslos abzuschließen.",
-      "goal": "Entwicklung eines responsive und benutzerfreundliche Webanwendung für einen Online-Shop entsprechend dem Figma-Design. Dieses Projekt ist das Abschlussprojekt des Frontend-Kurses und wurde mit React und modernen Webtechnologien umgesetzt.",
+      "description": "Eine moderne Webanwendung für einen Online-Tierbedarfshandel mit intuitiver und reaktionsschneller Benutzerführung. Die Plattform ermöglicht es Nutzern, Produkte nach Kategorien zu durchsuchen, Artikel in den Warenkorb zu legen, Rabatte anzuwenden und Bestellungen reibungslos abzuschließen. ",
+      "descriptionProject": [
+        "Dieses Projekt ist eine benutzerfreundliche Webanwendung, über die Nutzer Heimtierprodukte entdecken, nach Kategorien, Preisen und Rabatten filtern, Rabatte anwenden und Bestellungen aufgeben können.",
+        "Die Seite bietet eine klare Struktur, intuitive Navigation und ein modernes Design, das sich flexibel an verschiedene Bildschirmgrößen anpasst."
+      ],
+      "goal": "Ziel des Projekts war es, das Figma-Design pixelgenau umzusetzen und einen vollständig responsiven Online-Shop zu entwickeln, der ein angenehmes Einkaufserlebnis bietet. Dazu gehörten Seiten für Kategorien, Produktdetails, Warenkorb und ein Bestellformular. Das Projekt wurde als Abschlussprojekt des Frontend-Kurses und wurde mit React und modernen Webtechnologien umgesetzt.",
       "features": [
-        "Startseite mit Promo-Sektion und Kategorienübersicht.",
-        "Seiten für einzelne Kategorien, reduzierte Artikel und alle Produkte.",
-        "Detaillierte Produktseite mit Beschreibung und Kaufoption.",
-        "Warenkorb mit Bearbeitungs- und Bestellmöglichkeiten.",
-        "Formular zur Bestellung und zur Einlösung eines Rabattcodes.",
-        "Responsives Layout für verschiedene Bildschirmgrößen.",
-        "Fehlerbehandlung mit einer eigenen 404-Seite."
+        "Startseite mit Promo-Sektion und Kategorienübersicht",
+        "Seiten für einzelne Kategorien, reduzierte Artikel und alle Produkte",
+        "Detaillierte Produktseite mit Beschreibung und Kaufoption",
+        "Warenkorb mit Bearbeitungs- und Bestellmöglichkeiten",
+        "Formular zur Bestellung und zur Einlösung eines Rabattcodes mit Validierung",
+        "Modale Erfolgsmeldungen nach gesendeten Formularen",
+        "API-Anbindung für Kategorien, Produkte und einzelne Artikel",
+        "Filterung und Sortierung nach Preis und Rabatten",
+        "Breadcrumb-Navigation für bessere Orientierung",
+        "Responsives Layout für verschiedene Bildschirmgrößen",
+        "Fehlerbehandlung mit einer eigenen 404-Seite"
       ],
       "technologies": "React, Redux Toolkit, React Router Dom, Axios, React Hook Form, CSS Modules",
-      "problems": "Probleme/Herausforderungen",
-      "learn": "Mit diesem Projekt wurden alle Kursanforderungen erfolgreich umgesetzt und moderne UI/UX-Prinzipien praxisnah angewendet."
+      "initial": "Zur Verfügung standen ein vollständiges Figma-Design sowie ein bereitgestelltes Backend mit Daten zu Kategorien, Produkten und Bestellungen. Aufgabe war es, die komplette Funktionalität des Shops umzusetzen und ein responsives, benutzerfreundliches Erlebnis zu entwickeln.",
+      "sequence": "Ich begann mit der Strukturierung des Layouts und der Startseite. Danach folgten die Kategorien- und Produktdetailseiten, die Implementierung des Warenkorbs und die Integration der API-Endpunkte. Anschließend entwickelte ich die Validierung für das Bestellformular sowie für die Einlösung eines Rabattcodes. Zusätzlich wurden Modalfenster für erfolgreiche Bestellungen und Rabattcode-Anfragen implementiert. Abschließend optimierte ich das responsive Design und integrierte eine eigene 404-Seite.",
+      "problems": "Herausfordernd waren insbesondere die Strukturierung des globalen States im Warenkorb, das Zusammenspiel verschiedener UI-Komponenten sowie die Integration der API mit Kategorien, Produktdaten und einzelnen Artikeln. Die Filter- und Sortierlogik nach Preis, Rabatten und Relevanz erforderte zusätzliche Aufmerksamkeit. Auch die Implementierung der Breadcrumb-Navigation sowie ein stabiles responsives Layout auf sehr kleinen Bildschirmen waren anspruchsvoll.",
+      "learn": "Durch dieses Projekt habe ich meine Kenntnisse in React, Redux Toolkit und API-Integration deutlich vertieft. Ich habe gelernt, komplexe Komponentenstrukturen logisch aufzubauen, Formularvalidierung nutzerfreundlich umzusetzen und moderne UX-Prinzipien anzuwenden. Außerdem konnte ich meine Fähigkeiten in responsivem Design und im Umgang mit modalen Fenstern, Routing und Fehlerseiten erweitern."
     },
     "ichgram": {
       "title": "ICHGram - ähnlich wie Instagramm",
-      "description": "ICHGram ist eine umfassende Social Media Anwendung, die die Kernfunktionen von Instagram nachbildet und es Nutzern ermöglicht, Beiträge zu teilen, Inhalte zu entdecken, Echtzeitnachrichten zu senden und ihre Profile zu verwalten.",
-      "goal": "Projektziel ...",
+      "description": "ICHGram ist eine umfassende Social Media Anwendung, die die Kernfunktionen von Instagram nachbildet und es Nutzern ermöglicht, Beiträge zu teilen, Inhalte zu entdecken, miteinander zu kommunizieren und ihre Profile zu verwalten.",
+      "descriptionProject": [
+        "Dieses Projekt ist eine eine umfangreiche Social-Media-Anwendung, die zentrale Funktionen von Instagram nachbildet. Die Anwendung ermöglicht Registrierung, Login, das Teilen von Beiträgen, Likes, Kommentare, Profilbearbeitung sowie Echtzeitkommunikation über WebSockets. Darüber hinaus verfügt das System über E-Mail-Verifizierung, Passwort-Zurücksetzen und eine strukturierte Benutzerverwaltung.",
+        "Die Plattform verbindet ein modernes Frontend mit einer stabilen Backend-API und einer MongoDB-Datenbank."
+      ],
+      "goal": "Ziel des Projekts war es, eine funktionsfähige Social-Media-Plattform zu entwickeln - bestehend aus Backend, Frontend und Datenbank - die ein vollständiges Nutzererlebnis ermöglicht: Registrierung, Feed, Interaktionen und Messaging. Alle Teile sollten sauber zusammenarbeiten und eine konsistente UX bieten. Darüber hinaus diente dieses Projekt als Abschlussarbeit meines Weiterbildungsprogramms, um die im gesamten Lernprozess erworbenen Fähigkeiten praktisch und umfassend anzuwenden.",
       "features": [
         "Registrierung und Login mit JWT",
-        "Erstellung, Bearbeitung und Löschung von Beiträgen (Posts)",
+        "E-Mail-Bestätigung nach der Registrierung",
+        "Wiederholter Versand des Bestätigungslinks",
+        "Passwort-Zurücksetzen mit generiertem Einmalpasswort",
+        "Erstellung, Bearbeitung und Löschung von Beiträgen",
         "Likes und Kommentare",
         "Benutzerprofile mit Bild-Upload",
         "Nutzersuche",
         "Benachrichtigungen",
-        "Echtzeit-Chat mit WebSockets",
-        "Folgen und Entfolgen von Benutzern"
+        "Folgen und Entfolgen von Benutzern",
+        "Echtzeit-Chat mit WebSockets"
       ],
       "frontend": "React/TypeScript, Redux Toolkit, React Router Dom, Axios, React Hook Form, CSS Modules",
       "backend": "Node.js/Express, TypeScript, Mongoose, JWT, bcrypt, dotenv, multer, Docker",
       "database": "MongoDB, Mongoose",
-      "problems": "Probleme/Herausforderungen",
-      "learn": "Mit diesem Projekt wurden "
+      "initial": "Für dieses Ausbildungsprojekt standen ein Figma-Design sowie die grundlegende Idee einer Social-Media-App zur Verfügung. Es gab jedoch keine bestehende technische Basis. Alle Backend-Endpunkte, Datenbankmodelle, Sicherheitsmechanismen und das komplette Frontend sollten von Grund auf neu entwickelt werden.",
+      "sequence": "Ich begann mit dem Backend, entwarf die Datenbankmodelle in MongoDB/Mongoose und entwickelte Registrierung, Login, Authentifizierung mit JWT sowie die E-Mail-Bestätigung. Danach folgten CRUD-Funktionen für Posts, Likes, Kommentare, das Followsystem und Benachrichtigungen. Anschließend integrierte ich WebSockets für den Echtzeit-Chat. Erst danach entwickelte ich das Frontend nach dem Figma-Design und implementierte alle Funktionen in React. Abschließend verband ich Frontend und Backend und testete das Zusammenspiel.",
+      "problems": "Die größte Herausforderung war die Implementierung von WebSockets, insbesondere die clientseitige Integration im Frontend. Auch der Bild-Upload, die JWT-Authentifizierung mit geschützten Routen, die E-Mail-Verifizierung und das zuverlässige Fehlerhandling erforderten präzise Planung. Zusätzlich mussten die Datenflüsse zwischen Frontend, Backend und Datenbank sauber abgestimmt werden.",
+      "learn": "Durch dieses Projekt habe ich ein tiefes Verständnis für die Full-Stack-Entwicklung gewonnen. Ich lernte, stabile Backend-Strukturen aufzubauen, Datenmodelle sinnvoll zu gestalten, sichere Token-Authentifizierung, Dateiuploads und E-Mail-Services zu implementieren sowie WebSockets für Echtzeitanwendungen zu nutzen. Außerdem habe ich gelernt, ein komplexes Frontend mit React und Redux benutzerfreundlich zu entwickeln und es reibungslos mit einer API zu verbinden. Insgesamt konnte ich wertvolle Erfahrung darin sammeln, Frontend und Backend zu einer einheitlichen, durchdachten Anwendung zusammenzuführen."
     },
     "meetap": {
       "title": "Meetup-Event-Portal",
-      "description": "Eine moderne Webanwendung für ... Die Plattform ermöglicht es Entdecken Sie sofort Veranstaltungen in Ihrer Nähe und verbinden Sie sich mit Gleichgesinnten. Intuitive Filter erleichtern das Finden Ihres nächsten Meetups.",
-      "goal": "Das Hauptziel dieses Projekts ist die Entwicklung eines responsiven Designs, das eine optimale Benutzererfahrung auf verschiedenen Geräten und Bildschirmgrößen gewährleistet, entsprechend dem Figma-Design. Dieses Projekt ist das Im Rahmen meines Frontend-Kurses mit HTML, CSS, SASS und JavaScript umgesetzt.",
+      "description": "Eine moderne Webanwendung, mit der Nutzer Veranstaltungen nach Datum, Kategorie, Typ und Entfernung filtern können. Sie ermöglicht es, sofort Veranstaltungen in der Nähe zu entdecken und sich mit Gleichgesinnten zu verbinden. Die Seite ist klar strukturiert, leicht bedienbar und reagiert flexibel auf alle Bildschirmgrößen.",
+      "descriptionProject": [
+        "Dieses Projekt ist eine moderne Webanwendung, mit der Nutzer Veranstaltungen nach Datum, Kategorie, Typ und Entfernung filtern können. Die Plattform zeigt Events an, die in verschiedenen Städten stattfinden, und ermöglicht es, schnell Veranstaltungen in der Nähe zu entdecken und sich mit Gleichgesinnten zu verbinden.",
+        "Die Seite ist klar strukturiert, leicht bedienbar und vollständig responsive, sodass sie sich flexibel an alle Bildschirmgrößen anpasst."
+      ],
+      "goal": "Das Hauptziel dieses Projekts war die Entwicklung eines responsiven Designs, das eine optimale Benutzererfahrung auf verschiedenen Geräten und Bildschirmgrößen gewährleistet, entsprechend dem Figma-Design. Dieses Projekt ist das Im Rahmen meines Frontend-Kurses mit HTML, CSS, SASS und JavaScript umgesetzt.",
       "features": [
         "Filterung von Veranstaltungen nach Datum, Art, Entfernung und Kategorie",
         "Responsives Design für verschiedene Bildschirmgrößen",
+        "Hover-Animationen für Buttons, Links und Event-Karten",
         "Navigation über Klick auf das Logo zur Startseite",
         "Weiterleitung über Button „Join Meetup“ zur Eventseite",
         "Schriftart Roboto via Google Fonts eingebunden",
         "Header und Footer werden dynamisch mit JavaScript gerendert"
       ],
       "technologies": "HTML, CSS, SASS, JavaScript (Vanilla)",
-      "problems": "Probleme/Herausforderungen",
-      "learn": "Dieses Projekt erfüllt alle technischen und funktionalen Anforderungen des Kurses und demonstriert praxisorientierte Umsetzung von UI/UX-Konzepten im Frontend."
+      "initial": "Zu Beginn standen mir ein Figma-Design und ein Set an Mockdaten zur Verfügung, jedoch keine bestehende Webseite. Ziel war es, eine responsive Plattform nach Designvorgaben zu entwickeln und alle funktionalen Anforderungen umzusetzen. Außerdem sollte der Sass-Preprozessor aktiv genutzt werden, um theoretische Kenntnisse praktisch zu vertiefen. Es gab keine Backend-Anbindung - alle Daten wurden ausschließlich über Mockdaten bereitgestellt.",
+      "sequence": "Ich erstellte zuerst die Startseite mit Header, Hauptbereich und Footer. Danach entwickelte ich die Events-Seite und integrierte Schritt für Schritt die Filterlogik: nach Datum, Kategorie, Typ und Distanz. Zum Schluss optimierte ich die Responsive-Darstellung und fügte dynamisches Rendering von Header und Footer hinzu.",
+      "problems": "Herausfordernd waren insbesondere die responsiven Anpassungen, da sich mehrere Bereiche der Seite je nach Bildschirmbreite deutlich veränderten. Auch die Event-Karten erforderten viele Detailanpassungen. Zusätzlich war die Filterlogik komplex, besonders bei der Kombination verschiedener Filter und der unterschiedlichen Behandlung von Online- und Offline-Events.",
+      "learn": "Ich habe mein Wissen in responsivem Webdesign erweitert, Sass sicher angewendet und gelernt, wie man ein mehrstufiges Filtersystem entwickelt. Außerdem konnte ich meine Fähigkeiten im dynamischen DOM-Rendering und in der praktischen Umsetzung komplexer Layouts vertiefen."
     }
   }
 }

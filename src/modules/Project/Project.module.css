@@ -4,6 +4,12 @@
     gap: 40px;
 }
 
+.descriptionList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .description {
     line-height: 1.5;
     font-weight: 400;
@@ -20,8 +26,7 @@
 }
 
 .imageBox {
-    max-width: 960px;
-    width: 100%;
+    width: 80%;
 
     border-radius: 16px;
     overflow: hidden;
@@ -88,6 +93,7 @@
     font-weight: 600;
     color: var(--second-text-color);
 }
+
 .techBlockText {
     font-weight: 500;
     font-size: 20px;
