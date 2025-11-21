@@ -1,5 +1,5 @@
 import PetShop from "../../assets/images/pet_shop.png";
-import PetShopFullScreen from "../../assets/images/pet-shop_.png";
+import PetShopFullScreen from "../../assets/images/pet-shop_main.png";
 import PetShopFullScreen2 from "../../assets/images/pet-shop_products.png";
 import PetShopFullScreen3 from "../../assets/images/pet-shop_cart.png";
 import Ichgram from "../../assets/images/ichgram.png";
