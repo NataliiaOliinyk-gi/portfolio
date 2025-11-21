@@ -1,14 +1,15 @@
 import type { FC } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 import Container from "../../shared/components/Container/Container";
 import ButtonLinks from "../../shared/components/ButtonLinks/ButtonLinks";
+import EastIcon from "../../shared/components/icons/EastIcon";
 
 import projectItems, { type ProjectId } from "../../shared/data/projectItems";
 
 import styles from "./Project.module.css";
 
-// type ProjectBaseKey = `projects:items.${ProjectId}`;
 type ProjectBaseKey = `items.${ProjectId}`;
 
 interface IProjectProps {
@@ -66,7 +67,7 @@ const Project: FC<IProjectProps> = ({ id }) => {
         <div className={styles.imageWrapper}>
           <p className={styles.imageHint}>{t("projects:project.hint")}</p>
           <div className={styles.imageBox}>
-            <img src={project.image} alt={id} className={styles.image} />
+            <img src={project.imageFS} alt={id} className={styles.image} />
           </div>
         </div>
       </div>
@@ -155,28 +156,35 @@ const Project: FC<IProjectProps> = ({ id }) => {
           </div>
         )}
 
-        <div className={styles.buttonsBox}>
-          <ButtonLinks
-            href={project.link}
-            text={t("projects:project.btn1")}
-            target="_blank"
-            className={styles.projectLink}
-          />
-          <ButtonLinks
-            href={project.gitHub}
-            text={t("projects:project.btn2")}
-            target="_blank"
-            className={styles.projectLink}
-          />
+        <div className={styles.imageWrapper}>
+          <p className={styles.imageHint}>{t("projects:project.hint")}</p>
+          <div className={styles.imageContainer}>
+            <div className={styles.imageBox}>
+              <img src={project.imageFS2} alt={id} className={styles.image} />
+            </div>
+            <div className={styles.imageBox}>
+              <img src={project.imageFS3} alt={id} className={styles.image} />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.linksBox}>
+          <Link to={project.link} target="_blank" className={styles.link}>
+            <p className={styles.link}>{t("projects:project.btn1")}</p>
+            <EastIcon />
+          </Link>
+          <Link to={project.gitHub} target="_blank" className={styles.link}>
+            <p className={styles.link}>{t("projects:project.btn2")}</p>
+            <EastIcon />
+          </Link>
           {project.gitHub2 && (
-            <ButtonLinks
-              href={project.gitHub2}
-              text={t("projects:project.btn3")}
-              target="_blank"
-              className={styles.projectLink}
-            />
+            <Link to={project.gitHub2} target="_blank" className={styles.link}>
+              <p className={styles.link}>{t("projects:project.btn3")}</p>
+              <EastIcon />
+            </Link>
           )}
         </div>
+
         <div className={styles.btnLinkBox}>
           <ButtonLinks
             href="/projects"
