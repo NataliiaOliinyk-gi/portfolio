@@ -11,6 +11,9 @@
     "goal": "Projektziel",
     "features": "Funktionalitäten",
     "technologies": "Technologien",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Datenbanken",
     "problems": "Gelöste Probleme/Herausforderungen",
     "learn": "Was habe ich gelernt",
     "testData": "Sie können es mit Testdaten ausprobieren:",
@@ -39,7 +42,7 @@
     "ichgram": {
       "title": "ICHGram - ähnlich wie Instagramm",
       "description": "ICHGram ist eine umfassende Social Media Anwendung, die die Kernfunktionen von Instagram nachbildet und es Nutzern ermöglicht, Beiträge zu teilen, Inhalte zu entdecken, Echtzeitnachrichten zu senden und ihre Profile zu verwalten.",
-      "goal": "Projektziel",
+      "goal": "Projektziel ...",
       "features": [
         "Registrierung und Login mit JWT",
         "Erstellung, Bearbeitung und Löschung von Beiträgen (Posts)",
@@ -50,8 +53,9 @@
         "Echtzeit-Chat mit WebSockets",
         "Folgen und Entfolgen von Benutzern"
       ],
-      "technologiesFrontend": "React/TypeScript, Redux Toolkit, React Router Dom, Axios, React Hook Form, CSS Modules",
-      "technologiesBackend": "Node.js/Express, TypeScript, MongoDB, Mongoose, JWT, bcrypt, dotenv, multer, Docker",
+      "frontend": "React/TypeScript, Redux Toolkit, React Router Dom, Axios, React Hook Form, CSS Modules",
+      "backend": "Node.js/Express, TypeScript, Mongoose, JWT, bcrypt, dotenv, multer, Docker",
+      "database": "MongoDB, Mongoose",
       "problems": "Probleme/Herausforderungen",
       "learn": "Mit diesem Projekt wurden "
     },

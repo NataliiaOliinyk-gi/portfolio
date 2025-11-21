@@ -1,7 +1,7 @@
 .card {
     width: 80%;
 
-    cursor: default;
+    cursor: pointer;
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgb(var(--main-border-rgb) / 0.4);

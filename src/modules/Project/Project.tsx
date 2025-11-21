@@ -8,7 +8,8 @@ import projectItems, { type ProjectId } from "../../shared/data/projectItems";
 
 import styles from "./Project.module.css";
 
-type ProjectBaseKey = `projects:items.${ProjectId}`;
+// type ProjectBaseKey = `projects:items.${ProjectId}`;
+type ProjectBaseKey = `items.${ProjectId}`;
 
 interface IProjectProps {
   id: ProjectId;
@@ -20,8 +21,22 @@ const Project: FC<IProjectProps> = ({ id }) => {
   const project = projectItems.find((p) => p.id === id);
   if (!project) return null;
 
-  const baseKey: ProjectBaseKey = `projects:items.${id}`;
-  const technologies = t(`${baseKey}.technologies`, { defaultValue: "" });
+  const baseKey: ProjectBaseKey = `items.${id}`;
+
+  const tUnsafe = t as unknown as (key: string, options?: Record<string, unknown>) => string;
+
+  const getOptional = (key: string): string => {
+    const value = tUnsafe(key);
+    return value === key ? "" : value;
+  };
+
+  const tech = getOptional(`${baseKey}.technologies`);
+  const techFE = getOptional(`${baseKey}.frontend`);
+  const techBE = getOptional(`${baseKey}.backend`);
+  const techDB = getOptional(`${baseKey}.database`);
+
+  const hasSplitTech = !!(techFE || techBE || techDB);
+
   const features = t(`${baseKey}.features`, {
     returnObjects: true,
     defaultValue: [],
@@ -46,13 +61,38 @@ const Project: FC<IProjectProps> = ({ id }) => {
           <p className={styles.blockText}>{t(`${baseKey}.goal`)}</p>
         </div>
 
-        {technologies && (
+        {hasSplitTech ? (
           <div className={styles.block}>
-            <p className={styles.blockTitle}>
-              {t("projects:project.technologies")}
-            </p>
-            <p className={styles.blockText}>{technologies}</p>
+            <p className={styles.blockTitle}>{t("project.technologies")}</p>
+
+            {techFE && (
+              <div className={styles.techBlock}>
+                <p className={styles.techBlockTitle}>{t("project.frontend")}</p>
+                <p className={styles.techBlockText}>{techFE}</p>
+              </div>
+            )}
+
+            {techBE && (
+              <div className={styles.techBlock}>
+                <p className={styles.techBlockTitle}>{t("project.backend")}</p>
+                <p className={styles.techBlockText}>{techBE}</p>
+              </div>
+            )}
+
+            {techDB && (
+              <div className={styles.techBlock}>
+                <p className={styles.techBlockTitle}>{t("project.database")}</p>
+                <p className={styles.techBlockText}>{techDB}</p>
+              </div>
+            )}
           </div>
+        ) : (
+          tech && (
+            <div className={styles.block}>
+              <p className={styles.blockTitle}>{t("project.technologies")}</p>
+              <p className={styles.blockText}>{tech}</p>
+            </div>
+          )
         )}
 
         {features && features.length > 0 && (

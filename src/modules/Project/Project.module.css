@@ -64,8 +64,6 @@
 }
 
 .blockTitle {
-    font-size: 22px;
-    font-weight: 600;
     color: var(--third-text-color);
     font-size: 32px;
     font-weight: 600;
@@ -77,6 +75,26 @@
     color: var(--second-text-color);
     line-height: 1.4;
     text-align: justify;
+}
+
+.techBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.techBlockTitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--second-text-color);
+}
+.techBlockText {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--third-text-color);
+    line-height: 1.4;
+    text-align: justify;
+    margin-left: 80px;
 }
 
 .featuresList {
