@@ -1,0 +1,31 @@
+.imageBox {
+    --frame-height: 350px;
+
+    width: 80%;
+    height: var(--frame-height);
+
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 24px rgb(var(--main-border-rgb) / 0.35);
+
+    position: relative;
+    transition: transform 400ms ease-out, box-shadow 400ms ease-out;
+}
+
+.imageBox:hover {
+    box-shadow: 0 0 32px rgb(var(--main-border-rgb) / 0.5);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    transform: translateY(0);
+    transition: none;
+}
+
+.imageBox:hover .image {
+    transform: translateY(calc(-100% + var(--frame-height)));
+    transition: transform 8s linear;
+}

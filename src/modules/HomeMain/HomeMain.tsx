@@ -1,8 +1,8 @@
 import type { FC } from "react";
 import { useTranslation } from "react-i18next";
 
-import LocationIcon from "../../shared/components/icons/LocationIcon";
-import FlagIcon from "../../shared/components/icons/FlagIcon";
+import LocationIcon from "../../shared/components/Icons/LocationIcon";
+import FlagIcon from "../../shared/components/Icons/FlagIcon";
 
 import foto from "../../assets/images/image_01.png";
 
@@ -49,7 +49,6 @@ const HomeMain: FC = () => {
       <div className={styles.imageBox}>
         <img className={styles.imageFoto} src={foto} alt="foto" />
       </div>
-      
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import { useTranslation } from "react-i18next";
 
-import DownloadIcon from "../../../shared/components/icons/DownloadIcon";
+import DownloadIcon from "../Icons/DownloadIcon";
 
 import { getContactItems } from "../../../shared/data/contact.items";
 

@@ -1,10 +1,11 @@
 import type { FC } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 
 import Container from "../../shared/components/Container/Container";
 import ButtonLinks from "../../shared/components/ButtonLinks/ButtonLinks";
-import EastIcon from "../../shared/components/icons/EastIcon";
+import ProjectImageBox from "../../shared/components/ProjectImageBox/ProjectImageBox";
+import ProjectLink from "../../shared/components/ProjectLink/ProjectLink";
+import ProjectBlock from "../../shared/components/ProjectBlock/ProjectBlock";
 
 import projectItems, { type ProjectId } from "../../shared/data/projectItems";
 
@@ -66,49 +67,53 @@ const Project: FC<IProjectProps> = ({ id }) => {
 
         <div className={styles.imageWrapper}>
           <p className={styles.imageHint}>{t("projects:project.hint")}</p>
-          <div className={styles.imageBox}>
-            <img src={project.imageFS} alt={id} className={styles.image} />
-          </div>
+          <ProjectImageBox src={project.imageFS} id={id} />
         </div>
       </div>
 
       <div className={styles.project}>
-        <div className={styles.block}>
-          <p className={styles.blockTitle}>{t("projects:project.goal")}</p>
-          <p className={styles.blockText}>{t(`${baseKey}.goal`)}</p>
-        </div>
+        <ProjectBlock
+          title={t("projects:project.goal")}
+          text={t(`${baseKey}.goal`)}
+        />
 
         {hasSplitTech ? (
           <div className={styles.block}>
             <p className={styles.blockTitle}>{t("project.technologies")}</p>
 
             {techFE && (
-              <div className={styles.techBlock}>
-                <p className={styles.techBlockTitle}>{t("project.frontend")}</p>
-                <p className={styles.techBlockText}>{techFE}</p>
-              </div>
+              <ProjectBlock
+                title={t("projects:project.frontend")}
+                text={techFE}
+                classNameTitle={styles.techBlockTitle}
+                classNameText={styles.techBlockText}
+              />
             )}
 
             {techBE && (
-              <div className={styles.techBlock}>
-                <p className={styles.techBlockTitle}>{t("project.backend")}</p>
-                <p className={styles.techBlockText}>{techBE}</p>
-              </div>
+              <ProjectBlock
+                title={t("projects:project.backend")}
+                text={techBE}
+                classNameTitle={styles.techBlockTitle}
+                classNameText={styles.techBlockText}
+              />
             )}
 
             {techDB && (
-              <div className={styles.techBlock}>
-                <p className={styles.techBlockTitle}>{t("project.database")}</p>
-                <p className={styles.techBlockText}>{techDB}</p>
-              </div>
+              <ProjectBlock
+                title={t("projects:project.database")}
+                text={techDB}
+                classNameTitle={styles.techBlockTitle}
+                classNameText={styles.techBlockText}
+              />
             )}
           </div>
         ) : (
           tech && (
-            <div className={styles.block}>
-              <p className={styles.blockTitle}>{t("project.technologies")}</p>
-              <p className={styles.blockText}>{tech}</p>
-            </div>
+            <ProjectBlock
+              title={t("projects:project.technologies")}
+              text={tech}
+            />
           )
         )}
 
@@ -127,61 +132,46 @@ const Project: FC<IProjectProps> = ({ id }) => {
           </div>
         )}
 
-        <div className={styles.block}>
-          <p className={styles.blockTitle}>{t("projects:project.initial")}</p>
-          <p className={styles.blockText}>{t(`${baseKey}.initial`)}</p>
-        </div>
-
-        <div className={styles.block}>
-          <p className={styles.blockTitle}>{t("projects:project.sequence")}</p>
-          <p className={styles.blockText}>{t(`${baseKey}.sequence`)}</p>
-        </div>
-
-        <div className={styles.block}>
-          <p className={styles.blockTitle}>{t("projects:project.problems")}</p>
-          <p className={styles.blockText}>{t(`${baseKey}.problems`)}</p>
-        </div>
-
-        <div className={styles.block}>
-          <p className={styles.blockTitle}>{t("projects:project.learn")}</p>
-          <p className={styles.blockText}>{t(`${baseKey}.learn`)}</p>
-        </div>
+        <ProjectBlock
+          title={t("projects:project.initial")}
+          text={t(`${baseKey}.initial`)}
+        />
+        <ProjectBlock
+          title={t("projects:project.sequence")}
+          text={t(`${baseKey}.sequence`)}
+        />
+        <ProjectBlock
+          title={t("projects:project.problems")}
+          text={t(`${baseKey}.problems`)}
+        />
+        <ProjectBlock
+          title={t("projects:project.learn")}
+          text={t(`${baseKey}.learn`)}
+        />
 
         {project.testData && (
-          <div className={styles.block}>
-            <p className={styles.blockTitle}>
-              {t("projects:project.testData")}
-            </p>
-            <p className={styles.blockText}>{project.testData}</p>
-          </div>
+          <ProjectBlock
+            title={t("projects:project.testData")}
+            text={project.testData}
+          />
         )}
 
         <div className={styles.imageWrapper}>
           <p className={styles.imageHint}>{t("projects:project.hint")}</p>
           <div className={styles.imageContainer}>
-            <div className={styles.imageBox}>
-              <img src={project.imageFS2} alt={id} className={styles.image} />
-            </div>
-            <div className={styles.imageBox}>
-              <img src={project.imageFS3} alt={id} className={styles.image} />
-            </div>
+            <ProjectImageBox src={project.imageFS2} id={id} />
+            <ProjectImageBox src={project.imageFS3} id={id} />
           </div>
         </div>
 
         <div className={styles.linksBox}>
-          <Link to={project.link} target="_blank" className={styles.link}>
-            <p className={styles.link}>{t("projects:project.btn1")}</p>
-            <EastIcon />
-          </Link>
-          <Link to={project.gitHub} target="_blank" className={styles.link}>
-            <p className={styles.link}>{t("projects:project.btn2")}</p>
-            <EastIcon />
-          </Link>
+          <ProjectLink to={project.link} text={t("projects:project.btn1")} />
+          <ProjectLink to={project.gitHub} text={t("projects:project.btn2")} />
           {project.gitHub2 && (
-            <Link to={project.gitHub2} target="_blank" className={styles.link}>
-              <p className={styles.link}>{t("projects:project.btn3")}</p>
-              <EastIcon />
-            </Link>
+            <ProjectLink
+              to={project.gitHub2}
+              text={t("projects:project.btn3")}
+            />
           )}
         </div>
 

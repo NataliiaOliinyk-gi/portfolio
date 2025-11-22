@@ -1,0 +1,19 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.blockTitle {
+    color: var(--third-text-color);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.blockText {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--second-text-color);
+    line-height: 1.4;
+    text-align: justify;
+}
