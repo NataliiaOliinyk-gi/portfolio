@@ -9,9 +9,12 @@ import ProjectPage from "./ProjectPage/ProjectPage";
 import NotFoundPage from "./NotFoundPage/NotFoundPage";
 import PolicyPage from "./PolicyPage/PolicyPage";
 
+import ScrollToTop from "./ScrollToTop";
+
 const Navigations = () => {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/skills" element={<SkillsPage />} />
