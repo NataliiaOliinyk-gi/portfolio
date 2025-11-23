@@ -19,9 +19,6 @@ const SkillCard:FC<ISkillCardProps> = ({ id, icon, text })=>{
       className={`${styles.skillCard} ${
         isVisible ? styles.skillCardVisible : ""
       }`}
-      style={{
-        ["--delay" as string]:  "500ms",
-      }}
     >
       <div className={styles.iconBox}>
         <img src={icon} alt={id} className={styles.iconImg} />
