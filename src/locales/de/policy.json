@@ -9,7 +9,7 @@
     {
       "heading": "1. Datenschutz auf einen Blick",
       "body": [
-        "<strong>Wer ist verantwortlich?</strong><br/>Die Datenverarbeitung auf dieser Website erfolgt durch:<br/>Nataliia Oliinyk, <br/>E-Mail: nataliia.oliinyk.de@gmail.com <br/>(im Folgenden „wir“).",
+        "<strong>Wer ist verantwortlich?</strong><br/>Die Datenverarbeitung auf dieser Website erfolgt durch:<br/>Nataliia Oliinyk, <br/>E-Mail: {{contactEmail}}<br/>(im Folgenden „wir“).",
         "<strong>Wie erfassen wir Daten?</strong><br/>Zum einen, indem Sie uns diese mitteilen (z. B. im Kontaktformular).<br/>Zum anderen automatisch beim Besuch der Website (z. B. technische Daten wie Browser, Betriebssystem, Zeitpunkt des Seitenaufrufs).",
         "<strong>Wofür nutzen wir die Daten?</strong><br/>Zur fehlerfreien Bereitstellung der Website und ggf. zur Analyse des Nutzerverhaltens.",
         "<strong>Ihre Rechte:</strong><br/>Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Widerspruch, Widerruf erteilter Einwilligungen sowie Beschwerde bei einer Aufsichtsbehörde."
@@ -26,13 +26,13 @@
     {
       "heading": "3. Allgemeine Hinweise und Pflichtinformationen",
       "body": [
-        "<strong>Verantwortliche Stelle:</strong><br/> Nataliia Oliinyk, <br/><strong>E-Mail:</strong><br/> nataliia.oliinyk.de@gmail.com.",
+        "<strong>Verantwortliche Stelle:</strong><br/> Nataliia Oliinyk, <br/><strong>E-Mail:</strong><br/> {{contactEmail}}",
         "<strong>Speicherdauer:</strong><br/> Sofern keine speziellere Dauer angegeben ist, speichern wir personenbezogene Daten nur so lange, wie der Zweck der Verarbeitung besteht. Gesetzliche Aufbewahrungsfristen bleiben unberührt.",
         "<strong>Rechtsgrundlagen:</strong><br/> Einwilligung (Art. 6 Abs. 1 lit. a, ggf. Art. 9 Abs. 2 lit. a DSGVO), Vertrag (Art. 6 Abs. 1 lit. b), rechtliche Pflicht (Art. 6 Abs. 1 lit. c), berechtigtes Interesse (Art. 6 Abs. 1 lit. f).",
         "<strong>Widerruf:</strong><br/> Sie können eine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.",
         "<strong>Widerspruch (Art. 21 DSGVO):</strong><br/> Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, der Verarbeitung zu widersprechen; bei Direktwerbung jederzeit.",
         "<strong>Datenübertragbarkeit (Art. 20 DSGVO):</strong><br/> Sie haben das Recht, die Sie betreffenden Daten in einem gängigen, maschinenlesbaren Format zu erhalten.",
-        "<strong>SSL/TLS:</strong><br/> Diese Seite nutzt TLS-Verschlüsselung (https://)."
+        "<strong>SSL/TLS:</strong><br/> Unsere Seite nutzt eine SSL- bzw. TLS-Verschlüsselung, um die Übertragung vertraulicher Inhalte zu schützen. Sie erkennen eine verschlüsselte Verbindung daran, dass die Adresszeile des Browsers mit <strong>(https://)</strong> beginnt und ein Schloss-Symbol angezeigt wird. Das TLS-Zertifikat wird automatisch durch unseren Hosting-Anbieter <strong>{{hostName}}</strong> bereitgestellt. Die Kommunikation zwischen Ihrem Browser und unseren Servern erfolgt verschlüsselt."
       ]
     },
     {
@@ -44,8 +44,8 @@
         "<strong>Kontakt per E-Mail und Kontaktformular:</strong><br/>Wenn Sie uns per E-Mail oder über das Kontaktformular Anfragen zukommen lassen, verarbeiten wir die von Ihnen übermittelten Daten (z.&nbsp;B. Vor- und Nachname, E-Mail-Adresse, Betreff, Nachricht, Zeitpunkt, technische Meta-Daten) ausschließlich zum Zweck der Bearbeitung Ihrer Anfrage und etwaiger Anschlussfragen.",
         "<strong>Rechtsgrundlagen:</strong><br/>Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung bzw. -durchführung), sofern Ihre Anfrage auf den Abschluss eines Vertrags gerichtet ist; Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer effizienten Kommunikation) in allen übrigen Fällen. Eine gesonderte Einwilligung ist hierfür nicht erforderlich. Der Hinweis-Checkbox im Formular dient lediglich der Kenntnisnahme dieser Datenschutzerklärung.",
         "<strong>Pflichtangaben:</strong><br/>Die als Pflichtfelder gekennzeichneten Angaben sind zur Bearbeitung Ihrer Anfrage erforderlich. Ohne diese Angaben können wir Ihre Anfrage nicht beantworten.",
-        "<strong>E-Mail-Versand:</strong><br/>Der Versand der aus dem Kontaktformular generierten E-Mails erfolgt über unseren eigenen Server bzw. über den E-Mail-Dienstleister <em>[Name des E-Mail-/SMTP-Dienstleisters]</em> mit Sitz in <em>[Sitz/Land]</em>. Sofern der Dienstleister in unserem Auftrag handelt, besteht ein Auftragsverarbeitungsvertrag (Art. 28 DSGVO). Erfolgt eine Übermittlung in ein Drittland, stellen wir geeignete Garantien sicher (insbesondere die EU-Standardvertragsklauseln gemäß Art. 46 DSGVO).",
-        "<strong>Empfänger:</strong><br/>Interne Empfänger: Nataliia Oliinyk (Anfragenbearbeitung)<br/>Externe Empfänger (Auftragsverarbeiter): <em>[Name, Anschrift des E-Mail-Dienstleisters]</em><br/>Hosting-Provider: ALL-INKL.COM (siehe Abschnitt „Hosting“).",
+        "<strong>E-Mail-Versand:</strong><br/>Der Versand der aus dem Kontaktformular generierten E-Mails erfolgt über unseren eigenen Server oder über den derzeit eingesetzten E-Mail-/SMTP-Dienstleister Gmail. Aktuell genutzter Anbieter: <strong>{{mailName}}</strong>{{mailProvider}}. (Muttergesellschaft: {{parenCompany}}). Sofern ein externer E-Mail-Dienstleister in unserem Auftrag handelt, besteht ein Auftragsverarbeitungsvertrag (Art. 28 DSGVO). Bei einer Übermittlung personenbezogener Daten in ein Drittland (insbesondere die USA) stellt Google geeignete Garantien bereit, u. a. die EU-Standardvertragsklauseln gemäß Art. 46 DSGVO. Die Verarbeitung der Daten erfolgt ausschließlich zum Zweck der Bearbeitung Ihrer Anfrage und etwaiger Anschlussfragen. Weitere Informationen finden Sie in der Datenschutzerklärung von Google: {{mailPrivacyUrl}}",
+        "<strong>Empfänger:</strong><br/>Interne Empfänger: Nataliia Oliinyk (Anfragenbearbeitung).<br/>Externe Empfänger (Dienstleister): {{mailName}} (siehe Abschnitt „E-Mail-Versand“).<br/>Hosting-Provider: {{hostName}} (siehe Abschnitt „Hosting“).",
         "<strong>Sicherheitsmaßnahmen:</strong><br/>Die Übertragung erfolgt TLS-verschlüsselt. Zugriff auf die Inhalte haben ausschließlich berechtigte Personen. Server- und Mail-Logs werden getrennt von Inhaltsdaten gespeichert und zu Sicherheits- bzw. Fehleranalysezwecken vorübergehend verarbeitet (Art. 6 Abs. 1 lit. f DSGVO).",
         "<strong>Speicherdauer:</strong><br/>Wir speichern Anfragen einschließlich zugehöriger Kommunikation grundsätzlich bis zur abschließenden Bearbeitung Ihrer Anfrage und höchstens 12&nbsp;Monate danach, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen oder eine weitere Aufbewahrung zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist (Art. 6 Abs. 1 lit. f DSGVO).",
         "<strong>Spam-Schutz:</strong><br/>Zum Schutz vor missbräuchlicher Nutzung setzen wir technische Schutzmaßnahmen ein (z. B. Rate-Limiting, Server-Log-Prüfungen und ein sogenanntes „Honeypot“-Feld). Eine automatisierte Profilbildung findet nicht statt."
@@ -54,7 +54,7 @@
     {
       "heading": "5. Analysen & Drittinhalte (optional)",
       "body": [
-        "Sofern wir Analyse-Tools (z. B. Plausible, Matomo) oder eingebettete Inhalte (z. B. YouTube, Karten) einsetzen, informieren wir hier gesondert und holen – soweit erforderlich – Ihre Einwilligung ein.",
+        "Sofern wir Analyse-Tools (z. B. Plausible, Matomo) oder eingebettete Inhalte (z. B. YouTube, Karten) einsetzen, informieren wir hier gesondert und holen - soweit erforderlich - Ihre Einwilligung ein.",
         "Details (Tool, Anbieter, Zweck, Rechtsgrundlage, Speicherdauer, Opt-Out) werden in diesem Abschnitt ergänzt, sobald solche Dienste aktiv sind."
       ]
     },
@@ -62,7 +62,7 @@
       "heading": "6. Kontakt",
       "body": [
         "Für Fragen zum Datenschutz können Sie sich jederzeit an uns wenden:",
-        "Nataliia Oliinyk,<br/>E-Mail: nataliia.oliinyk.de@gmail.com"
+        "Nataliia Oliinyk,<br/>E-Mail: {{contactEmail}}"
       ]
     }
   ]

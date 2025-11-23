@@ -9,7 +9,7 @@
     {
       "heading": "1. Privacy at a glance",
       "body": [
-        "<strong>Who is responsible?</strong><br/>Data processing on this website is carried out by:<br/>Nataliia Oliinyk<br/>Email: <a href='mailto:nataliia.oliinyk.de@gmail.com'>nataliia.oliinyk.de@gmail.com</a><br/>(hereinafter “we”, “us”).",
+        "<strong>Who is responsible?</strong><br/>Data processing on this website is carried out by:<br/>Nataliia Oliinyk<br/>Email: {{contactEmail}}<br/>(hereinafter “we”, “us”).",
         "<strong>How do we collect data?</strong><br/>1) You provide it (e.g., via the contact form).<br/>2) It is collected automatically when you visit the website (e.g., technical data such as browser, OS, time of access).",
         "<strong>What do we use data for?</strong><br/>To provide the website without errors and, where applicable, to analyze user behaviour.",
         "<strong>Your rights:</strong><br/>Access, rectification, deletion, restriction, objection, withdrawal of consent, and the right to lodge a complaint with a supervisory authority."
@@ -26,13 +26,13 @@
     {
       "heading": "3. General notes and mandatory information",
       "body": [
-        "<strong>Controller:</strong><br/>Nataliia Oliinyk,<br/><strong>Email:</strong><br/> nataliia.oliinyk.de@gmail.com.",
+        "<strong>Controller:</strong><br/>Nataliia Oliinyk,<br/><strong>Email:</strong><br/> {{contactEmail}}",
         "<strong>Storage duration:</strong><br/>Unless otherwise specified, we store personal data only as long as the processing purpose applies. Statutory retention periods remain unaffected.",
         "<strong>Legal bases:</strong><br/>Consent (Art. 6(1)(a), and where applicable Art. 9(2)(a) GDPR), Contract (Art. 6(1)(b)), Legal obligation (Art. 6(1)(c)), Legitimate interests (Art. 6(1)(f)).",
         "<strong>Withdrawal:</strong><br/>You can withdraw your consent at any time with effect for the future.",
         "<strong>Right to object (Art. 21 GDPR):</strong><br/>You may object to processing based on Art. 6(1)(e) or (f) GDPR on grounds relating to your situation; for direct marketing you may object at any time.",
         "<strong>Data portability (Art. 20 GDPR):</strong><br/>You have the right to receive data concerning you in a structured, commonly used and machine-readable format.",
-        "<strong>SSL/TLS:</strong><br/>This site uses TLS encryption (https://)."
+        "<strong>SSL/TLS:</strong><br/> Our website uses SSL/TLS encryption to protect the transmission of confidential information. You can recognize an encrypted connection by the fact that the browser's address bar begins with <strong>(https://)</strong> and a lock icon is displayed. The TLS certificate is provided automatically by our hosting provider <strong>{{hostName}}</strong> All communication between your browser and our servers is encrypted."
       ]
     },
     {
@@ -44,8 +44,8 @@
         "<strong>Contact via email and contact form:</strong><br/>If you send us inquiries by email or via the contact form, we process the data you provide (e.g. first and last name, email address, subject, message, time, and technical metadata) solely for the purpose of processing your inquiry and any follow-up questions.",
         "<strong>Legal bases:</strong><br/>Art. 6(1)(b) GDPR (contract initiation or performance) if your request relates to a potential contract; Art. 6(1)(f) GDPR (legitimate interest in efficient communication) in all other cases. Separate consent is not required. The checkbox in the form serves only to acknowledge this privacy policy.",
         "<strong>Required information:</strong><br/>Fields marked as required are necessary to process your inquiry. Without them, we cannot respond to your message.",
-        "<strong>Email delivery:</strong><br/>Emails generated from the contact form are sent via our own server or via the email service provider <em>[name of email/SMTP provider]</em> located in <em>[location/country]</em>. Where the provider acts as a processor on our behalf, a Data Processing Agreement (Art. 28 GDPR) is in place. If data is transferred to a third country, appropriate safeguards are ensured (in particular, the EU Standard Contractual Clauses under Art. 46 GDPR).",
-        "<strong>Recipients:</strong><br/>Internal recipient: Nataliia Oliinyk (handling inquiries)<br/>External recipient (processor): <em>[name, address of email provider]</em><br/>Hosting provider: ALL-INKL.COM (see section “Hosting”).",
+        "<strong>Email delivery:</strong><br/>Emails generated from the contact form are sent via our own server or via our current email/SMTP service provider, Gmail. Currently used provider: <strong>{{mailName}}</strong>{{mailProvider}}. (Parent company: {{parenCompany}}). If an external email service provider acts on our behalf, a data processing agreement (Art. 28 GDPR) is in place. For the transfer of personal data to a third country (in particular the USA), Google provides appropriate safeguards, including the EU Standard Contractual Clauses pursuant to Art. 46 GDPR. Data is processed exclusively for the purpose of handling your inquiry and any follow-up questions. Further information can be found in Google's privacy policy: {{mailPrivacyUrl}}",
+        "<strong>Recipients:</strong><br/>Internal recipient: Nataliia Oliinyk (handling inquiries).<br/>External recipient (service providers): {{mailName}}(see section “Email Delivery”).<br/>Hosting provider: {{hostName}} (see section “Hosting”).",
         "<strong>Security measures:</strong><br/>All data transmissions are TLS encrypted. Only authorized persons have access to the content. Server and mail logs are stored separately from message content and processed temporarily for security and troubleshooting purposes (Art. 6(1)(f) GDPR).",
         "<strong>Retention:</strong><br/>We retain inquiries and related communication until the request has been fully processed and for up to 12&nbsp;months thereafter, unless statutory retention obligations require longer storage or further retention is necessary to assert or defend legal claims (Art. 6(1)(f) GDPR).",
         "<strong>Spam protection:</strong><br/>To protect against misuse, we use technical measures such as rate limiting, server log checks, and a so-called “honeypot” field. No automated profiling is carried out."
@@ -62,7 +62,7 @@
       "heading": "6. Contact",
       "body": [
         "For privacy-related inquiries, please contact:",
-        "Nataliia Oliinyk, <br/>Email: nataliia.oliinyk.de@gmail.com"
+        "Nataliia Oliinyk, <br/>Email: {{contactEmail}}"
       ]
     }
   ]

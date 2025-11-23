@@ -14,24 +14,27 @@ type PolicySection = {
 };
 
 export interface IPolicyProps {
+  contactEmail: string;
   hostName: string;
-  hostProvider?: string;
-  hostPrivacyUrl?: string;
+  hostProvider: string;
+  hostPrivacyUrl: string;
   className?: string;
+  mailName: string;
+  mailProvider: string;
+  parenCompany: string;
+  mailPrivacyUrl: string;
 };
 
 const Policy: FC<IPolicyProps> = (props) => {
   const { t } = useTranslation("policy");
 
-  const title = t("title");
   const updated = t("updated");
   const intro = t("intro", { returnObjects: true }) as string[];
   const sections = t("sections", { returnObjects: true }) as PolicySection[];
 
   return (
-    <main className={styles.policy}>
-      <h2>{title}</h2>
-      {updated && <p><em>{updated}</em></p>}
+    <div className={styles.policy}>
+      {updated && <p className={styles.updated}><em>{updated}</em></p>}
 
       {intro?.map((p, i) => (
         <p key={`intro-${i}`}>{linkify(replacePlaceholders(p, props))}</p>
@@ -50,7 +53,7 @@ const Policy: FC<IPolicyProps> = (props) => {
           ))}
         </section>
       ))}
-    </main>
+    </div>
   );
 };
 

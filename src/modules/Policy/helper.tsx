@@ -28,6 +28,11 @@ export const linkifyText = (text: string) => {
 
 export const replacePlaceholders = (text: string, v: IPolicyProps) =>
   text
+    .replaceAll("{{contactEmail}}", v.contactEmail)
     .replaceAll("{{hostName}}", v.hostName)
     .replaceAll("{{hostProvider}}", v.hostProvider ?? "")
-    .replaceAll("{{hostPrivacyUrl}}", v.hostPrivacyUrl ?? "");
+    .replaceAll("{{hostPrivacyUrl}}", v.hostPrivacyUrl ?? "")
+    .replaceAll("{{mailName}}", v.mailName)
+    .replaceAll("{{mailProvider}}", v.mailProvider)
+    .replaceAll("{{parenCompany}}", v.parenCompany)
+    .replaceAll("{{mailPrivacyUrl}}", v.mailPrivacyUrl);

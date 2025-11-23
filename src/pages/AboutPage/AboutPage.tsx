@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import Wrapper from "../../shared/components/Wrapper/Wrapper";
 import SectionLayout from "../../shared/components/SectionLayout/SectionLayout";
+import About from "../../modules/About/About";
 
 // import styles from "./AboutPage.module.css";
 
@@ -13,7 +14,7 @@ const AboutPage: FC = ()=>{
     <main>
       <Wrapper>
         <SectionLayout title={t("about:hero.title")}>
-          <div>AboutPage</div>
+          <About />
         </SectionLayout>
       </Wrapper>
     </main>

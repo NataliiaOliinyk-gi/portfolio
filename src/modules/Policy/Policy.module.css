@@ -2,14 +2,12 @@
   max-width: 1024px;
   margin-inline: auto;
   padding: 32px 16px;
-  color: var(--main-text-color);
+  color: var(--second-text-color);
   line-height: 1.6;
 }
 
-.policy h2 {
-  font-size: 40px;
-  color: var(--second-text-color);
-  margin: 0 0 16px;
+.updated {
+  margin-bottom: 40px;
 }
 
 .policy em {
@@ -22,13 +20,14 @@
 
 .policy h3 {
   color: var(--second-text-color);
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 400;
   margin: 32px 0 16px;
 }
 
 .policy p {
   margin-top: 8px;
+  text-align: justify;
 }
 
 .policy strong {
