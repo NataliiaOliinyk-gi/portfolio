@@ -1,12 +1,25 @@
 {
   "hero": {
     "title": "Über mich",
-    "subtitle": "",
-    "cta": "Kontakt"
+    "subtitle": "Mein Weg von der Wirtschaftswissenschaft zur Software-Entwicklung",
+    "text": "Hallo, ich bin <strong>Nataliia Oliinyk</strong> - Junior Frontend- und Full-Stack-Entwicklerin mit Wurzeln in der Systemadministration und einem klaren Fokus auf Struktur, Qualität und sauberen Code.",
+    "cta": "Kontakt",
+    "alt_foto":"Portrait von Nataliia Oliinyk",
+    "alt_certificate":"Weiterbildungszertifikat Web Development",
+    "label":"Weiterbildungszertifikat im Vollbild öffnen"
   },
-  "about_text": [
-    "Ich entwickle moderne Webanwendungen mit Fokus auf Benutzerfreundlichkeit, Performance und saubere Architektur. Mein Fundament bilden acht Jahre Erfahrung in der Systemadministration sowie eine erfolgreich abgeschlossene Weiterbildung zur Web- und Full-Stack-Entwicklerin.",
-    "Ich arbeite strukturiert, zuverlässig und mit einem klaren Qualitätsanspruch - von der Infrastruktur bis zum UI. Regelmäßige Berg- und Waldwanderungen geben mir Fokus und Ausdauer, während mein kreatives Hobby -  das Gestalten von Handgemachte Dekorationen - meine Liebe zum Detail stärkt.",
-    "Im Team setze ich auf offene Kommunikation, Eigenverantwortung und lösungsorientiertes Handeln. Mein Ziel ist es, durch modernen, wartbaren Code und ganzheitliches Denken nachhaltigen Mehrwert zu schaffen."
-  ]
+  "journey": {
+    "title": "Mein beruflicher Weg",
+    "intro": "Mein Weg in die Webentwicklung war nicht linear - er führte über Ökonomie, Systemadministration und einen Neustart in Deutschland. Heute verbinde ich dieses Fundament mit moderner Frontend- und Full-Stack-Entwicklung."
+  },
+  "personal_story": {
+    "title": "Wer ich bin - über den Code hinaus",
+    "paragraphs": [
+      "Mein beruflicher Weg begann nicht in der Informatik, sondern im Bereich Wirtschaft und Management. Schon in der Schule haben mich Mathematik und Informatik fasziniert, trotzdem habe ich mich damals für ein Studium der Ökonomie entschieden. Erst später - parallel zur Familienphase - habe ich bewusst den Schritt in die IT gewagt und meine technischen Kenntnisse systematisch aufgebaut.",
+      "Über acht Jahre lang habe ich als Assistentin des Systemadministrators in einem großen E-Commerce-Unternehmen gearbeitet. Dort war ich nah am operativen IT-Betrieb, habe Rechte- und Rollenkonzepte betreut, Systeme stabil gehalten und eng mit anderen Abteilungen zusammengearbeitet. Diese Zeit hat mir gezeigt, wie wichtig verlässliche Infrastruktur, klare Prozesse und gute Kommunikation sind.",
+      "Der Krieg in der Ukraine war ein harter Einschnitt. Zusammen mit meinen Kindern musste ich meine Heimat Winnyzja verlassen und in Deutschland neu anfangen. In Dessau-Roßlau habe ich Schritt für Schritt mein Deutsch verbessert, meine IT-Kenntnisse ausgebaut und schließlich meine Weiterbildung zur Webentwicklerin mit sehr guten Ergebnissen abgeschlossen.",
+      "Heute kombiniere ich meine Erfahrung aus Systemadministration, Weiterbildung und Projekten zu einem klaren Profil: strukturierte, qualitativ hochwertige Webentwicklung mit Verständnis für Infrastruktur, Teamarbeit und reale Anforderungen. Mich reizt besonders, komplexe Themen so umzusetzen, dass Nutzerinnen und Nutzer sie intuitiv bedienen können.",
+      "Privat geben mir Natur und Kreativität Ausgleich. Berg- und Waldwanderungen helfen mir, den Kopf frei zu bekommen und fokussiert zu bleiben. Die Liebe zu Pflanzen und handgemachten Dekorationen spiegelt meinen Blick fürs Detail wider - dieselbe Geduld und Sorgfalt finde ich auch im Programmieren wieder. Für mich ist gute Software kein Zufall, sondern das Ergebnis vieler durchdachter Entscheidungen."
+    ]
+  }
 }

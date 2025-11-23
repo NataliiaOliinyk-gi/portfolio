@@ -16,14 +16,18 @@
     "subtitle": "Auf meinem beruflichen Weg in der IT habe ich mein Hintergrundwissen aus der Systemadministration und der Wirtschaft mit meinen Fähigkeiten in der Frontend- und Backend-Entwicklung verbunden. Dadurch kann ich vollständige, zuverlässige und nutzerorientierte Webanwendungen entwickeln. Ich arbeite mit agilen Methoden, Clean-Code-Prinzipien und Versionskontrolle – stets mit Fokus auf Qualität, Skalierbarkeit und eine klare Systemarchitektur. Durch meine frühere Tätigkeit in der Administration gehe ich Entwicklungsaufgaben strukturiert, analytisch und detailorientiert an und sorge für stabile Lösungen sowie effiziente Arbeitsabläufe."
   },
   "projects": {
-    "title": "Meine Projekte",
-    "subtitle": "mit Fokus auf Struktur und Qualität",
-    "projects_one": "{{count}} Projekt",
-    "projects_other": "{{count}} Projekte"
+    "title": "Meine Projekte"
   },
   "about": {
     "title": "Über mich",
-    "subtitle": "mit Fokus auf Struktur und Qualität"
+    "text": [
+      "Als Junior Frontend- und Full-Stack-Entwicklerin mit Basis in der Systemadministration konzentriere ich mich auf strukturierte, performante und benutzerfreundliche Webanwendungen – mit einem klaren Fokus auf Qualität, Wartbarkeit und sauberen Code.",
+      "Ursprünglich komme ich aus Winnyzja in der Ukraine. Seit 2022 lebe ich mit meinen beiden inzwischen erwachsenen Kindern in Dessau-Roßlau, nachdem wir aufgrund des Krieges unser Zuhause verlassen mussten. Dieser Neustart in Deutschland hat meinen Wunsch verstärkt, langfristig in der Webentwicklung anzukommen und meine IT-Erfahrung gezielt weiterzuentwickeln.",
+      "Mein Fundament bilden ein Studium im Bereich Management im Produktionsbereich sowie acht Jahre Berufserfahrung als Assistentin des Systemadministrators in einem E-Commerce-Unternehmen. Dort habe ich Rechte- und Rollenkonzepte umgesetzt, Serverlandschaften stabil gehalten und Verantwortung für Sicherheit, Lizenzen und Verfügbarkeit übernommen – Erfahrungen, die meinen Blick auf robuste, skalierbare Anwendungen bis heute prägen.",
+      "Im Rahmen meiner Weiterbildung zur Webentwicklerin (Frontend, Full-Stack) habe ich meine Kenntnisse in HTML, CSS/Sass, JavaScript, TypeScript, React, Node.js, REST-APIs und Datenbanken wie PostgreSQL, MySQL und MongoDB vertieft. In Projekten wie einem sozialen Netzwerk, einem Online-Shop für Heimtierbedarf oder der Lernplattform „Penguin-Tracker“ konnte ich Architektur, API-Design, Formularvalidierung und Zusammenarbeit im Team praxisnah umsetzen.",
+      "Ich arbeite gerne klar strukturiert, analytisch und verlässlich. Im Team setze ich auf offene Kommunikation, konstruktives Feedback und eigenverantwortliches Arbeiten bis zum Ziel. Code-Reviews, Dokumentation und eine saubere Projektstruktur gehören für mich selbstverständlich dazu – genauso wie der Wille, mich kontinuierlich weiterzuentwickeln.",
+      "Abseits des Bildschirms geben mir Berg- und Waldwanderungen Fokus und Ausdauer. Die Pflege von Pflanzen und das Gestalten handgemachter Dekorationen schärfen meinen Blick fürs Detail, für Geduld und Präzision. Genau diese Qualitäten lasse ich in meine Arbeit als Entwicklerin einfließen: Schritt für Schritt, sorgfältig und mit dem Anspruch, Lösungen zu schaffen, die den Alltag wirklich verbessern."
+    ]
   },
   "contact": {
     "title": "Lassen Sie uns vernetzen!",

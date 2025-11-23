@@ -15,7 +15,7 @@
     line-height: 1.5;
 
     transition:
-        transform 500ms ease-in-out var(--delay, 0ms),
+        transform 500ms ease-in-out,
         background-color 500ms ease-in-out,
         color 500ms ease-in-out;
 }

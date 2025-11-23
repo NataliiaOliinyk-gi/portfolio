@@ -9,6 +9,7 @@ import HomeLinks from "../../modules/HomeLinks/HomeLinks";
 import ContactLinks from "../../modules/ContactLinks/ContactLinks";
 import Skills from "../../modules/Skills/Skills";
 import MyProjects from "../../modules/MyProjects/MyProjects";
+import About from "../../modules/About/About";
 
 import { useSeo } from "../../shared/hooks/useSeo";
 
@@ -17,6 +18,10 @@ import styles from "./HomePage.module.css";
 const HomePage: FC = () => {
   const { t } = useTranslation(["home"]);
   useSeo("home.title", "home.description");
+
+  const aboutSection = t("home:about.text", {
+    returnObjects: true,
+  }) as string[];
 
   return (
     <main>
@@ -38,7 +43,7 @@ const HomePage: FC = () => {
         </SectionLayout>
 
         <SectionLayout title={t("home:about.title")}>
-          <div></div>
+          <About section={aboutSection}/>
         </SectionLayout>
 
         <SectionLayout title={t("home:contact.title")}>

@@ -1,0 +1,29 @@
+.titleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.subtitle {
+    font-family: var(--font-serif);
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--third-text-color);
+}
+
+.hero{
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--second-text-color);
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.hero strong {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--third-text-color);
+}

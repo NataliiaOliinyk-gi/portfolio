@@ -1,13 +1,78 @@
 import type { FC } from "react";
+import { useTranslation } from "react-i18next";
 
 import Container from "../../shared/components/Container/Container";
 
-// import styles from "./About.module.css";
+import Foto from "../../assets/images/image_02.png";
+import CertPreviewDE from "../../assets/doc/Screen_Cert_DE.png";
+import CertPreviewEN from "../../assets/doc/Screen_Cert_EN.png";
 
-const About: FC = () => {
+import DocDe from "../../assets/doc/ZERTIFIKAT_Nataliia_Oliinyk.pdf";
+import DocEn from "../../assets/doc/CERTIFICATE_Nataliia_Oliinyk.pdf";
+
+import styles from "./About.module.css";
+
+export interface IPolicyProps {
+  section: string[];
+}
+
+const About: FC<IPolicyProps> = ({ section }) => {
+  const { t, i18n } = useTranslation("about");
+
+  const certificateImg = i18n.language.startsWith("de")
+    ? CertPreviewDE
+    : CertPreviewEN;
+  const certificatePdf = i18n.language.startsWith("de") ? DocDe : DocEn;
+
+  const firstPart = section.slice(0, 3);
+  const secondPart = section.slice(3);
+
+  const firstPartElements = firstPart.map((text, i) => (
+    <p key={`p1-${i}`} className={styles.text}>
+      {text}
+    </p>
+  ));
+  const secondPartElements = secondPart.map((text, i) => (
+    <p key={`p2-${i}`} className={styles.text}>
+      {text}
+    </p>
+  ));
+
   return (
     <Container>
-      <p>About</p>
+      <div className={styles.mainContainer}>
+
+        <div className={styles.row}>
+          <div className={styles.imageBox}>
+            <img
+              className={styles.imageFoto}
+              src={Foto}
+              alt={t("hero.alt_foto")}
+            />
+          </div>
+
+          <div className={styles.textBox}>{firstPartElements}</div>
+        </div>
+
+        <div className={styles.row}>
+          <div className={styles.textBox}>{secondPartElements}</div>
+
+          <div className={styles.imageBox}>
+            <a
+              href={certificatePdf}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={t("hero.label")}
+            >
+              <img
+                className={`${styles.imageFoto} ${styles.imageCert}`}
+                src={certificateImg}
+                alt={t("hero.alt_certificate")}
+              />
+            </a>
+          </div>
+        </div>
+      </div>
     </Container>
   );
 };
