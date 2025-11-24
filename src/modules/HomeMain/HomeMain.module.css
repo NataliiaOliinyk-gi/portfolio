@@ -149,6 +149,7 @@
 
     .textHome {
         font-size: 18px;
+        text-align: start;
     }
 
     .textSkills {
@@ -165,6 +166,18 @@
 
     .imageBox {
         width: 100%;
+    }
+
+    .textBox {
+        width: 100%;
+        gap: 14px;
+        text-align: start;
+    }
+
+    .locationBox {
+        flex-direction: column;
+        gap: 14px;
+
     }
 
 }

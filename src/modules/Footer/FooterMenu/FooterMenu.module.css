@@ -35,3 +35,10 @@
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 430px) {
+
+    .contsiner {
+        padding: 20px;
+    }
+}
