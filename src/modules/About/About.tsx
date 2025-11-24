@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import Container from "../../shared/components/Container/Container";
 
-import Foto from "../../assets/images/image_02.png";
+import Foto from "../../assets/images/image_04.png";
 import CertPreviewDE from "../../assets/doc/Screen_Cert_DE.png";
 import CertPreviewEN from "../../assets/doc/Screen_Cert_EN.png";
 
