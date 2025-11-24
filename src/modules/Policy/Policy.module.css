@@ -53,3 +53,28 @@
 .policy a:hover {
   color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
 }
+
+@media screen and (max-width: 768px) {
+
+  .policy h3 {
+    font-size: 28px;
+    margin: 28px 0 12px;
+  }
+  .policy {
+    width: 100%;
+    padding: 28px 16px;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+
+  .policy h3 {
+    font-size: 24px;
+    margin: 22px 0 10px;
+  }
+  .policy {
+    max-width: 100%;
+    padding: 22px 12px;
+  }
+}
