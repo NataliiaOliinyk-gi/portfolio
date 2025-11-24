@@ -29,3 +29,18 @@
     transform: translateY(calc(-100% + var(--frame-height)));
     transition: transform 8s linear;
 }
+
+@media screen and (max-width: 768px) {
+
+    .imageBox {
+        --frame-height: 300px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .imageBox {
+        --frame-height: 180px;
+        width: 100%;
+    }
+}

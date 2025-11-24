@@ -12,8 +12,8 @@ const HomeLinks: FC = () => {
   return (
     <div className={styles.btnBox}>
       <div className={styles.linksBtnBox}>
-        <ButtonLinks href="/projects" text={t("home:hero.cta1")} />
-        <ButtonLinks href="/contact" text={t("home:hero.cta2")} />
+        <ButtonLinks href="/projects" text={t("home:hero.cta1")} className={styles.contactLink}/>
+        <ButtonLinks href="/contact" text={t("home:hero.cta2")} className={styles.contactLink}/>
       </div>
       <div className={styles.resumeBox}>
         <ButtonResume />

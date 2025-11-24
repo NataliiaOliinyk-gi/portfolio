@@ -11,12 +11,12 @@ interface ISectionLayoutProps {
 
 const SectionLayout: FC<ISectionLayoutProps> = ({ children, title }) => {
   return (
-    <div className={styles.wrapper}>
+    <section className={styles.sectionLayout}>
       <div className={styles.container}>
         {title && <Title text={title} />}
         {children}
       </div>
-    </div>
+    </section>
   );
 };
 

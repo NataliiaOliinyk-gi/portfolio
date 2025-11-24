@@ -103,3 +103,87 @@
     flex-direction: column;
     gap: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .blockTitle {
+        font-size: 24px;
+    }
+
+    .blockText {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .featureItem {
+        font-size: 18px;
+        text-align: start;
+    }
+
+    .techBlockTitle {
+        font-size: 22px !important;
+    }
+
+    .techBlockText {
+        margin-left: 60px;
+    }
+
+    .imageContainer {
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .blockTitle {
+        font-size: 22px;
+    }
+
+    .blockText {
+        font-size: 16px;
+    }
+
+    .techBlockTitle {
+        font-size: 20px !important;
+    }
+
+    .techBlockText {
+        margin-left: 40px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .descriptionList {
+        gap: 8px;
+    }
+
+    .featureItem {
+        font-size: 16px;
+    }
+
+    .project {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .imageHint {
+        width: 80%;
+        font-size: 11px;
+    }
+
+    .mainBox {
+        gap: 22px;
+    }
+
+    .imageContainer {
+        gap: 14px;
+    }
+
+    .btnLink {
+        max-width: 260px;
+    }
+}

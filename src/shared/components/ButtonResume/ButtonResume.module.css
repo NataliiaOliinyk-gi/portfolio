@@ -29,3 +29,18 @@
     box-shadow: 0 0 20px color-mix(in srgb, var(--second-border-color) 25%, transparent);
     transform: scale(1.02);
 }
+
+@media screen and (max-width: 768px) {
+
+    .resumeBtn {
+        font-size: 16px;
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .resumeBtn {
+        font-size: 14px;
+    }
+}

@@ -1,4 +1,4 @@
-.contsiner{
+.container {
     padding: 20px 0;
 }
 
@@ -33,4 +33,16 @@
 
 .iconBox:hover {
     background-color: color-mix(in srgb, var(--main-hover-color) 50%, transparent);
+}
+
+@media screen and (max-width: 768px) {
+
+    .iconBox {
+        width: 48px;
+        height: 48px;
+    }
+
+    .menu {
+        gap: 18px;
+    }
 }

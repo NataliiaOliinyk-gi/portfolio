@@ -1,4 +1,4 @@
-.wrapper {
+.sectionLayout {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0;
@@ -11,4 +11,44 @@
     flex-direction: column;
     gap: 25px;
     margin: 25px 0;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .sectionLayout {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .sectionLayout {
+        max-width: 920px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .sectionLayout {
+        max-width: 740px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .sectionLayout {
+        max-width: 100%;
+    }
+
+    .container {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .container {
+        gap: 16px;
+        margin: 16px 0;
+    }
 }

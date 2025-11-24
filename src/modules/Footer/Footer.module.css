@@ -11,3 +11,14 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+
+    .footerBox {
+        padding: 28px 28px;
+    }
+
+    .text {
+        font-size: 11px;
+    }
+}

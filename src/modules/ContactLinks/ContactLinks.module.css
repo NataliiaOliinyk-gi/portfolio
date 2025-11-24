@@ -46,4 +46,39 @@
         grid-template-columns: 1fr;
         width: 100%;
     }
+
+    .linksIntro {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .closing {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .ctaWrap {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .linksIntro {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .closing {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .ctaWrap {
+        gap: 20px;
+    }
+
+    .col {
+        gap: 10px;
+    }
 }

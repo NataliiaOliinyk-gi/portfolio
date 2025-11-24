@@ -23,3 +23,15 @@
 .link:hover{
     color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
 }
+
+@media screen and (max-width: 768px) {
+
+    .link {
+        font-size: 14px;
+    }
+
+    .menu {
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+}

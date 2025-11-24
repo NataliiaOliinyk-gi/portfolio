@@ -6,3 +6,18 @@
     line-height: 1.5;
     text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+
+    .subtitle {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .subtitle {
+        width: 100%;
+        font-size: 16px;
+    }
+}

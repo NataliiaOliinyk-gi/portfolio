@@ -25,3 +25,18 @@
     background: color-mix(in srgb, var(--second-background-color) 30%, transparent);
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 768px) {
+
+    .linkBtn {
+        font-size: 16px;
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .linkBtn {
+        font-size: 14px;
+    }
+}

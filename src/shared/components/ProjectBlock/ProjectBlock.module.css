@@ -17,3 +17,29 @@
     line-height: 1.4;
     text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+
+    .blockTitle {
+        font-size: 24px;
+    }
+
+    .blockText {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .blockTitle {
+        font-size: 22px;
+    }
+
+    .blockText {
+        font-size: 16px;
+    }
+
+    .block {
+        gap: 8px;
+    }
+}

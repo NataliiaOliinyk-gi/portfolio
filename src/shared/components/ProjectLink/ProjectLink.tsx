@@ -13,7 +13,7 @@ interface IProjectLinkProps {
 const ProjectLink: FC<IProjectLinkProps> = ({ to, text }) => {
   return (
     <Link to={to} target="_blank" className={styles.link}>
-      <p className={styles.link}>{text}</p>
+      <p>{text}</p>
       <EastIcon />
     </Link>
   );

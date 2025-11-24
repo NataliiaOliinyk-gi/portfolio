@@ -11,9 +11,11 @@
     font-weight: 400;
     font-size: 18px;
     color: var(--third-text-color);
+    text-align: center;
+    line-height: 1.5;
 }
 
-.hero{
+.hero {
     font-weight: 500;
     font-size: 24px;
     color: var(--second-text-color);
@@ -26,4 +28,34 @@
     font-size: 32px;
     font-weight: 600;
     color: var(--third-text-color);
+}
+
+@media screen and (max-width: 768px) {
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .hero {
+        font-size: 20px;
+    }
+
+    .hero strong {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .hero {
+        font-size: 16px;
+    }
+
+    .hero strong {
+        font-size: 22px;
+    }
 }

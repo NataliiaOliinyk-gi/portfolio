@@ -39,7 +39,7 @@ const FooterIcons: FC = () => {
     });
 
   return (
-    <div className={styles.contsiner}>
+    <div className={styles.container}>
       <ul className={styles.menu}>{elements}</ul>
     </div>
   );

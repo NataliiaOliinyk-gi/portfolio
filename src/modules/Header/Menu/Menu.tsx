@@ -8,21 +8,26 @@ import type { IMenuItem } from "./menuItems";
 
 import styles from "./Menu.module.css";
 
-const Menu: FC = () => {
+interface IMenuProps {
+  isOpen?: boolean;
+  onNavigate?: () => void;
+}
+
+const Menu: FC<IMenuProps> = ({ isOpen = false, onNavigate }) => {
   const { t } = useTranslation("nav");
 
   const element = menuItems.map(({ id, href, labelKey }: IMenuItem) => (
     <li key={id}>
-      <NavLink to={href} className={styles.link}>
+      <NavLink to={href} className={styles.link} onClick={onNavigate}>
         {t(labelKey)}
       </NavLink>
     </li>
   ));
 
   return (
-    <div>
+    <nav className={`${styles.menuWrap} ${isOpen ? styles.menuOpen : ""}`}>
       <ul className={styles.menu}>{element}</ul>
-    </div>
+    </nav>
   );
 };
 

@@ -54,7 +54,7 @@ const About: FC<IPolicyProps> = ({ section }) => {
           <div className={styles.textBox}>{firstPartElements}</div>
         </div>
 
-        <div className={styles.row}>
+        <div className={`${styles.row} ${styles.rowSecond}`}>
           <div className={styles.textBox}>{secondPartElements}</div>
 
           <div className={styles.imageBox}>

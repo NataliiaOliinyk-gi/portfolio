@@ -26,3 +26,24 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+
+    .contactLink {
+        font-size: 16px;
+        max-width: 220px;
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .contactLink {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+
+    .titleBox {
+        width: 100%;
+    }
+}

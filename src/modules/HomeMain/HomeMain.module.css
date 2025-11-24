@@ -14,7 +14,7 @@
 }
 
 .imageBox {
-    width: 600px; 
+    width: 600px;
     margin-top: 20px;
 }
 
@@ -63,7 +63,7 @@
     display: flex;
     justify-content: space-between;
     gap: 60px;
-    margin-top: auto; 
+    margin-top: auto;
 }
 
 .textLocation {
@@ -90,7 +90,81 @@
 }
 
 .item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainContainer {
+        flex-direction: column;
+    }
+
+    .imageBox {
+        width: 400px;
+        margin-top: 0;
+        align-self: center;
+    }
+
+    .titleWelcome {
+        font-size: 28px;
+    }
+
+    .textHome {
+        font-size: 20px;
+    }
+
+    .textSkills {
+        font-size: 16px;
+    }
+
+    .textLocation {
+        font-size: 16px;
+    }
+
+    .textHome strong {
+        font-size: 28px;
+    }
+
+    .mainBox {
+        gap: 30px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .mainContainer {
+        gap: 22px;
+    }
+
+    .mainBox {
+        gap: 22px;
+    }
+
+    .titleWelcome {
+        font-size: 22px;
+    }
+
+    .textHome {
+        font-size: 18px;
+    }
+
+    .textSkills {
+        font-size: 14px;
+    }
+
+    .textLocation {
+        font-size: 14px;
+    }
+
+    .textHome strong {
+        font-size: 22px;
+    }
+
+    .imageBox {
+        width: 100%;
+    }
+
 }
