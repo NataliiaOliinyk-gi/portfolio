@@ -4,7 +4,8 @@ import { useTranslation } from "react-i18next";
 import LocationIcon from "../../shared/components/Icons/LocationIcon";
 import FlagIcon from "../../shared/components/Icons/FlagIcon";
 
-import foto from "../../assets/images/image_01.png";
+// import foto from "../../assets/images/image_01.png";
+import foto from "../../assets/images/img_foto.png";
 
 import styles from "./HomeMain.module.css";
 
