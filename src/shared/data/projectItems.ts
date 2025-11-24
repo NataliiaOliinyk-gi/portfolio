@@ -44,7 +44,7 @@ const projectItems: IProjectItem[] = [
     imageFS: IchgramFullScreen,
     imageFS2: IchgramFullScreen2,
     imageFS3: IchgramFullScreen3,
-    testData: "Login: admin | Password: 123456@N",
+    testData: "Login: nataliia.oliinyk.de@gmail.com | Password: VA#6G_Vbwu",
   },
   {
     id: "meetap",
