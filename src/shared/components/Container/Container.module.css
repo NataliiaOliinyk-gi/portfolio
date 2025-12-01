@@ -18,3 +18,9 @@
         gap: 40px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px){
+    .container {
+        gap: 40px;
+    }
+}

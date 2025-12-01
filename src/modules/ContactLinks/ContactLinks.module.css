@@ -42,10 +42,6 @@
 }
 
 @media (max-width: 769px) {
-    .twoCols {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
 
     .linksIntro {
         font-size: 16px;
@@ -62,7 +58,15 @@
     }
 }
 
+@media (max-width: 650px) {
+    .twoCols {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 432px) {
+
     .linksIntro {
         font-size: 14px;
         text-align: center;
@@ -80,5 +84,23 @@
 
     .col {
         gap: 10px;
+    }
+
+}
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+
+    .linksIntro {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .closing {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .ctaWrap {
+        gap: 30px;
     }
 }

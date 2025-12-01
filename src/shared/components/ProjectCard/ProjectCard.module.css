@@ -85,3 +85,23 @@
         padding: 20px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+
+    .title {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .card {
+        padding: 30px;
+    }
+
+    .imageBox {
+        width: 80%;
+        align-self: center;
+    }
+}

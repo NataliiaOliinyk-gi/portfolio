@@ -64,6 +64,7 @@
 }
 
 @media screen and (max-width: 769px) {
+    
     .row {
         flex-direction: column;
         gap: 40px;
@@ -107,5 +108,32 @@
 
     .textBox {
         gap: 18px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-height: 450px){
+    
+    .row {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .mainContainer {
+        gap: 40px;
+    }
+
+    .imageBox {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .rowSecond {
+        flex-direction: column-reverse;
     }
 }

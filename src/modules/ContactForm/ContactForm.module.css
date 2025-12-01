@@ -55,7 +55,20 @@
     color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
+
+    .textFieldsBox {
+        grid-template-columns: 1fr;
+    }
+
+    .colHalf,
+    .colFull {
+        grid-column: 1 / -1;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+
     .textFieldsBox {
         grid-template-columns: 1fr;
     }

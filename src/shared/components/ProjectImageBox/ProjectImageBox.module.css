@@ -44,3 +44,10 @@
         width: 100%;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 769px){
+    
+    .imageBox {
+        --frame-height: 220px;
+    }
+}

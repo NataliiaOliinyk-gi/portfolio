@@ -92,7 +92,6 @@
 
     .title {
         font-size: 16px;
-        text-align: center;
     }
 
     .skillCard {
@@ -107,5 +106,26 @@
         flex-direction: column;
         align-items: center;
         gap: 8px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+    .title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .skillCard {
+        flex-direction: row;
+        font-size: 12px;
+        padding: 10px;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .cardBox {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 }

@@ -60,6 +60,7 @@
     font-size: 28px;
     margin: 28px 0 12px;
   }
+
   .policy {
     width: 100%;
     padding: 28px 16px;
@@ -73,8 +74,22 @@
     font-size: 24px;
     margin: 22px 0 10px;
   }
+
   .policy {
     max-width: 100%;
     padding: 22px 12px;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+
+  .policy h3 {
+    font-size: 28px;
+    margin: 28px 0 12px;
+  }
+
+  .policy {
+    width: 100%;
+    padding: 28px 16px;
   }
 }

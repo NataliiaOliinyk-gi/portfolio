@@ -30,7 +30,7 @@
 @media screen and (max-width: 960px) {
 
     .sectionLayout {
-        max-width: 740px;
+        max-width: 90%;
     }
 }
 
@@ -50,6 +50,18 @@
     .container {
         gap: 10px;
         margin: 8px 0;
+        padding: 10px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+
+    .sectionLayout {
+        max-width: 100%;
+    }
+
+    .container {
+        gap: 20px;
         padding: 10px;
     }
 }

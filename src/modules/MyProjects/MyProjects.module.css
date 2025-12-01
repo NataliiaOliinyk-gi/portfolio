@@ -35,7 +35,7 @@
         margin-top: -40px;
     }
 
-    .projectsBox{
+    .projectsBox {
         gap: 40px;
     }
 }
@@ -50,7 +50,21 @@
     .titleBox {
         width: 100%;
     }
-     .projectsBox{
+
+    .projectsBox {
         gap: 20px;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+
+    .contactLink {
+        font-size: 16px;
+        max-width: 220px;
+        margin-top: -40px;
+    }
+
+    .projectsBox {
+        gap: 40px;
     }
 }

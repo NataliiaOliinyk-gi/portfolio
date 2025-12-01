@@ -43,3 +43,14 @@
         gap: 8px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+    
+    .blockTitle {
+        font-size: 24px;
+    }
+
+    .blockText {
+        font-size: 18px;
+    }
+}

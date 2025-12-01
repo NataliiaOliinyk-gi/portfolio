@@ -61,3 +61,25 @@
         margin-inline: auto;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px){
+    
+    .btnBox {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 24px;
+    }
+
+    .resumeBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linksBtnBox {
+        width: 100%;
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+    }
+}

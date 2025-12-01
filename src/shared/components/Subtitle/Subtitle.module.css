@@ -21,3 +21,10 @@
         font-size: 16px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+    .subtitle {
+        width: 100%;
+        font-size: 18px;
+    }
+}

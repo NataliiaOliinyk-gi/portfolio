@@ -18,3 +18,9 @@
         gap: 20px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px){
+    .skillBox {
+        gap: 20px;
+    }
+}

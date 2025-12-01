@@ -40,3 +40,10 @@
         font-size: 14px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+    .linkBtn {
+        font-size: 16px;
+        max-width: 280px;
+    }
+}

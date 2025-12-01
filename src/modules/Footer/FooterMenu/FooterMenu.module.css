@@ -42,3 +42,15 @@
         padding: 20px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px){
+    
+    .link {
+        font-size: 14px;
+    }
+
+    .menu {
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+}

@@ -28,3 +28,10 @@
         gap: 8px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px){
+    
+    .link {
+        font-size: 18px;
+    }
+}

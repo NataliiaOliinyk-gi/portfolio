@@ -181,3 +181,40 @@
     }
 
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px) {
+
+    .mainContainer {
+        flex-direction: column;
+    }
+
+    .imageBox {
+        width: 400px;
+        margin-top: 0;
+        align-self: center;
+    }
+
+    .titleWelcome {
+        font-size: 28px;
+    }
+
+    .textHome {
+        font-size: 20px;
+    }
+
+    .textSkills {
+        font-size: 16px;
+    }
+
+    .textLocation {
+        font-size: 16px;
+    }
+
+    .textHome strong {
+        font-size: 28px;
+    }
+
+    .mainBox {
+        gap: 30px;
+    }
+}

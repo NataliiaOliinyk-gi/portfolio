@@ -46,3 +46,15 @@
         gap: 18px;
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 450px){
+    
+    .iconBox {
+        width: 48px;
+        height: 48px;
+    }
+
+    .menu {
+        gap: 18px;
+    }
+}
