@@ -30,14 +30,14 @@
     transition: transform 8s linear;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .imageBox {
         --frame-height: 300px;
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 432px) {
 
     .imageBox {
         --frame-height: 180px;

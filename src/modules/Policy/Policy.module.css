@@ -54,7 +54,7 @@
   color: color-mix(in srgb, var(--third-text-color) 50%, transparent);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
   .policy h3 {
     font-size: 28px;
@@ -67,7 +67,7 @@
 
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 432px) {
 
   .policy h3 {
     font-size: 24px;

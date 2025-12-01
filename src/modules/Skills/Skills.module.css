@@ -5,9 +5,16 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .skillBox {
         gap: 40px;
+    }
+}
+
+@media screen and (max-width: 432px) {
+
+    .skillBox {
+        gap: 20px;
     }
 }

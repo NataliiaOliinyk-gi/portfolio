@@ -18,7 +18,7 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .blockTitle {
         font-size: 24px;
@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 432px) {
 
     .blockTitle {
         font-size: 22px;

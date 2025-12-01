@@ -41,7 +41,7 @@
     margin-top: 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .twoCols {
         grid-template-columns: 1fr;
         width: 100%;
@@ -62,7 +62,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 432px) {
     .linksIntro {
         font-size: 14px;
         text-align: center;

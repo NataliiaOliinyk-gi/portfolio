@@ -14,7 +14,7 @@
     width: 600px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .btnBox {
         flex-direction: column-reverse;
@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 432px) {
 
     .btnBox {
         flex-direction: column-reverse;

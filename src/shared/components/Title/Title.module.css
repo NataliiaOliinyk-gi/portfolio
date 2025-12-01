@@ -6,7 +6,7 @@
     color: var(--second-text-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .title {
         font-size: 50px;
@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 432px) {
 
     .title {
         font-size: 40px;

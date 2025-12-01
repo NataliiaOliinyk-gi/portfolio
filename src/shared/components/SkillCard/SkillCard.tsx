@@ -10,8 +10,8 @@ export interface ISkillCardProps {
   text: string;
 }
 
-const SkillCard:FC<ISkillCardProps> = ({ id, icon, text })=>{
-    const { ref, isVisible } = useInView({ threshold: 0.1 });
+const SkillCard: FC<ISkillCardProps> = ({ id, icon, text }) => {
+  const { ref, isVisible } = useInView({ threshold: 0.1 });
 
   return (
     <li
@@ -20,10 +20,12 @@ const SkillCard:FC<ISkillCardProps> = ({ id, icon, text })=>{
         isVisible ? styles.skillCardVisible : ""
       }`}
     >
-      <div className={styles.iconBox}>
-        <img src={icon} alt={id} className={styles.iconImg} />
+      <div className={styles.cardBox}>
+        <div className={styles.iconBox}>
+          <img src={icon} alt={id} className={styles.iconImg} />
+        </div>
+        <p className={styles.title}>{id}</p>
       </div>
-      <p className={styles.title}>{id}</p>
       <p>{text}</p>
     </li>
   );

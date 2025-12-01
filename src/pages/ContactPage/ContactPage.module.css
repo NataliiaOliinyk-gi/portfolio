@@ -21,7 +21,7 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 
     .lead1 {
         font-size: 20px;
@@ -37,7 +37,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 432px) {
 
     .lead1 {
         font-size: 18px;
