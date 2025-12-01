@@ -1,21 +1,37 @@
 .mainContainer {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
     margin-top: 20px;
+    display: block;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 60px;
+.flowBlock {
+    display: flow-root;
+    margin-bottom: 20px;
+
 }
+
+.flowBlock:last-child {
+    margin-bottom: 0;
+}
+
 
 .imageBox {
-    flex: 0 0 420px;
-    margin-top: 20px;
+    margin-top: 10px;
+
+    width: 40%;
+    max-width: 420px;
+}
+
+.floatLeft {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.floatRight {
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 10px;
 }
 
 .imageFoto {
@@ -23,10 +39,8 @@
     aspect-ratio: 3 / 4;
     object-fit: cover;
     border-radius: 12px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     box-shadow: 0 0 20px rgb(var(--main-border-rgb) / 0.4);
+    display: block;
 }
 
 .imageCert {
@@ -37,12 +51,6 @@
     transform: scale(1.05);
 }
 
-.textBox {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-}
 
 .text {
     font-weight: 400;
@@ -50,43 +58,50 @@
     color: var(--second-text-color);
     line-height: 1.5;
     text-align: justify;
+
+    margin-bottom: 20px;
 }
 
 
 @media (max-width: 960px) {
 
     .imageBox {
-        flex: 0 0 auto;
-        width: 100%;
         max-width: 320px;
-        margin: 0 auto;
+    }
+
+    .floatLeft {
+        margin-right: 20px;
+    }
+
+    .floatRight {
+        margin-left: 20px;
     }
 }
 
+
 @media screen and (max-width: 769px) {
-    
-    .row {
+
+    .flowBlock {
+        display: flex;
         flex-direction: column;
-        gap: 40px;
+        align-items: center;
+        gap: 20px;
     }
 
-    .mainContainer {
-        gap: 40px;
+    .floatLeft, .floatRight {
+        float: none;
+        width: 100%;
+        margin: 0;
     }
 
     .imageBox {
-        flex: 0 0 auto;
         width: 100%;
         max-width: 360px;
-        margin: 0 auto;
     }
 
     .text {
         font-size: 18px;
-    }
-
-    .rowSecond {
-        flex-direction: column-reverse;
+        margin-bottom: 0px;
     }
 
 }
@@ -94,7 +109,6 @@
 @media screen and (max-width: 432px) {
 
     .mainContainer {
-        gap: 20px;
         margin-top: 10px;
     }
 
@@ -102,38 +116,16 @@
         font-size: 16px;
     }
 
-    .row {
-        gap: 20px;
-    }
-
-    .textBox {
+    .flowBlock {
         gap: 18px;
     }
+
 }
 
-@media screen and (orientation: landscape) and (max-height: 450px){
-    
-    .row {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .mainContainer {
-        gap: 40px;
-    }
-
-    .imageBox {
-        flex: 0 0 auto;
-        width: 100%;
-        max-width: 360px;
-        margin: 0 auto;
-    }
+@media screen and (orientation: landscape) and (max-height: 450px) {
 
     .text {
         font-size: 18px;
     }
 
-    .rowSecond {
-        flex-direction: column-reverse;
-    }
 }

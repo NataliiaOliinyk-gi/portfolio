@@ -41,23 +41,19 @@ const About: FC<IPolicyProps> = ({ section }) => {
   return (
     <Container>
       <div className={styles.mainContainer}>
-
-        <div className={styles.row}>
-          <div className={styles.imageBox}>
+        <div className={styles.flowBlock}>
+          <div className={`${styles.imageBox} ${styles.floatLeft}`}>
             <img
               className={styles.imageFoto}
               src={Foto}
               alt={t("hero.alt_foto")}
             />
           </div>
-
-          <div className={styles.textBox}>{firstPartElements}</div>
+          {firstPartElements}
         </div>
 
-        <div className={`${styles.row} ${styles.rowSecond}`}>
-          <div className={styles.textBox}>{secondPartElements}</div>
-
-          <div className={styles.imageBox}>
+        <div className={styles.flowBlock}>
+          <div className={`${styles.imageBox} ${styles.floatRight}`}>
             <a
               href={certificatePdf}
               target="_blank"
@@ -71,6 +67,7 @@ const About: FC<IPolicyProps> = ({ section }) => {
               />
             </a>
           </div>
+          {secondPartElements}
         </div>
       </div>
     </Container>
